@@ -1,0 +1,8 @@
+CFTA is a set of Java libraries that ease writing applications
+focused on content fetching from multiple different sources (e.g.
+Twitter streams, RSS feeds, web pages) and parsing & analysing
+the text content using natural language processing methods.
+
+CFTA provides a front-end web API for 3rd party applications 
+to access its functionality or the projects can directly 
+link and use CFTA .JAR libraries in their Java projects.

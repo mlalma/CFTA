@@ -1,0 +1,8 @@
+RSS feed reader for parsing RSS feeds. Code is forked from
+yarfraw project (http://yarfraw.sourceforge.net/). It is 
+slightly modified to support parsing the feeds directly from strings
+as well as fetching the RSS feed using CFTA-Lib-WebFetch.
+
+For easy parsing of RSS feeds, preferable solution is to
+use CFTA-Lib-RSSFeedFetcher that in turn uses yarfraw for specific
+parsing tasks.

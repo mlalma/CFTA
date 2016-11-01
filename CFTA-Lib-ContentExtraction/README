@@ -1,0 +1,8 @@
+A library for extracting content from web pages.
+Includes algoritms for extracting title, main image(s)
+and the core text from the web page. For text extraction,
+the library uses Boilerpipe library 
+(https://code.google.com/p/boilerpipe/), but the upcoming
+Xtract algorithm will handle all parts of content extraction
+using custom web page renderer.
+

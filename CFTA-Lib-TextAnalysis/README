@@ -1,0 +1,11 @@
+A library for doing some basic text analysis and statistics.
+Includes functionality for:
+- Detecting the language of the text (using language-detection library
+from https://code.google.com/p/language-detection/). /res directory
+contains the necessary language profiles for the library
+- Calculating statistics for English texts, including the word count,
+syllable count, polysyllable word count, sentence count and
+Flesch-Kincaid readability index for the text
+- An implementation of TextRank algorithm for automatic text
+summarization and simple keyword extraction. Algorithm is presented
+in http://acl.ldc.upenn.edu/acl2004/emnlp/pdf/Mihalcea.pdf

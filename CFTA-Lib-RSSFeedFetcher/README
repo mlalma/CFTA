@@ -1,0 +1,3 @@
+A high-level library for fetching and parsing RSS feeds. Fetches, normalizes /
+cleans-up potentially corrupt feeds and post-processes the RSS feeds that
+yarfraw has parsed.

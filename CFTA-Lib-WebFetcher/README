@@ -1,0 +1,3 @@
+A library for fetching web pages, used by other CFTA (and external) projects. 
+Automatically recognizes the character set of the page and formats the text
+accordingly, but does not support fetching of binary files.

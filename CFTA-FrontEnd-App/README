@@ -1,0 +1,8 @@
+A front-end for the CFTA server that handles the incoming HTTP
+requests and performs content fetching, extraction and text
+analysis tasks using other CFTA libraries. Uses Spark web
+framework (http://www.sparkjava.com/) for web request parsing
+and handling. For compiling the front-end, you need to first
+compile all other CFTA back-end sub-projects and then download
+and include Stanford CoreNLP to be able to run CFTA-FrontEnd:
+http://nlp.stanford.edu/software/stanford-corenlp-full-2014-01-04.zip 

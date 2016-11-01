@@ -1,0 +1,3 @@
+A library used by clients to communicate with CFTA server (back-end).
+All communications happen over HTTP and the API commands are transformed
+into JSON data that is passed to server for processing.
