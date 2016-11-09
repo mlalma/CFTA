@@ -21,3 +21,4 @@ test/
 .Trashes
 ehthumbs.db
 Thumbs.db
+/target/
