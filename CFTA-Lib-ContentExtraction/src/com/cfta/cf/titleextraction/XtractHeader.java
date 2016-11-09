@@ -15,7 +15,7 @@ public class XtractHeader {
     private HtmlNode headerNode = null;
     private ArrayList<String> headers = new ArrayList<>();
     private String headerFromTitleTag = "";
-    private HtmlNode titleHeaderNode = null;
+    //private HtmlNode titleHeaderNode = null;
         
     private final String TITLE_TAG = "title";
     private final String META_TAG = "meta";
@@ -41,7 +41,7 @@ public class XtractHeader {
     private final String H4_TAG = "h4";
     private final String H5_TAG = "h5";
     private final String H6_TAG = "h6";
-    private final String HEADER_NODE = "header";
+    //private final String HEADER_NODE = "header";
         
     private final int MIN_HEADER_LENGTH = 5;   
     private final int MAX_HEADER_LENGTH = 150;
@@ -74,7 +74,7 @@ public class XtractHeader {
             header = parseHeader(header);
             if (headerFromTitleTag == null) {
                 headerFromTitleTag = header;
-                titleHeaderNode = headerNode;            
+                //titleHeaderNode = headerNode;            
             }
         } else if (node.nodeName.equalsIgnoreCase(META_TAG) && node.attributes.containsKey(PROPERTY_ATTR) && node.attributes.get(PROPERTY_ATTR).equalsIgnoreCase(FB_PROPERTY)) {
             if (node.attributes.containsKey(CONTENT_ATTR)) {                

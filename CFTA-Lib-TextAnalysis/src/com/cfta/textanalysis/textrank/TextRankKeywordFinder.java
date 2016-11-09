@@ -130,9 +130,9 @@ public class TextRankKeywordFinder {
      
     // Sorts keyword candidates based on their calculated TextRank value
     private void sortKeywordCandidates(TextRankGraph g) {
-        Collections.sort(g.graph, new Comparator(){
+    	Collections.sort(g.graph, new Comparator<TextRankNode>(){
             @Override
-            public int compare(Object o1, Object o2) {
+            public int compare(TextRankNode o1, TextRankNode o2) {
                 TextRankWordNode p1 = (TextRankWordNode)o1;
                 TextRankWordNode p2 = (TextRankWordNode)o2;
                 if (p1.rank < p2.rank) {
@@ -162,14 +162,14 @@ public class TextRankKeywordFinder {
         newNode.multipart = true;
         newNode.setEdge(newNode, 1.0);
         
-        Integer ii = node.allPositions.remove(k);
-        ii = node2.allPositions.remove(l);
+        /*Integer ii =*/ node.allPositions.remove(k);
+        /*ii =*/ node2.allPositions.remove(l);
 
         if (node.allPositions.isEmpty() || node.multipart) {
-            boolean ok = g.graph.remove(node);
+            /*boolean ok =*/ g.graph.remove(node);
         }
         if (node2.allPositions.isEmpty() || node2.multipart) {
-            boolean ok = g.graph.remove(node2);
+            /*boolean ok =*/ g.graph.remove(node2);
         }
 
         g.graph.add(newNode);
@@ -262,7 +262,7 @@ public class TextRankKeywordFinder {
                 if (node.word.equalsIgnoreCase(node2.word) && node.treeBankClass.equalsIgnoreCase(node2.treeBankClass)) {
                     // Combine these two together
                     node.rank = (node.rank + node2.rank) * MULTIPART_KEYWORD_ADD_FACTOR;
-                    boolean ok = g.graph.remove(node2);
+                    g.graph.remove(node2);
                     return true;
                 }
             }
@@ -276,7 +276,7 @@ public class TextRankKeywordFinder {
         for (int i = 0; i < g.graph.size(); i++) {
             TextRankWordNode t = (TextRankWordNode)g.graph.get(i);
             if (!t.multipart && t.isAdjective()) {
-                boolean b = g.graph.remove(t);
+                g.graph.remove(t);
                 i--;
             }
         }        

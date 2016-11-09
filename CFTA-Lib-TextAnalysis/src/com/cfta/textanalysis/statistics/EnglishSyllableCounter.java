@@ -2,14 +2,13 @@
 // Lassi Maksimainen, 2013
 package com.cfta.textanalysis.statistics;
  
-import java.util.*;
 import java.util.regex.*;
 
 // Originally code is adapted from MorphAdorner (http://morphadorner.northwestern.edu/) by Nic Watson in 2009 for school project
 // See license agreement at the end for MorphAdorner's license
 // In this version, there are changes to code formatting, but not to functionality
 public class EnglishSyllableCounter {
-        protected Map syllableCountMap = new HashMap();
+        //protected Map syllableCountMap = new HashMap();
         
         protected static final Pattern[] SubtractSyllables =
             new Pattern[] {

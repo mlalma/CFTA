@@ -2,15 +2,15 @@
 // Lassi Maksimainen, 2013
 package com.cfta.textnormalization.stanfordnlp;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
-import java.util.ArrayList;
-import java.util.List;
 
 // Does part-of-speech tagging to text, not thread-safe!
 public class POSTagger implements SentenceExtractorObserver {

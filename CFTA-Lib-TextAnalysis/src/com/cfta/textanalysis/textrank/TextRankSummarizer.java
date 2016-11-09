@@ -41,9 +41,9 @@ public class TextRankSummarizer {
                    
     // Sorts sentence candidates
     private void sortSentenceCandidates(TextRankGraph g) {
-        Collections.sort(g.graph, new Comparator(){
+        Collections.sort(g.graph, new Comparator<TextRankNode>(){
             @Override
-            public int compare(Object o1, Object o2) {
+            public int compare(TextRankNode o1, TextRankNode o2) {
                 TextRankNode p1 = (TextRankNode)o1;
                 TextRankNode p2 = (TextRankNode)o2;
                 if (p1.rank < p2.rank) {
@@ -59,9 +59,9 @@ public class TextRankSummarizer {
         
     // Sorts the sentence candidates by position
     private void sortSentenceCandidatesByPosition(List<TextRankSentenceNode> summary) {
-        Collections.sort(summary, new Comparator(){
+        Collections.sort(summary, new Comparator<TextRankSentenceNode>(){
             @Override
-            public int compare(Object o1, Object o2) {
+            public int compare(TextRankSentenceNode o1, TextRankSentenceNode o2) {
                 TextRankSentenceNode p1 = (TextRankSentenceNode)o1;
                 TextRankSentenceNode p2 = (TextRankSentenceNode)o2;
                 if (p1.position > p2.position) {

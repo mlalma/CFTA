@@ -4,12 +4,11 @@ package com.cfta.textnormalization.stanfordnlp;
 
 import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
 // Text lemmatizer, not thread-safe!
 public class TextLemmatizer implements TextTokenizerObserver {
     
-    private final StanfordCoreNLP engine = StanfordNLPFactory.getEngineInstance();
+    //private final StanfordCoreNLP engine = StanfordNLPFactory.getEngineInstance();
     private TextLemmatizerObserver observer = null;
 
     @Override

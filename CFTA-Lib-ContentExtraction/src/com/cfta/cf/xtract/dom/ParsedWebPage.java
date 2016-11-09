@@ -6,8 +6,8 @@ import org.w3c.dom.NodeList;
 public class ParsedWebPage {
     private final String BODY_ELEMENT = "body";
     private final String HEAD_ELEMENT = "head";
-    private final String META_NODE = "meta";
-    private final String TITLE_NODE = "title";
+    //private final String META_NODE = "meta";
+    //private final String TITLE_NODE = "title";
     
     private final String FFUL_WIDTH_ATTRIB = "fful-width";
     private final String FFUL_HEIGHT_ATTRIB = "fful-height";

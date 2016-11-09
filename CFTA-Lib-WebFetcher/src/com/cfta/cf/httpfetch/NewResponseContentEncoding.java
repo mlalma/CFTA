@@ -31,7 +31,7 @@ public class NewResponseContentEncoding extends ResponseContentEncoding {
             Header ceheader = entity.getContentEncoding();           
             if (ceheader != null) {
                 final HeaderElement[] codecs = ceheader.getElements();
-                boolean uncompressed = false;
+                //boolean uncompressed = false;
                 for (final HeaderElement codec : codecs) {
                     final String codecname = codec.getName().toLowerCase(Locale.US);
                     if ("gzip".equals(codecname) || "x-gzip".equals(codecname)) {

@@ -1,13 +1,12 @@
 package com.cfta.cf.xtract.dom;
 
-import java.util.ArrayList;
+import org.apache.commons.io.IOUtils;
+import org.w3c.dom.Document;
+
 import nu.validator.htmlparser.common.DoctypeExpectation;
 import nu.validator.htmlparser.common.Heuristics;
 import nu.validator.htmlparser.common.XmlViolationPolicy;
 import nu.validator.htmlparser.dom.HtmlDocumentBuilder;
-import org.apache.commons.io.IOUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
 
 // Constructs and manipulates DOM tree for the content extraction algorithms
 public class HtmlDocumentParser {
@@ -19,18 +18,18 @@ public class HtmlDocumentParser {
         
     private final static String SRC_ATTRIB = "src";
     private final String IMG_ATTRIB = "img";
-    private final String SCRIPT_NODE = "script";
-    private final String NOSCRIPT_NODE = "noscript";
-    private final String COMMENT_NODE = "#comment";
-    private final String STYLE_NODE = "style";
-    private final String META_NODE = "meta";
+    //private final String SCRIPT_NODE = "script";
+    //private final String NOSCRIPT_NODE = "noscript";
+    //private final String COMMENT_NODE = "#comment";
+    //private final String STYLE_NODE = "style";
+    //private final String META_NODE = "meta";
     private final static String IFRAME_NODE = "iframe";
-    private final String TITLE_NODE = "title";
+    //private final String TITLE_NODE = "title";
     private final static String VIDEO_NODE= "video";
 
     private final String BODY_ELEMENT = "body";
-    private final String HEAD_ELEMENT = "head";
-    private int webSiteHeight = -1;
+    //private final String HEAD_ELEMENT = "head";
+    //private int webSiteHeight = -1;
     
     private final static String[] VIDEO_URLS = {
         "//player.vimeo.com/",
