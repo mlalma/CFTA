@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>CFTA-FrontEnd-App</name>
   <description>REST API server for handling CFTA requests</description>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -12,10 +13,109 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
         <configuration>
-          <source/>
-          <target/>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
+      
+      <plugin>
+		  <groupId>org.apache.maven.plugins</groupId>
+		  <artifactId>maven-shade-plugin</artifactId>
+		  <configuration>
+		    <filters>
+		        <filter>
+		            <artifact>*:*</artifact>
+		            <excludes>
+		                <exclude>META-INF/*.SF</exclude>
+		                <exclude>META-INF/*.DSA</exclude>
+		                <exclude>META-INF/*.RSA</exclude>
+		            </excludes>
+		        </filter>
+		    </filters>
+		  </configuration>
+		  <executions>
+		    <execution>
+		      <goals>
+		        <goal>shade</goal>
+		      </goals>
+		      <configuration>
+		        <transformers>
+		          <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+		            <mainClass>com.cfta.CFTAFrontEndApp</mainClass>
+		          </transformer>
+		        </transformers>
+		      </configuration>
+		    </execution>
+		  </executions>
+		</plugin>
     </plugins>
   </build>
+  
+  <dependencies>
+  	<dependency>
+	    <groupId>com.cfta</groupId>
+	    <artifactId>util</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>com.cfta</groupId>
+	    <artifactId>FrontEnd-DataStructures</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>com.cfta</groupId>
+	    <artifactId>Client</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>		
+	
+	<dependency>
+	    <groupId>com.cfta</groupId>
+	    <artifactId>ContentExtraction</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>	
+	
+	<dependency>
+	    <groupId>com.cfta</groupId>
+	    <artifactId>RSSFeedFetcher</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>com.cfta</groupId>
+	    <artifactId>TextAnalysis</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>com.cfta</groupId>
+	    <artifactId>TwitterFeedFetcher</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>com.cfta</groupId>
+	    <artifactId>WebFetcher</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>		
+	
+	<dependency>
+	    <groupId>com.cfta</groupId>
+	    <artifactId>TextNormalization</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>com.sparkjava</groupId>
+	    <artifactId>spark-core</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>commons-cli</groupId>
+	    <artifactId>commons-cli</artifactId>
+	    <version>1.3</version>
+	</dependency>	
+  </dependencies>
 </project>

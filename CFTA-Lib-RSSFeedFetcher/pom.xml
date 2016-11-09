@@ -20,10 +20,48 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
         <configuration>
-          <source/>
-          <target/>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
-    </plugins>
+    </plugins>        
   </build>
+  
+  <dependencies>
+	  	<dependency>
+		    <groupId>com.cfta</groupId>
+		    <artifactId>util</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.cfta</groupId>
+		    <artifactId>WebFetcher</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.cfta</groupId>
+		    <artifactId>FrontEnd-DataStructures</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>nu.validator.htmlparser</groupId>
+		    <artifactId>htmlparser</artifactId>
+		    <version>1.4</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>commons-lang</groupId>
+		    <artifactId>commons-lang</artifactId>
+		    <version>2.4</version>
+		</dependency>	
+		
+		<dependency>
+		    <groupId>org.pojava</groupId>
+		    <artifactId>pojava</artifactId>
+		    <version>2.9.0</version>
+		</dependency>		
+	</dependencies>
 </project>
