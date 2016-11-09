@@ -54,7 +54,7 @@ public class TextRankKeywordFinder {
     }
     
     // Prints graph (debug)
-    private void printGraph(TextRankGraph g) {
+    /*private void printGraph(TextRankGraph g) {
         for (int i = 0; i < g.graph.size(); i++) {
             TextRankWordNode w = (TextRankWordNode)g.graph.get(i);
             for (Integer j : w.allPositions) {
@@ -62,7 +62,7 @@ public class TextRankKeywordFinder {
             }
             System.out.print(w.word + "/" + w.lemma + "/" + w.treeBankClass + " ");
         }
-    }
+    }*/
     
     // Filters out words that are not nouns or adjectives
     private void syntacticFilter(TextRankGraph g) {
