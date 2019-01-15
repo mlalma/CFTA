@@ -9,6 +9,9 @@ dist/
 nbproject/
 test/
 
+.idea/
+util.iml
+
 # Package Files
 *.war
 *.ear
