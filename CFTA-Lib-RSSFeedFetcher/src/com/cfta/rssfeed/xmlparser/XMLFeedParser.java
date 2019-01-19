@@ -1,3 +1,5 @@
+// CFTA -- Content Fetching & Text Analysis System
+// Lassi Maksimainen, 2019
 package com.cfta.rssfeed.xmlparser;
 
 import java.io.IOException;
@@ -5,7 +7,7 @@ import java.io.Reader;
 import java.util.HashMap;
 import java.util.Stack;
 
-public class XMLFeedParser {    
+public class XMLFeedParser {
     private static final int TEXT = 1;
     private static final int ENTITY = 2;
     private static final int OPEN_TAG = 3;
@@ -22,51 +24,50 @@ public class XMLFeedParser {
     private static final int DOCTYPE = 14;
     private static final int PRE = 15;
     private static final int CDATA = 16;
-    
-    public XMLFeedParser() {    
+
+    public XMLFeedParser() {
     }
-        
+
     private int popMode(Stack<Integer> st) {
         if (!st.empty()) {
-            return ((int)st.pop());
+            return (st.pop());
         } else {
             return PRE;
         }
     }
-    
-    private void parserException(String s,int line,int col) throws XMLParserException {
+
+    private void parserException(String s, int line, int col) throws XMLParserException {
         throw new XMLParserException(s + " near line " + line + ", column " + col);
     }
-    
+
     private void sendTextToDoc(XMLParserHandler doc, StringBuilder sb) {
         String finalString = sb.toString().replace("\n", " ").replace("\r", "").replace("\t", "").replaceAll("( )+", " ").trim();
-        if (finalString.length() > 0) {                                
-            doc.text(finalString);    
-        }                    
+        if (finalString.length() > 0) {
+            doc.text(finalString);
+        }
     }
-    
-    public void parse(XMLParserHandler doc, Reader r) throws XMLParserException, IOException {
-        Stack<Integer> st = new Stack<Integer>();        
+
+    public void parse(XMLParserHandler doc, Reader r) throws XMLParserException, NullPointerException, IOException {
+        Stack<Integer> st = new Stack<>();
         int mode = PRE;
-        int c = 0;
+        int c;
         int quotec = '"';
-        
+
         StringBuilder sb = new StringBuilder();
         StringBuilder etag = new StringBuilder();
-        
+
         String tagName = null;
         String lvalue = null;
-        String rvalue = null;        
+        String rvalue;
         HashMap<String, String> attrs = null;
-        
-        st = new Stack<Integer>();
+
         doc.startDocument();
-        
+
         int line = 1, col = 0;
         boolean eol = false;
-        
+
         // Parsing loop
-        while((c = r.read()) != -1) {
+        while ((c = r.read()) != -1) {
             if (c == '\n' && eol) {
                 eol = false;
                 continue;
@@ -83,7 +84,7 @@ public class XMLFeedParser {
             } else {
                 col++;
             }
-            
+
             if (mode == DONE) {
                 doc.endDocument();
                 return;
@@ -99,18 +100,18 @@ public class XMLFeedParser {
                     st.push(mode);
                     mode = ENTITY;
                     etag.setLength(0);
-                } else {                    
-                    sb.append((char)c);
+                } else {
+                    sb.append((char) c);
                 }
             } else if (mode == CLOSE_TAG) {
                 if (c == '>') {
                     mode = popMode(st);
                     tagName = sb.toString();
                     sb.setLength(0);
-                                   
+
                     doc.endElement(tagName);
                 } else {
-                    sb.append((char)c);
+                    sb.append((char) c);
                 }
             } else if (mode == CDATA) {
                 if (c == '>' && sb.toString().endsWith("]]")) {
@@ -119,14 +120,14 @@ public class XMLFeedParser {
                     sb.setLength(0);
                     mode = popMode(st);
                 } else {
-                    sb.append((char)c);
+                    sb.append((char) c);
                 }
             } else if (mode == COMMENT) {
-                if(c == '>' && sb.toString().endsWith("--")) {
+                if (c == '>' && sb.toString().endsWith("--")) {
                     sb.setLength(0);
                     mode = popMode(st);
                 } else {
-                    sb.append((char)c);
+                    sb.append((char) c);
                 }
             } else if (mode == PRE) {
                 if (c == '<') {
@@ -153,13 +154,13 @@ public class XMLFeedParser {
                     mode = OPEN_TAG;
                     tagName = null;
                     attrs = new HashMap<>();
-                    sb.append((char)c);
+                    sb.append((char) c);
                 }
-            } else if(mode == ENTITY) {
+            } else if (mode == ENTITY) {
                 if (c == ';') {
                     mode = popMode(st);
                     String cent = etag.toString();
-                                       
+
                     etag.setLength(0);
                     if (cent.equals("lt"))
                         sb.append('<');
@@ -170,7 +171,7 @@ public class XMLFeedParser {
                     else if (cent.equals("quot"))
                         sb.append('"');
                     else if (cent.equals("apos"))
-                        sb.append('\'');                                        
+                        sb.append('\'');
                     else if (cent.equals("#xa"))
                         sb.append('\n');
                     else if (cent.equals("#xd"))
@@ -195,28 +196,30 @@ public class XMLFeedParser {
                         sb.append("&");
                     else if (cent.equals("#62"))
                         sb.append(">");
-                    else if(cent.startsWith("#"))
-                        try { sb.append((char)Integer.parseInt(cent.substring(1))); } catch (Exception ex) {
+                    else if (cent.startsWith("#"))
+                        try {
+                            sb.append((char) Integer.parseInt(cent.substring(1)));
+                        } catch (Exception ex) {
                             ex.printStackTrace();
                         }
-                    // Insert custom entity definitions here
+                        // Insert custom entity definitions here
                     else
                         parserException("Unknown entity: &" + cent + ";", line, col);
                 } else {
-                    etag.append((char)c);
+                    etag.append((char) c);
                 }
             } else if (mode == SINGLE_TAG) {
                 if (tagName == null) {
                     tagName = sb.toString();
                 }
-                
-                if(c != '>') {
+
+                if (c != '>') {
                     parserException("Expected > for tag: <" + tagName + "/>", line, col);
                 }
-                
+
                 doc.startElement(tagName, attrs);
                 doc.endElement(tagName);
-                                
+
                 sb.setLength(0);
                 attrs = new HashMap<>();
                 tagName = null;
@@ -225,9 +228,9 @@ public class XMLFeedParser {
                 if (c == '>') {
                     if (tagName == null) {
                         tagName = sb.toString();
-                    }            
+                    }
                     sb.setLength(0);
-                    doc.startElement(tagName, attrs);                    
+                    doc.startElement(tagName, attrs);
                     mode = popMode(st);
                     if (tagName.toLowerCase().trim().equalsIgnoreCase("script")) {
                         mode = CDATA;
@@ -244,39 +247,38 @@ public class XMLFeedParser {
                 } else if (c == 'E' && sb.toString().equals("!DOCTYP")) {
                     sb.setLength(0);
                     mode = DOCTYPE;
-                } else if (Character.isWhitespace((char)c)) {
+                } else if (Character.isWhitespace((char) c)) {
                     tagName = sb.toString();
                     sb.setLength(0);
                     mode = IN_TAG;
                 } else {
-                    sb.append((char)c);
+                    sb.append((char) c);
                 }
-            } else if(mode == QUOTE) {
+            } else if (mode == QUOTE) {
                 if (c == quotec) {
                     rvalue = sb.toString();
                     sb.setLength(0);
                     attrs.put(lvalue, rvalue);
                     mode = IN_TAG;
-                } else if(" \r\n\u0009".indexOf(c)>=0) {
+                } else if (" \r\n\u0009".indexOf(c) >= 0) {
                     sb.append(' ');
-                } else if(c == '&') {
+                } else if (c == '&') {
                     st.push(mode);
                     mode = ENTITY;
                     etag.setLength(0);
                 } else {
-                    sb.append((char)c);
+                    sb.append((char) c);
                 }
             } else if (mode == ATTRIBUTE_RVALUE) {
                 if (c == '"' || c == '\'') {
                     quotec = c;
                     mode = QUOTE;
-                } else if(Character.isWhitespace((char)c)) {
-                    ;
+                } else if (Character.isWhitespace((char) c)) {
                 } else {
                     parserException("Error in attribute processing", line, col);
                 }
             } else if (mode == ATTRIBUTE_LVALUE) {
-                if(Character.isWhitespace((char)c)) {
+                if (Character.isWhitespace((char) c)) {
                     lvalue = sb.toString();
                     sb.setLength(0);
                     mode = ATTRIBUTE_EQUAL;
@@ -285,17 +287,16 @@ public class XMLFeedParser {
                     sb.setLength(0);
                     mode = ATTRIBUTE_RVALUE;
                 } else {
-                    sb.append((char)c);
+                    sb.append((char) c);
                 }
-            } else if(mode == ATTRIBUTE_EQUAL) {
-                if(c == '=') {
+            } else if (mode == ATTRIBUTE_EQUAL) {
+                if (c == '=') {
                     mode = ATTRIBUTE_RVALUE;
-                } else if(Character.isWhitespace((char)c)) {
-                    ;
+                } else if (Character.isWhitespace((char) c)) {
                 } else {
                     parserException("Error in attribute processing", line, col);
                 }
-            } else if(mode == IN_TAG) {
+            } else if (mode == IN_TAG) {
                 if (c == '>') {
                     mode = popMode(st);
                     doc.startElement(tagName, attrs);
@@ -303,18 +304,16 @@ public class XMLFeedParser {
                     attrs = new HashMap<>();
                 } else if (c == '/') {
                     mode = SINGLE_TAG;
-                } else if(Character.isWhitespace((char)c)) {
-                    ;
+                } else if (Character.isWhitespace((char) c)) {
                 } else {
                     mode = ATTRIBUTE_LVALUE;
-                    sb.append((char)c);
+                    sb.append((char) c);
                 }
             }
         }
-    
-        if(mode == DONE || c == -1) {
-            doc.endDocument();
-        } else {
+
+        doc.endDocument();
+        if (mode != DONE) {
             parserException("Missing end tag", line, col);
         }
     }
