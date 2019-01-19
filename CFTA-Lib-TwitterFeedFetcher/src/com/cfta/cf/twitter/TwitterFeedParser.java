@@ -1,15 +1,17 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.cf.twitter;
 
 import com.cfta.cf.handlers.protocol.TwitterFeedLinkResponse;
 import com.cfta.cf.handlers.protocol.TwitterFeedResponse;
 import com.cfta.cf.httpfetch.NewResponseContentEncoding;
 import com.cfta.cf.util.CFTASettings;
+
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.apache.http.HttpHost;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -27,15 +29,15 @@ import twitter4j.User;
 
 // Parses twitter feeds
 public class TwitterFeedParser {
-    
+
     private final Twitter twitter = TwitterResourceFactory.getInstance();
-    
+
     // Constructor
-    public TwitterFeedParser() {        
+    public TwitterFeedParser() {
     }
-    
+
     // Initializes TwitterFeed item based on user data
-    private TwitterFeedResponse initializeFeed(User u) throws TwitterException {           
+    private TwitterFeedResponse initializeFeed(User u) {
         TwitterFeedResponse feed = new TwitterFeedResponse();
         feed.favouritesCount = u.getFavouritesCount();
         feed.followersCount = u.getFollowersCount();
@@ -43,11 +45,11 @@ public class TwitterFeedParser {
         feed.location = u.getLocation();
         feed.profileImageUrl = u.getProfileImageURL();
         feed.screenName = u.getScreenName();
-        feed.userName = u.getName();               
-        feed.userId = u.getId();        
+        feed.userName = u.getName();
+        feed.userId = u.getId();
         return feed;
     }
-    
+
     // Initializes tweet
     private TwitterFeedResponse.Tweet initializeTweet(Status s, TwitterFeedResponse feed) {
         TwitterFeedResponse.Tweet t = feed.newTweet();
@@ -61,15 +63,15 @@ public class TwitterFeedParser {
         t.text = s.getText();
         if (t.isRetweet) {
             t.retweetId = s.getRetweetedStatus().getId();
-            t.retweetUserScreenName = s.getRetweetedStatus().getUser().getScreenName();                
+            t.retweetUserScreenName = s.getRetweetedStatus().getUser().getScreenName();
             t.text = s.getRetweetedStatus().getText();
         }
         return t;
     }
-    
+
     // Returns latest maxNumOfTweets amount of tweets and that have been sent since sinceMessageId's tweet was sent (or -1)
     public TwitterFeedResponse getTwitterFeed(String userName, int maxNumOfTweets, long sinceMessageId) throws TwitterException {
-        User u = twitter.showUser(userName);     
+        User u = twitter.showUser(userName);
         TwitterFeedResponse feed = initializeFeed(u);
         ResponseList<Status> tweets;
         if (sinceMessageId <= 0) {
@@ -79,19 +81,19 @@ public class TwitterFeedParser {
         }
         feed.limit = u.getRateLimitStatus().getLimit();
         feed.remaining = u.getRateLimitStatus().getRemaining();
-                
+
         for (Status s : tweets) {
             TwitterFeedResponse.Tweet t = initializeTweet(s, feed);
             feed.tweets.add(t);
         }
-        
+
         return feed;
-    }      
-    
+    }
+
     // Gets all links from the text
     private List<String> getAllLinks(String text, String urlStart) {
         List<String> links = new ArrayList<>();
-        
+
         int i = 0;
         while (text.indexOf(urlStart, i) != -1) {
             int linkStart = text.indexOf(urlStart, i);
@@ -105,54 +107,51 @@ public class TwitterFeedParser {
             }
             i = text.indexOf(urlStart, i) + urlStart.length();
         }
-                       
+
         return links;
     }
-        
+
     // Parses only links that can be found from Twitter feed
     public TwitterFeedLinkResponse getTwitterFeedLinks(String userName, int maxNumOfTweets, long sinceMessageId) throws TwitterException, IOException {
         TwitterFeedResponse feed = getTwitterFeed(userName, maxNumOfTweets, sinceMessageId);
         TwitterFeedLinkResponse links = new TwitterFeedLinkResponse();
-        
+
         CloseableHttpClient httpclient = HttpClients.custom().setUserAgent("CFTA-Twitter-Link-Expander").addInterceptorFirst(new NewResponseContentEncoding()).build();
         HttpClientContext context = HttpClientContext.create();
         RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(5000).setConnectTimeout(2500).build();
-                
+
         for (TwitterFeedResponse.Tweet t : feed.tweets) {
             List<String> urls = getAllLinks(t.text, "http://");
             urls.addAll(getAllLinks(t.text, "https://"));
-            
+
             for (String s : urls) {
                 TwitterFeedLinkResponse.TweetLink l = links.newLink();
                 String url = s;
-                
+
                 // Try to figure the expaneded link url
                 HttpGet httpget = new HttpGet(url);
                 httpget.setConfig(requestConfig);
                 try {
-                    CloseableHttpResponse response = httpclient.execute(httpget, context);
-                    try {
+                    try (CloseableHttpResponse response = httpclient.execute(httpget, context)) {
                         HttpHost target = context.getTargetHost();
                         List<URI> redirectLocations = context.getRedirectLocations();
                         URI location = URIUtils.resolve(httpget.getURI(), target, redirectLocations);
                         url = location.toASCIIString();
-                    } finally {
-                        response.close();
                     }
                 } catch (Exception ex) {
                     if (CFTASettings.getDebug()) {
                         ex.printStackTrace();
                     }
                 }
-                                
+
                 l.linkUrl = url;
                 l.favouriteCount = t.favouriteCount;
                 l.retweetCount = t.retweetCount;
                 l.creationTime = t.creationTime;
-                links.links.add(l);                       
+                links.links.add(l);
             }
         }
-        
+
         httpclient.close();
 
         return links;
