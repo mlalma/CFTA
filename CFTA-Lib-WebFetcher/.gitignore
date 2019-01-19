@@ -1,6 +1,7 @@
 build.xml
 manifest.mf
 
+WebFetcher.iml
 *.class
 
 # NetBeans project directories
