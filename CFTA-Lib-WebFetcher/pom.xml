@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.cfta</groupId>
     <artifactId>WebFetcher</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>CFTA-Lib-WebFetcher</name>
     <description>HTTP web fetcher library for CFTA</description>
     <build>
