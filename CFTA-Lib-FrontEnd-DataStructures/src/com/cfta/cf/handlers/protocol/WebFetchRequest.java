@@ -1,12 +1,12 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.cf.handlers.protocol;
 
 // Web fetch request
-public class WebFetchRequest {    
+public class WebFetchRequest {
     public static final String FETCHER_APACHE = "apache";
     public static final String FETCHER_XTRACT = "xtract";
-    
+
     public String usedFetcher = FETCHER_APACHE;
-    public String url = "";    
+    public String url = "";
 }

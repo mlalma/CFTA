@@ -13,6 +13,8 @@ test/
 *.war
 *.ear
 
+FrontEnd-DataStructures.iml
+
 # Mac OS X specific files
 .DS_Store
 .DS_Store?
