@@ -1,3 +1,5 @@
+// CFTA -- Content Fetching & Text Analysis System
+// Lassi Maksimainen, 2019
 package cfta.client;
 
 import com.cfta.cf.handlers.protocol.RSSFeedRequest;
@@ -37,25 +39,25 @@ import com.google.gson.Gson;
 public class CFTARequest {
 
     private Gson gson = new Gson();
-    
+
     // Handles Request to/from CFTA server
-    public Object sendRequest(Object request, boolean httpSecure, String domain, int port) {   
+    public Object sendRequest(Object request, boolean httpSecure, String domain, int port) {
         try {
             String url;
-                    
+
             if (!httpSecure) {
                 url = "http://" + domain + ":" + port;
             } else {
                 url = "https://" + domain + ":" + port;
             }
-            
+
             ApacheHttpClient client = new ApacheHttpClient();
-            
+
             if (request instanceof PingRequest) {
                 url += HandlerPaths.PING_PATH;
-                String response = client.getResponse(url, gson.toJson(request, PingRequest.class));                                
+                String response = client.getResponse(url, gson.toJson(request, PingRequest.class));
                 return gson.fromJson(response, PingResponse.class);
-            } else if (request instanceof WebFetchRequest) {       
+            } else if (request instanceof WebFetchRequest) {
                 url += HandlerPaths.WEB_FETCH_PATH;
                 String response = client.getResponse(url, gson.toJson(request, WebFetchRequest.class));
                 return gson.fromJson(response, WebFetchResponse.class);
@@ -115,7 +117,7 @@ public class CFTARequest {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-        
+
         return null;
     }
 }
