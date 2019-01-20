@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.textnormalization.stanfordnlp;
 
 import java.util.ArrayList;
@@ -7,18 +7,18 @@ import java.util.List;
 
 // Extracts named entities from text
 public class NamedEntityExtractor {
-    
+
     // Extracts named entities from text block
     public List<NamedEntity> extractEntities(String text, boolean useNewlineAsSeparator) {
         List<NamedEntity> entities = new ArrayList<>();
         List<String> entityText = new ArrayList<>();
-        
+
         POSTagger tagger = new POSTagger();
         List<POSTag> tags = tagger.POSTagText(text, useNewlineAsSeparator);
-        
+
         boolean NNP = false;
         String curEntity = "";
-        
+
         for (POSTag t : tags) {
             if (t.tag.startsWith("NNP")) {
                 if (NNP) {
@@ -26,7 +26,7 @@ public class NamedEntityExtractor {
                 } else {
                     curEntity = t.word;
                     NNP = true;
-                }                    
+                }
             } else {
                 if (NNP) {
                     boolean found = false;
@@ -48,7 +48,7 @@ public class NamedEntityExtractor {
                             break;
                         }
                     }
-                    
+
                     if (!found) {
                         NamedEntity e = new NamedEntity();
                         e.count = 1;
@@ -62,7 +62,7 @@ public class NamedEntityExtractor {
                 }
             }
         }
-        
+
         return entities;
     }
 }

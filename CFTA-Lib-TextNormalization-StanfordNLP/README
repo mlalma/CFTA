@@ -1,13 +1,5 @@
 A library for doing text analysis and normalization using Stanford's
-CoreNLP natural language processing library. The library uses 
-CoreNLP 3.3.1 and the .jar files are too large to be included in
-this project. Download the model directly from Stanford CoreNLP web
-page: 
-http://nlp.stanford.edu/software/stanford-corenlp-full-2014-01-04.zip 
-
-After completing the download, install the model jar to local Maven repository:
-
-mvn install:install-file -Dfile=./stanford-corenlp-3.3.1-models.jar -DgroupId=edu.stanford.nlp -DartifactId=stanford-corenlp-models -Dversion=3.3.1 -Dpackaging=jar
+CoreNLP natural language processing library.
 
 The source for CoreNLP is also available on GitHub:
 https://github.com/stanfordnlp/CoreNLP

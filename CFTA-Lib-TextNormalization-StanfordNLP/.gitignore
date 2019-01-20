@@ -9,6 +9,8 @@ dist/
 nbproject/
 test/
 
+TextNormalization.iml
+
 # Package Files
 *.war
 *.ear
