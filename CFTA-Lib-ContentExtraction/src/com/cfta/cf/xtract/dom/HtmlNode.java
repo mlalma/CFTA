@@ -1,24 +1,26 @@
+// CFTA -- Content Fetching & Text Analysis System
+// Lassi Maksimainen, 2019
 package com.cfta.cf.xtract.dom;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
 // Single DOM-tree node
-public class HtmlNode {   
+public class HtmlNode {
     public HashMap<String, String> attributes = new HashMap<>();
     public String nodeName = "";
     public String text = "";
     public boolean properNode = false;
     public ArrayList<HtmlNode> childNodes = new ArrayList<>();
-    public org.w3c.dom.Node docNode;
-    public HtmlNode parent = null;
+    org.w3c.dom.Node docNode;
+    HtmlNode parent = null;
 
     // Node features for machine learning purposes
-    public int textLength = 0;
-    public int textLengthInsideLinks = 0;
-    public int tagNum = 0;
-    public boolean floatElement = false;
-    public boolean visibile = true;
+    int textLength = 0;
+    private int textLengthInsideLinks = 0;
+    private int tagNum = 0;
+    boolean floatElement = false;
+    boolean visibile = true;
 
     public int xPos = 0;
     public int yPos = 0;
@@ -28,24 +30,24 @@ public class HtmlNode {
     public double yPosRatio = 0.0;
     public double widthRatio = 0.0;
     public double heightRatio = 0.0;
-    
+
     public int fontSize = 0;
-    public String display = "block";
+    String display = "block";
     public String fontStyle = "";
     public String fontWeight = "";
-    
+
     public boolean doOutput = false;
-   
-    public boolean isTextNode = false;
-    public boolean isHeaderNode = false;
-        
-    public static final int MIN_VALID_IMAGE_WIDTH = 300;
-    public static final int MIN_VALID_IMAGE_HEIGHT = 220;
-    
-    public static final int MIN_VALID_IMAGE_AREA = 200*200;
-   
+
+    boolean isTextNode = false;
+    boolean isHeaderNode = false;
+
+    private static final int MIN_VALID_IMAGE_WIDTH = 300;
+    private static final int MIN_VALID_IMAGE_HEIGHT = 220;
+
+    public static final int MIN_VALID_IMAGE_AREA = 200 * 200;
+
     // Constructor
-    public HtmlNode() {        
+    HtmlNode() {
     }
 
     // Checks if tag is a header
@@ -54,75 +56,66 @@ public class HtmlNode {
     }
 
     // Checks if link or inside the link
-    public boolean isLink() {
+    private boolean isLink() {
         return ((nodeName.equalsIgnoreCase("a") || nodeName.equalsIgnoreCase("nav")) || (parent != null && parent.isLink()));
     }
-        
+
     // Checks if tag is image
     public boolean isImage() {
         return (nodeName.toLowerCase().trim().equalsIgnoreCase("img"));
     }
-    
+
     // Checks if node is valid 
-    public boolean isArticleImage() {    
+    public boolean isArticleImage() {
         final String IMG_ATTRIB = "img";
         final String SRC_ATTRIB = "src";
-        
+
         if (docNode.getNodeName() != null && docNode.getNodeName().equalsIgnoreCase(IMG_ATTRIB) &&
-            docNode.getAttributes()!= null && docNode.getAttributes().getNamedItem(SRC_ATTRIB) != null &&
-            !docNode.getAttributes().getNamedItem(SRC_ATTRIB).getNodeValue().startsWith("data")) {            
-        
-            if (width >= MIN_VALID_IMAGE_WIDTH && height >= MIN_VALID_IMAGE_HEIGHT) {
-                return true;
-            }
+                docNode.getAttributes() != null && docNode.getAttributes().getNamedItem(SRC_ATTRIB) != null &&
+                !docNode.getAttributes().getNamedItem(SRC_ATTRIB).getNodeValue().startsWith("data")) {
+
+            return width >= MIN_VALID_IMAGE_WIDTH && height >= MIN_VALID_IMAGE_HEIGHT;
         }
 
         return false;
     }
-    
+
     // Checks if node is preformatted and we should respect that
     public boolean isPreformattedNode() {
         return (nodeName.equalsIgnoreCase("pre") || nodeName.equalsIgnoreCase("code"));
     }
-    
+
     // Checks if tag is video
-    public boolean isVideo() {
+    private boolean isVideo() {
         return HtmlDocumentParser.isVideo(docNode);
         //return false;
     }
-    
-    public boolean isHidden() {
+
+    boolean isHidden() {
         if (display.equalsIgnoreCase("hidden") || display.equalsIgnoreCase("none") || !visibile) {
-            if (nodeName.equalsIgnoreCase("head") || nodeName.equalsIgnoreCase("title") || nodeName.equalsIgnoreCase("meta") || nodeName.equalsIgnoreCase("link")) {
-                return false;
-            } else {
-                return true;
-            }
+            return !nodeName.equalsIgnoreCase("head") && !nodeName.equalsIgnoreCase("title") &&
+                    !nodeName.equalsIgnoreCase("meta") && !nodeName.equalsIgnoreCase("link");
         } else {
             return false;
         }
     }
-    
+
     // Checks if node is a proper one
-    public boolean isProperNode() {
+    private boolean isProperNode() {
         if (nodeName.equalsIgnoreCase("style") || nodeName.equalsIgnoreCase("script") || nodeName.equalsIgnoreCase("noscript") ||
-            (nodeName.equalsIgnoreCase("iframe") && !isVideo())) {
+                (nodeName.equalsIgnoreCase("iframe") && !isVideo())) {
             return false;
         } else if (isHidden()) {
             return false;
         }
 
-        if (nodeName.equalsIgnoreCase("br")) {
-            return false;
-        }
-        
-        return true;
+        return !nodeName.equalsIgnoreCase("br");
     }
-                
+
     // Calculates the feature values of the particular node
-    public void createFeatureValues() throws Exception {
+    void createFeatureValues() {
         properNode = isProperNode();
-                
+
         if (nodeName.equalsIgnoreCase("#text")) {
             return;
         }
@@ -135,7 +128,7 @@ public class HtmlNode {
         for (HtmlNode child : childNodes) {
             tagNum += child.tagNum;
         }
-        
+
         // Calc textLength
         if (properNode) {
             int length = text.length();
@@ -167,7 +160,7 @@ public class HtmlNode {
         }
     }
 
-    public void calculateFeatureValues() throws Exception {
+    private void calculateFeatureValues() {
         for (HtmlNode child : childNodes) {
             child.calculateFeatureValues();
         }

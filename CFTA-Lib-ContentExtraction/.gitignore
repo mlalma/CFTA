@@ -9,6 +9,8 @@ dist/
 nbproject/
 test/
 
+ContentExtraction.iml
+
 # Package Files
 *.war
 *.ear

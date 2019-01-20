@@ -1,60 +1,61 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.cfta</groupId>
-  <artifactId>ContentExtraction</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>CFTA-Lib-ContentExtraction</name>
-  <description>Content extraction library from web pages for CFTA</description>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.5.1</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-  
-  <dependencies>
- 	<dependency>
-	    <groupId>com.cfta</groupId>
-	    <artifactId>util</artifactId>
-	    <version>0.0.1-SNAPSHOT</version>
-	</dependency>
-	
-	<dependency>
-	    <groupId>com.cfta</groupId>
-	    <artifactId>FrontEnd-DataStructures</artifactId>
-	    <version>0.0.1-SNAPSHOT</version>
-	</dependency>
-		
-	<dependency>
-	    <groupId>nu.validator.htmlparser</groupId>
-	    <artifactId>htmlparser</artifactId>
-	    <version>1.4</version>
-	</dependency>
-	
-	<dependency>
-	    <groupId>net.sourceforge.nekohtml</groupId>
-	    <artifactId>nekohtml</artifactId>
-	    <version>1.9.13</version>
-	</dependency>
-		
-	<dependency>
-	    <groupId>commons-io</groupId>
-	    <artifactId>commons-io</artifactId>
-	    <version>1.4</version>
-	</dependency>
-	
-	<dependency>
-	    <groupId>de.l3s.boilerpipe</groupId>
-	    <artifactId>boilerpipe</artifactId>
-	    <version>1.1.0</version>
-	</dependency>
-		
-  </dependencies>	
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.cfta</groupId>
+    <artifactId>ContentExtraction</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
+    <name>CFTA-Lib-ContentExtraction</name>
+    <description>Content extraction library from web pages for CFTA</description>
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.cfta</groupId>
+            <artifactId>util</artifactId>
+            <version>0.0.2-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cfta</groupId>
+            <artifactId>FrontEnd-DataStructures</artifactId>
+            <version>0.0.2-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>nu.validator.htmlparser</groupId>
+            <artifactId>htmlparser</artifactId>
+            <version>1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.nekohtml</groupId>
+            <artifactId>nekohtml</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>de.l3s.boilerpipe</groupId>
+            <artifactId>boilerpipe</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+
+    </dependencies>
 </project>

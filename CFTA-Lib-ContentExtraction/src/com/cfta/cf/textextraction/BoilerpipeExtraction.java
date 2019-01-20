@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.cf.textextraction;
 
 import com.cfta.cf.util.CFTASettings;
@@ -19,7 +19,7 @@ public class BoilerpipeExtraction implements TextExtractionBase {
                 ex.printStackTrace();
             }
         }
-                        
+
         return text;
-    }    
+    }
 }
