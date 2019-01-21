@@ -1,8 +1,9 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.tn.handlers;
 
 import com.cfta.textnormalization.stanfordnlp.SentenceExtractorObserver;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,15 +11,15 @@ import java.util.List;
 public class SentenceExtractionGatherer implements SentenceExtractorObserver {
 
     private List<String> sentences = new ArrayList<>();
-    
+
     @Override
     // Adds new sentence to list
     public void sentenceExtracted(edu.stanford.nlp.util.CoreMap sentence) {
         sentences.add(sentence.toString());
-    } 
-    
+    }
+
     // Returns list
-    public List<String> getSentences() {
+    List<String> getSentences() {
         return sentences;
     }
 }

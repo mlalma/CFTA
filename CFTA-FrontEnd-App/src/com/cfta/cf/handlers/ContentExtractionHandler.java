@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.cf.handlers;
 
 import cfta.client.CFTARequest;
@@ -19,31 +19,30 @@ import spark.Response;
 import spark.Route;
 
 // Handles text extraction requests
-public class ContentExtractionHandler extends Route {
+public class ContentExtractionHandler implements Route {
 
     private Gson gson = new Gson();
-    private int port = 8080;
+    private int port;
 
     // Constructor
-    public ContentExtractionHandler(String route, int port) {
-        super(route);
+    public ContentExtractionHandler(int port) {
         this.port = port;
     }
-       
+
     @Override
     // Handles content extraction request
     public Object handle(Request request, Response response) {
         long startTime = System.currentTimeMillis();
-        
+
         String resultString;
         response.type("application/json");
         ContentExtractionResponse responseData = new ContentExtractionResponse();
         CFTARequest cftaReq = new CFTARequest();
-        
+
         try {
-            ContentExtractionBase contentExtractor = null;
+            ContentExtractionBase contentExtractor;
             ContentExtractionRequest extractRequest = gson.fromJson(request.body().trim(), ContentExtractionRequest.class);
-            
+
             if (extractRequest.extractionAlgorithm.equalsIgnoreCase(ContentExtractionRequest.BOILERPIPE_ALGORITHM)) {
                 contentExtractor = new BoilerpipeContentExtraction();
             } else if (extractRequest.extractionAlgorithm.equalsIgnoreCase(ContentExtractionRequest.XTRACT_ALGORITHM)) {
@@ -51,18 +50,18 @@ public class ContentExtractionHandler extends Route {
             } else {
                 throw new RuntimeException("Unknown content extraction algorithm");
             }
-            
+
             String html;
             if (extractRequest.url.length() > 0) {
                 // If page html has not been sent as a part of request, do a web fetch request and get the page
                 WebFetchRequest htmlRequest = new WebFetchRequest();
                 htmlRequest.url = extractRequest.url;
-                
+
                 if (contentExtractor instanceof XtractContent) {
                     htmlRequest.usedFetcher = WebFetchRequest.FETCHER_XTRACT;
                 }
-                
-                WebFetchResponse fetchResponse = (WebFetchResponse)cftaReq.sendRequest(htmlRequest, false, "127.0.0.1", port);
+
+                WebFetchResponse fetchResponse = (WebFetchResponse) cftaReq.sendRequest(htmlRequest, false, "127.0.0.1", port);
                 if (fetchResponse.errorCode == WebFetchResponse.RESPONSE_OK) {
                     html = fetchResponse.html;
                 } else {
@@ -71,14 +70,14 @@ public class ContentExtractionHandler extends Route {
             } else {
                 html = extractRequest.html;
             }
-            
+
             if (html.trim().length() > 0) {
                 contentExtractor.extractContent(html, extractRequest.extractHeader, extractRequest.extractMainImage, extractRequest.extractText);
-                
+
                 responseData.text = contentExtractor.getArticleText();
                 responseData.title = contentExtractor.getTitle();
                 responseData.mainImageUrl = contentExtractor.getMainImageUrl();
-                
+
                 if (responseData.text.length() > 0) {
                     String text = responseData.text;
                     if (text.length() > 5000) {
@@ -86,19 +85,19 @@ public class ContentExtractionHandler extends Route {
                     }
                     LanguageDetectionRequest langRequest = new LanguageDetectionRequest();
                     langRequest.text = text;
-                    LanguageDetectionResponse langResponse = (LanguageDetectionResponse)cftaReq.sendRequest(langRequest, false, "127.0.0.1", port);
+                    LanguageDetectionResponse langResponse = (LanguageDetectionResponse) cftaReq.sendRequest(langRequest, false, "127.0.0.1", port);
                     responseData.language = langResponse.language;
-                }                
-                
+                }
+
                 responseData.errorCode = ContentExtractionResponse.RESPONSE_OK;
             } else {
                 responseData.errorCode = ContentExtractionResponse.RESPONSE_FAIL;
-            }            
+            }
         } catch (Exception ex) {
             responseData.errorCode = ContentExtractionResponse.RESPONSE_FAIL;
         }
-        
-        CFTALog.LL("Text extraction request done, took " + (System.currentTimeMillis() - startTime) + "ms");        
+
+        CFTALog.LL("Text extraction request done, took " + (System.currentTimeMillis() - startTime) + "ms");
         resultString = gson.toJson(responseData, ContentExtractionResponse.class);
         return resultString;
     }

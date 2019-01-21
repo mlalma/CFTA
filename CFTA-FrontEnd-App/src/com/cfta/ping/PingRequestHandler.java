@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.ping;
 
 import com.cfta.cf.util.CFTASettings;
@@ -12,29 +12,28 @@ import spark.Route;
 
 
 // Simple ping request that can be used to test if the server is up and running
-public class PingRequestHandler extends Route {
+public class PingRequestHandler implements Route {
 
-    private Gson gson = new Gson();            
+    private Gson gson = new Gson();
 
-    public PingRequestHandler(String path) {
-        super(path);
+    public PingRequestHandler() {
     }
-    
+
     @Override
     public Object handle(Request request, Response response) {
-        CFTALog.LL("Ping request");        
+        CFTALog.LL("Ping request");
         try {
             PingResponse respData = new PingResponse();
             respData.result = "pong";
-            
+
             String resultString = gson.toJson(respData, PingResponse.class);
             response.type("application/json");
-            return resultString;            
+            return resultString;
         } catch (Exception ex) {
             if (CFTASettings.getDebug()) {
                 ex.printStackTrace();
             }
-        }        
-        return "";        
-    }    
+        }
+        return "";
+    }
 }

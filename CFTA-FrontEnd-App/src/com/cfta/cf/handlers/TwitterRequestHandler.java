@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.cf.handlers;
 
 import com.cfta.cf.handlers.protocol.TwitterFeedRequest;
@@ -12,15 +12,14 @@ import spark.Response;
 import spark.Route;
 
 // Twitter request handler
-public class TwitterRequestHandler extends Route {
-    
+public class TwitterRequestHandler implements Route {
+
     private Gson gson = new Gson();
-    
+
     // Constructor
-    public TwitterRequestHandler(String route) {
-        super(route);
+    public TwitterRequestHandler() {
     }
-    
+
     @Override
     // Handles Twitter feed request
     public Object handle(Request request, Response response) {
@@ -28,9 +27,9 @@ public class TwitterRequestHandler extends Route {
         String resultString;
         response.type("application/json");
         TwitterFeedResponse responseData = new TwitterFeedResponse();
-        
+
         try {
-            TwitterFeedRequest twitterRequest = gson.fromJson(request.body().trim(), TwitterFeedRequest.class);            
+            TwitterFeedRequest twitterRequest = gson.fromJson(request.body().trim(), TwitterFeedRequest.class);
             TwitterFeedParser parser = new TwitterFeedParser();
             TwitterFeedResponse tResponse = parser.getTwitterFeed(twitterRequest.screenName, twitterRequest.numberOfTweets, twitterRequest.sinceMessageId);
             if (tResponse != null) {
@@ -41,9 +40,9 @@ public class TwitterRequestHandler extends Route {
         } catch (Exception ex) {
             responseData.errorCode = TwitterFeedResponse.RESPONSE_FAIL;
         }
-        
+
         CFTALog.LL("Twitter feed request done, took" + (System.currentTimeMillis() - startTime) + "ms");
         resultString = gson.toJson(responseData, TwitterFeedResponse.class);
         return resultString;
-    }    
+    }
 }

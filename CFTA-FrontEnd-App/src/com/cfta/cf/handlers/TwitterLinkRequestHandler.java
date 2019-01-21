@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.cf.handlers;
 
 import com.cfta.cf.handlers.protocol.TwitterFeedLinkRequest;
@@ -13,13 +13,12 @@ import spark.Response;
 import spark.Route;
 
 // Twitter link request handler
-public class TwitterLinkRequestHandler extends Route {
+public class TwitterLinkRequestHandler implements Route {
 
     private Gson gson = new Gson();
 
     // Constructor
-    public TwitterLinkRequestHandler(String route) {
-        super(route);
+    public TwitterLinkRequestHandler() {
     }
 
     @Override
@@ -29,11 +28,11 @@ public class TwitterLinkRequestHandler extends Route {
         String resultString;
         response.type("application/json");
         TwitterFeedLinkResponse responseData = new TwitterFeedLinkResponse();
-        
+
         try {
-            TwitterFeedLinkRequest twitterRequest = gson.fromJson(request.body().trim(), TwitterFeedLinkRequest.class);            
+            TwitterFeedLinkRequest twitterRequest = gson.fromJson(request.body().trim(), TwitterFeedLinkRequest.class);
             TwitterFeedParser parser = new TwitterFeedParser();
-            TwitterFeedLinkResponse tResponse = parser.getTwitterFeedLinks(twitterRequest.screenName, twitterRequest.numberOfTweets, twitterRequest.sinceMessageId);            
+            TwitterFeedLinkResponse tResponse = parser.getTwitterFeedLinks(twitterRequest.screenName, twitterRequest.numberOfTweets, twitterRequest.sinceMessageId);
             if (tResponse != null) {
                 responseData = tResponse;
             } else {
@@ -42,7 +41,7 @@ public class TwitterLinkRequestHandler extends Route {
         } catch (Exception ex) {
             responseData.errorCode = TwitterFeedLinkResponse.RESPONSE_FAIL;
         }
-        
+
         CFTALog.LL("Twitter link feed request done, took" + (System.currentTimeMillis() - startTime) + "ms");
         resultString = gson.toJson(responseData, TwitterFeedLinkResponse.class);
         return resultString;

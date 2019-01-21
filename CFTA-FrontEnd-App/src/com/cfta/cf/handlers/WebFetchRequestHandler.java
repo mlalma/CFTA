@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.cf.handlers;
 
 import com.cfta.cf.handlers.protocol.WebFetchRequest;
@@ -13,26 +13,25 @@ import spark.Response;
 import spark.Route;
 
 // Handles web fetch request
-public class WebFetchRequestHandler extends Route {
+public class WebFetchRequestHandler implements Route {
 
-    private Gson gson = new Gson();            
+    private Gson gson = new Gson();
 
     // Constructor
-    public WebFetchRequestHandler(String path) {
-        super(path);
+    public WebFetchRequestHandler() {
     }
-    
+
     @Override
     // Retrieves a web page and returns it
     public Object handle(Request request, Response response) {
         long startTime = System.currentTimeMillis();
-        String resultString = "";
+        String resultString;
         response.type("application/json");
         WebFetchResponse responseData = new WebFetchResponse();
-        
+
         try {
             WebFetchRequest fetchRequest = gson.fromJson(request.body().trim(), WebFetchRequest.class);
-            HttpFetcherBase fetcher = null;
+            HttpFetcherBase fetcher;
             if (fetchRequest.usedFetcher.trim().equalsIgnoreCase(WebFetchRequest.FETCHER_APACHE)) {
                 fetcher = new ApacheHttpClientFetcher();
             } else {
@@ -42,7 +41,7 @@ public class WebFetchRequestHandler extends Route {
             String page = fetcher.getWebPage(fetchRequest.url);
             if (page.length() == 0) {
                 responseData.errorCode = WebFetchResponse.RESPONSE_FAIL;
-                responseData.html = "";                
+                responseData.html = "";
             } else {
                 responseData.errorCode = WebFetchResponse.RESPONSE_OK;
                 responseData.html = page.trim();
@@ -51,7 +50,7 @@ public class WebFetchRequestHandler extends Route {
             responseData.errorCode = WebFetchResponse.RESPONSE_FAIL;
             responseData.html = "";
         }
-        
+
         CFTALog.LL("Web fetch request done, took " + (System.currentTimeMillis() - startTime) + "ms");
         resultString = gson.toJson(responseData, WebFetchResponse.class);
         return resultString;

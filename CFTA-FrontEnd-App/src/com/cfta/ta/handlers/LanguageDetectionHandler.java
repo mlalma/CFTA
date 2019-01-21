@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.ta.handlers;
 
 import com.cfta.log.CFTALog;
@@ -13,32 +13,31 @@ import spark.Response;
 import spark.Route;
 
 // Detects used language from text
-public class LanguageDetectionHandler extends Route {
-    
+public class LanguageDetectionHandler implements Route {
+
     private Gson gson = new Gson();
     private LangDetectionBase lang = null;
 
     // Constructor
-    public LanguageDetectionHandler(String route) {
-        super(route);
+    public LanguageDetectionHandler() {
         try {
             lang = new LanguageDetection();
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-    } 
+    }
 
     @Override
     // Handles language detection request
     public Object handle(Request request, Response response) {
         long startTime = System.currentTimeMillis();
-        
+
         String resultString;
         response.type("application/json");
         LanguageDetectionResponse responseData = new LanguageDetectionResponse();
-        
+
         try {
-            LanguageDetectionRequest langRequest = gson.fromJson(request.body().trim(), LanguageDetectionRequest.class);           
+            LanguageDetectionRequest langRequest = gson.fromJson(request.body().trim(), LanguageDetectionRequest.class);
             responseData.language = lang.getLanguage(langRequest.text);
             responseData.errorCode = LanguageDetectionResponse.RESPONSE_OK;
         } catch (Exception ex) {
@@ -49,5 +48,5 @@ public class LanguageDetectionHandler extends Route {
         resultString = gson.toJson(responseData, LanguageDetectionResponse.class);
         return resultString;
     }
-    
+
 }

@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta.ping;
 
 import spark.Request;
@@ -7,14 +7,13 @@ import spark.Response;
 import spark.Route;
 
 // Health handler for supporting easy scaling using e.g. ELB, SmartStack or similar
-public class HealthHandler extends Route {
-    
+public class HealthHandler implements Route {
+
     // HTTP OK status code
-    final int RESPONSE_OK = 200;
-    
+    private final int RESPONSE_OK = 200;
+
     // Constructor
-    public HealthHandler(String route) {
-        super(route);
+    public HealthHandler() {
     }
 
     @Override
@@ -23,5 +22,5 @@ public class HealthHandler extends Route {
         response.status(RESPONSE_OK);
         return "OK";
     }
-    
+
 }

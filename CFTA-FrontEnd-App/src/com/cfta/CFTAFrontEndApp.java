@@ -1,5 +1,5 @@
 // CFTA -- Content Fetching & Text Analysis System
-// Lassi Maksimainen, 2013
+// Lassi Maksimainen, 2019
 package com.cfta;
 
 import com.cfta.cf.handlers.ContentExtractionHandler;
@@ -30,29 +30,29 @@ import spark.Spark;
 
 // CFTA front-end web server app
 public class CFTAFrontEndApp {
-    
+
     // Default port for the front-end
     static private int port = 8080;
-    
+
     // Command-line options
     static private final String PORT_OPTION = "port";
     static private final String SETTINGS_OPTION = "settings";
     static private final String HELP_OPTION = "help";
-    
+
     // Parses given command-line options
     private static void parseCommandLine(String[] args) throws ParseException {
         Options options = new Options();
         options.addOption(PORT_OPTION, PORT_OPTION, true, "Used port on the server (default: 8080)");
         options.addOption(SETTINGS_OPTION, SETTINGS_OPTION, true, "Location of settings file");
         options.addOption(HELP_OPTION, HELP_OPTION, false, "Print this message");
-        
+
         CommandLineParser parser = new DefaultParser();
         CommandLine cmd = parser.parse(options, args);
 
         if (cmd.hasOption(PORT_OPTION)) {
             port = Integer.parseInt(cmd.getOptionValue(PORT_OPTION));
         }
-        Spark.setPort(port);                                            
+        Spark.port(port);
 
         if (cmd.hasOption(SETTINGS_OPTION)) {
             CFTASettings.loadSettingsFile(cmd.getOptionValue(SETTINGS_OPTION));
@@ -64,30 +64,30 @@ public class CFTAFrontEndApp {
             System.exit(0);
         }
     }
-    
+
     // Initializes Spark handlers
     private static void initializeHandlers() {
-        Spark.get(new PingRequestHandler(HandlerPaths.PING_PATH));
-        Spark.get(new HealthHandler(HandlerPaths.HEALTH_PATH));
-        Spark.post(new WebFetchRequestHandler(HandlerPaths.WEB_FETCH_PATH));
-        Spark.post(new RSSFeedRequestHandler(HandlerPaths.RSS_FEED_PATH));
-        Spark.post(new TwitterRequestHandler(HandlerPaths.TWITTER_FEED_PATH));
-        Spark.post(new TwitterLinkRequestHandler(HandlerPaths.TWITTER_FEED_LINKS_PATH));
-        Spark.post(new ContentExtractionHandler(HandlerPaths.CONTENT_EXTRACT_PATH, port));
-        Spark.post(new LanguageDetectionHandler(HandlerPaths.LANGUAGE_DETECTION_PATH));
-        Spark.post(new SentenceExtractionHandler(HandlerPaths.SENTENCE_EXTRACTION_PATH));
-        Spark.post(new TokenExtractionHandler(HandlerPaths.TOKEN_EXTRACTION_PATH, port));
-        Spark.post(new TextLemmatizationHandler(HandlerPaths.LEMMATIZATION_PATH, port));
-        Spark.post(new POSHandler(HandlerPaths.POS_PATH));
-        Spark.post(new NamedEntityHandler(HandlerPaths.NER_PATH));                 
-        Spark.post(new TextRankSummarizationHandler(HandlerPaths.TEXTRANK_SUMMARIZE, port)); 
-        Spark.post(new TextRankKeywordHandler(HandlerPaths.TEXTRANK_KEYWORDS, port));
-        Spark.post(new TextStatisticsHandler(HandlerPaths.TEXT_STATISTICS_PATH, port));
+        Spark.get(HandlerPaths.PING_PATH, new PingRequestHandler());
+        Spark.get(HandlerPaths.HEALTH_PATH, new HealthHandler());
+        Spark.post(HandlerPaths.WEB_FETCH_PATH, new WebFetchRequestHandler());
+        Spark.post(HandlerPaths.RSS_FEED_PATH, new RSSFeedRequestHandler());
+        Spark.post(HandlerPaths.TWITTER_FEED_PATH, new TwitterRequestHandler());
+        Spark.post(HandlerPaths.TWITTER_FEED_LINKS_PATH, new TwitterLinkRequestHandler());
+        Spark.post(HandlerPaths.CONTENT_EXTRACT_PATH, new ContentExtractionHandler(port));
+        Spark.post(HandlerPaths.LANGUAGE_DETECTION_PATH, new LanguageDetectionHandler());
+        Spark.post(HandlerPaths.SENTENCE_EXTRACTION_PATH, new SentenceExtractionHandler());
+        Spark.post(HandlerPaths.TOKEN_EXTRACTION_PATH, new TokenExtractionHandler(port));
+        Spark.post(HandlerPaths.LEMMATIZATION_PATH, new TextLemmatizationHandler(port));
+        Spark.post(HandlerPaths.POS_PATH, new POSHandler());
+        Spark.post(HandlerPaths.NER_PATH, new NamedEntityHandler());
+        Spark.post(HandlerPaths.TEXTRANK_SUMMARIZE, new TextRankSummarizationHandler(port));
+        Spark.post(HandlerPaths.TEXTRANK_KEYWORDS, new TextRankKeywordHandler(port));
+        Spark.post(HandlerPaths.TEXT_STATISTICS_PATH, new TextStatisticsHandler(port));
     }
-    
+
     // Entry point -- starts the CFTA front-end web server
-    public static void main(String[] args) {    
-        try {        
+    public static void main(String[] args) {
+        try {
             parseCommandLine(args);
             initializeHandlers();
         } catch (Exception ex) {

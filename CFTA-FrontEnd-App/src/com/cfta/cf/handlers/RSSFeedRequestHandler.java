@@ -1,3 +1,5 @@
+// CFTA -- Content Fetching & Text Analysis System
+// Lassi Maksimainen, 2019
 package com.cfta.cf.handlers;
 
 import com.cfta.cf.feeds.RSSFeedParser;
@@ -10,15 +12,14 @@ import spark.Response;
 import spark.Route;
 
 // Handles RSS feed fetch & parse requests
-public class RSSFeedRequestHandler extends Route {
+public class RSSFeedRequestHandler implements Route {
 
-    private Gson gson = new Gson();            
+    private Gson gson = new Gson();
 
     // Constructor
-    public RSSFeedRequestHandler(String path) {
-        super(path);
+    public RSSFeedRequestHandler() {
     }
-    
+
     @Override
     // Handles RSS feed request
     public Object handle(Request request, Response response) {
@@ -26,22 +27,22 @@ public class RSSFeedRequestHandler extends Route {
         String resultString;
         response.type("application/json");
         RSSFeedResponse responseData = new RSSFeedResponse();
-        
+
         try {
-            RSSFeedRequest rssRequest = gson.fromJson(request.body().trim(), RSSFeedRequest.class);            
+            RSSFeedRequest rssRequest = gson.fromJson(request.body().trim(), RSSFeedRequest.class);
             RSSFeedParser parser = new RSSFeedParser();
             RSSFeedResponse rssResponse = parser.parseFeedFromUrl(rssRequest.url);
             if (rssResponse != null) {
                 responseData = rssResponse;
             } else {
                 responseData.errorCode = RSSFeedResponse.RESPONSE_FAIL;
-            }            
+            }
         } catch (Exception ex) {
             responseData.errorCode = RSSFeedResponse.RESPONSE_FAIL;
         }
-        
+
         CFTALog.LL("RSS feed request done, took" + (System.currentTimeMillis() - startTime) + "ms");
         resultString = gson.toJson(responseData, RSSFeedResponse.class);
         return resultString;
-    }   
+    }
 }
