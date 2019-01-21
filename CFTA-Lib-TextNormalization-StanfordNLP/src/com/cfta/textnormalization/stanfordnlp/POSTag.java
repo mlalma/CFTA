@@ -3,8 +3,8 @@
 package com.cfta.textnormalization.stanfordnlp;
 
 // POS tag of a word, tag is a Penn Treebank tag or "\n" to mark end of a sentence
-class POSTag {
-    String word = "";
-    String tag = "";
-    String lemma = "";
+public class POSTag {
+    public String word = "";
+    public String tag = "";
+    public String lemma = "";
 }

@@ -3,7 +3,7 @@
 package com.cfta.textnormalization.stanfordnlp;
 
 // Named entity data structure
-class NamedEntity {
-    String name = "";
-    int count = 0;
+public class NamedEntity {
+    public String name = "";
+    public int count = 0;
 }

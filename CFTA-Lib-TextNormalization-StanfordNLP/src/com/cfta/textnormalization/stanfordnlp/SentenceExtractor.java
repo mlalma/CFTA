@@ -10,10 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Extracts sentences from text
-class SentenceExtractor {
+public class SentenceExtractor {
 
     // Extract sentences, can use new line as a separation to recognize better extracted text with headers and mid-quotes
-    void extractSentences(String text, boolean useNewlineAsSeparation, SentenceExtractorObserver observer) {
+    public void extractSentences(String text, boolean useNewlineAsSeparation, SentenceExtractorObserver observer) {
         ArrayList<String> textFragments = new ArrayList<>();
 
         if (!useNewlineAsSeparation) {

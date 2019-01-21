@@ -18,7 +18,7 @@ public class POSTagger implements SentenceExtractorObserver {
     private List<POSTag> tags = null;
 
     // POS-tags whole text, not individual sentences -- text can be lemmatized at the same time
-    List<POSTag> POSTagText(String text, boolean useNewlineAsSeparator) {
+    public List<POSTag> POSTagText(String text, boolean useNewlineAsSeparator) {
         this.tags = new ArrayList<>();
 
         SentenceExtractor sExtractor = new SentenceExtractor();

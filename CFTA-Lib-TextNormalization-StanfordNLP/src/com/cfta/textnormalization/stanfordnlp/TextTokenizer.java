@@ -9,10 +9,10 @@ import edu.stanford.nlp.pipeline.Annotation;
 import java.util.List;
 
 // Tokenizes given text, i.e. splits it to elements
-class TextTokenizer {
+public class TextTokenizer {
 
     // Tokenizes text
-    void tokenizeText(String text, TextTokenizerObserver observer) {
+    public void tokenizeText(String text, TextTokenizerObserver observer) {
         Annotation document = new Annotation(text);
         StanfordNLPFactory.getEngineInstance().annotate(document);
 
