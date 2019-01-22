@@ -38,7 +38,7 @@ public class RSSFeedCleaner {
         }
 
         stringBuilder.append(s, oldEnd, s.length());
-        return newStr;
+        return stringBuilder.toString();
     }
 
     // Tries to make feeds a bit more readable

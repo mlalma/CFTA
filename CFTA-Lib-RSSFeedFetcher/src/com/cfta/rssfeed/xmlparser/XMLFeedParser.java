@@ -313,8 +313,8 @@ public class XMLFeedParser {
         }
 
         doc.endDocument();
-        if (mode != DONE) {
+        /*if (mode != DONE) {
             parserException("Missing end tag", line, col);
-        }
+        }*/
     }
 }
