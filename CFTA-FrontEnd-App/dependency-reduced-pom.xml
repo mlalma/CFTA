@@ -4,7 +4,7 @@
   <groupId>com.cfta</groupId>
   <artifactId>FrontEnd-App</artifactId>
   <name>CFTA-FrontEnd-App</name>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <description>REST API server for handling CFTA requests</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -49,4 +49,3 @@
     </plugins>
   </build>
 </project>
-
