@@ -7,7 +7,7 @@ manifest.mf
 build/
 dist/
 nbproject/
-test/
+
 
 # Package Files
 *.war
