@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RSSFeedFolder {
-    public final String title;
+    public String title;
 
     public final List<RSSFeedFolder> folders;
     public final List<RSSFeed> feeds;

@@ -36,7 +36,7 @@
     </outline>
   <outline text="Subsector Specific" >
        <outline title="The Artful Manager" text="The Artful Manager" htmlUrl="http://www.artsjournal.com/artfulmanager/" type="rss" xmlUrl="http://www.artsjournal.com/artfulmanager/feed.xml" />
-       <outline title="Doug Varone &amp; Dancers: &lt;i&gt;Deconstructing English&lt;/i&gt;" text="Doug Varone &amp; Dancers: &lt;i&gt;Deconstructing English&lt;/i&gt;" htmlUrl="http://claricesmithcenter.blogspot.com/" type="rss" xmlUrl="http://claricesmithcenter.blogspot.com/atom.xml" />
+       <outline title="Doug Varone &amp; Dancers: <i>Deconstructing English</i>" text="Doug Varone &amp; Dancers: &lt;i&gt;Deconstructing English&lt;/i&gt;" htmlUrl="http://claricesmithcenter.blogspot.com/" type="rss" xmlUrl="http://claricesmithcenter.blogspot.com/atom.xml" />
        <outline title="Extension 311 - Tech for Arts Orgs" text="Extension 311 - Tech for Arts Orgs" htmlUrl="http://ext311.blogspot.com/" type="rss" xmlUrl="http://ext311.blogspot.com/atom.xml" />
        <outline title="Oceana Network" text="Oceana Network" htmlUrl="http://community.oceana.org" type="rss" xmlUrl="http://community.oceana.org/index.xml" />
        <outline title="On The Commons Blogs" text="On The Commons Blogs" htmlUrl="http://onthecommons.org/rss.xml" type="rss" xmlUrl="http://onthecommons.org/rss.xml" />

@@ -9,6 +9,8 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.apache.commons.io.IOUtils;
+import org.jsoup.Jsoup;
+import org.jsoup.helper.W3CDom;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
@@ -51,37 +53,48 @@ public class OPMLParser {
         return EMPTY_STRING;
     }
 
+    // Returns child node with given name
+    private Node childNode(Node n, String nodeName) {
+        for (int i = 0; i < n.getChildNodes().getLength(); i++) {
+            Node child = n.getChildNodes().item(i);
+            if (child.getNodeName() != null && child.getNodeName().trim().equalsIgnoreCase(nodeName)) {
+                return child;
+            }
+        }
+        return null;
+    }
+
     // Parses OPML 1.0 doc
-    private void parseOPML10Doc(NodeList outlineNodes, RSSFeedFolder parentFolder) {
-        for (int i = 0; i < outlineNodes.getLength(); i++) {
-            if (outlineNodes.item(i).getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
-                String typeAttr = getAttributeValueOrNull("type", outlineNodes.item(i));
-                if (typeAttr == null || typeAttr.equalsIgnoreCase("text")) {
-                    // is folder
-                    String title = getAttributeValueOrEmpty("title", outlineNodes.item(i));
-                    if (title.length() == 0) {
-                        title = getAttributeValueOrEmpty("text", outlineNodes.item(i));
-                    }
-                    RSSFeedFolder folder = new RSSFeedFolder(title);
-                    parentFolder.folders.add(folder);
-                    parseOPML10Doc(outlineNodes.item(i).getChildNodes(), folder);
-                } else if (typeAttr.equalsIgnoreCase("rss") || typeAttr.equalsIgnoreCase("link")) {
-                    // is RSS feed
-                    String title = getAttributeValueOrEmpty("title", outlineNodes.item(i));
+    private void parseOPML10Doc(Node outlineNode, RSSFeedFolder parentFolder) {
+        if (outlineNode.getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
+            String typeAttr = getAttributeValueOrNull("type", outlineNode);
+            if (typeAttr == null || typeAttr.equalsIgnoreCase("text")) {
+                // is folder
+                String title = getAttributeValueOrEmpty("title", outlineNode);
+                if (title.length() == 0) {
+                    title = getAttributeValueOrEmpty("text", outlineNode);
+                }
+                RSSFeedFolder folder = new RSSFeedFolder(title);
+                parentFolder.folders.add(folder);
+                for (int i = 0; i < outlineNode.getChildNodes().getLength(); i++) {
+                    parseOPML10Doc(outlineNode.getChildNodes().item(i), folder);
+                }
+            } else if (typeAttr.equalsIgnoreCase("rss") || typeAttr.equalsIgnoreCase("link")) {
+                // is RSS feed
+                String title = getAttributeValueOrEmpty("title", outlineNode);
 
-                    if (title.length() == 0) {
-                        title = getAttributeValueOrEmpty("text", outlineNodes.item(i));
-                    }
-                    String xmlUrl = getAttributeValueOrEmpty("xmlUrl", outlineNodes.item(i));
-                    if (xmlUrl.length() == 0) { xmlUrl = getAttributeValueOrEmpty("xmlURL", outlineNodes.item(i)); }
-                    String htmlUrl = getAttributeValueOrEmpty("htmlUrl", outlineNodes.item(i));
+                if (title.length() == 0) {
+                    title = getAttributeValueOrEmpty("text", outlineNode);
+                }
+                String xmlUrl = getAttributeValueOrEmpty("xmlUrl", outlineNode);
+                if (xmlUrl.length() == 0) { xmlUrl = getAttributeValueOrEmpty("xmlURL", outlineNode); }
+                String htmlUrl = getAttributeValueOrEmpty("htmlUrl", outlineNode);
 
-                    if (xmlUrl.length() > 0 && xmlUrl.toLowerCase().startsWith("http")) {
-                        RSSFeed feed = new RSSFeed(title, xmlUrl, htmlUrl);
-                        parentFolder.feeds.add(feed);
-                    } else {
-                        System.err.println("ERROR! Could not add feed " + title + " to list, bad XML URL: " + xmlUrl);
-                    }
+                if (xmlUrl.length() > 0 && xmlUrl.toLowerCase().startsWith("http")) {
+                    RSSFeed feed = new RSSFeed(title, xmlUrl, htmlUrl);
+                    parentFolder.feeds.add(feed);
+                } else {
+                    System.err.println("ERROR! Could not add feed " + title + " to list, bad XML URL: " + xmlUrl);
                 }
             }
         }
@@ -92,11 +105,19 @@ public class OPMLParser {
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 
-        Document doc = dBuilder.parse(IOUtils.toInputStream(docString));
+        org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(docString);
+        W3CDom w3cDom = new W3CDom();
+        Document doc = w3cDom.fromJsoup(prettifiedDoc);
+        //Document doc = dBuilder.parse(IOUtils.toInputStream(prettifiedDoc.toString()));
         doc.getDocumentElement().normalize();
 
-        Node rootNode = doc.getDocumentElement();
-        if (!rootNode.getNodeName().equalsIgnoreCase(OPML_HEADER)) {
+        Node bodyNode = childNode(doc.getDocumentElement(), BODY_HEADER);
+        Node rootNode = null;
+        if (bodyNode != null) {
+            rootNode = childNode(bodyNode, OPML_HEADER);
+        }
+
+        if (rootNode == null || !rootNode.getNodeName().equalsIgnoreCase(OPML_HEADER)) {
             throw new RuntimeException("<opml> header not found, not a valid document!");
         }
 
@@ -114,38 +135,23 @@ public class OPMLParser {
             throw new RuntimeException("unknown OPML version, not a valid document!");
         }
 
-        RSSFeedFolder folder = null;
-        boolean bodyNodeFound = false;
-        NodeList nl = doc.getDocumentElement().getChildNodes();
-        String title = "<unknown OPML feed>";
+        RSSFeedFolder rootFolder = new RSSFeedFolder("<unknown OPML feed>");
+        NodeList nl = rootNode.getChildNodes();
 
         for (int i = 0; i < nl.getLength(); i++) {
-            if (nl.item(i).getNodeName().equalsIgnoreCase(HEAD_HEADER)) {
-                for (int j = 0; j < nl.item(i).getChildNodes().getLength(); j++) {
-                    if (nl.item(i).getChildNodes().item(j).getNodeName().equalsIgnoreCase(OPML_TITLE)) {
-                        title = nl.item(i).getChildNodes().item(j).getTextContent().trim();
-                        break;
-                    }
-                }
-            } else if (nl.item(i).getNodeName().equalsIgnoreCase(BODY_HEADER)) {
+            if (nl.item(i).getNodeName().equalsIgnoreCase(OPML_TITLE)) {
+                rootFolder.title = nl.item(i).getTextContent().trim();
+            } else if (nl.item(i).getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
                 if (opmlVer == OPMLVersion.eVersion1) {
-                    folder = new RSSFeedFolder(title);
-                    parseOPML10Doc(nl.item(i).getChildNodes(), folder);
+                    parseOPML10Doc(nl.item(i), rootFolder);
                 } else if (opmlVer == OPMLVersion.eVersion11) {
-                    folder = new RSSFeedFolder(title);
-                    parseOPML10Doc(nl.item(i).getChildNodes(), folder);
+                    parseOPML10Doc(nl.item(i), rootFolder);
                 } else if (opmlVer == OPMLVersion.eVersion2) {
                     throw new RuntimeException("OPML v2.0 parser not yet implemented!");
                 }
-                bodyNodeFound = true;
-                break;
             }
         }
 
-        if (!bodyNodeFound) {
-            throw new RuntimeException("<body> header not found, not a valid OPML document!");
-        }
-
-        return folder;
+        return rootFolder;
     }
 }
