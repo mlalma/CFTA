@@ -64,31 +64,29 @@ public class OPMLParser {
         return null;
     }
 
-    // Parses OPML 1.0 doc
+    // Parses OPML 1.0 and 1.1 doc
     private void parseOPML10Doc(Node outlineNode, RSSFeedFolder parentFolder) {
         if (outlineNode.getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
-            String typeAttr = getAttributeValueOrNull("type", outlineNode);
-            if (typeAttr == null || typeAttr.equalsIgnoreCase("text")) {
+            String typeAttr = getAttributeValueOrEmpty("type", outlineNode);
+
+            String xmlUrl = getAttributeValueOrEmpty("xmlUrl", outlineNode);
+            if (xmlUrl.length() == 0) { xmlUrl = getAttributeValueOrEmpty("xmlURL", outlineNode); }
+
+            String title = getAttributeValueOrEmpty("title", outlineNode);
+            if (title.length() == 0) {  title = getAttributeValueOrEmpty("text", outlineNode); }
+
+            String htmlUrl = getAttributeValueOrEmpty("htmlUrl", outlineNode);
+            if (htmlUrl.length() == 0) {  htmlUrl = getAttributeValueOrEmpty("htmlURL", outlineNode); }
+
+            if (typeAttr.equalsIgnoreCase("text") || xmlUrl.length() == 0) {
                 // is folder
-                String title = getAttributeValueOrEmpty("title", outlineNode);
-                if (title.length() == 0) {
-                    title = getAttributeValueOrEmpty("text", outlineNode);
-                }
                 RSSFeedFolder folder = new RSSFeedFolder(title);
                 parentFolder.folders.add(folder);
                 for (int i = 0; i < outlineNode.getChildNodes().getLength(); i++) {
                     parseOPML10Doc(outlineNode.getChildNodes().item(i), folder);
                 }
-            } else if (typeAttr.equalsIgnoreCase("rss") || typeAttr.equalsIgnoreCase("link")) {
+            } else if (typeAttr.equalsIgnoreCase("rss") || typeAttr.equalsIgnoreCase("link") || xmlUrl.length() > 0) {
                 // is RSS feed
-                String title = getAttributeValueOrEmpty("title", outlineNode);
-
-                if (title.length() == 0) {
-                    title = getAttributeValueOrEmpty("text", outlineNode);
-                }
-                String xmlUrl = getAttributeValueOrEmpty("xmlUrl", outlineNode);
-                if (xmlUrl.length() == 0) { xmlUrl = getAttributeValueOrEmpty("xmlURL", outlineNode); }
-                String htmlUrl = getAttributeValueOrEmpty("htmlUrl", outlineNode);
 
                 if (xmlUrl.length() > 0 && xmlUrl.toLowerCase().startsWith("http")) {
                     RSSFeed feed = new RSSFeed(title, xmlUrl, htmlUrl);
@@ -147,7 +145,7 @@ public class OPMLParser {
                 } else if (opmlVer == OPMLVersion.eVersion11) {
                     parseOPML10Doc(nl.item(i), rootFolder);
                 } else if (opmlVer == OPMLVersion.eVersion2) {
-                    throw new RuntimeException("OPML v2.0 parser not yet implemented!");
+                    parseOPML10Doc(nl.item(i), rootFolder);
                 }
             }
         }

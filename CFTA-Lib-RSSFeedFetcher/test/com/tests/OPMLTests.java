@@ -30,7 +30,7 @@ public class OPMLTests {
     }
 
     @Test
-    public void opmlParserTestCnet() throws Exception {
+    public void testOpmlParserTestCnet() throws Exception {
         String s = readTestResource("opml_cnet100.opml");
 
         OPMLParser opmlParser = new OPMLParser();
@@ -92,7 +92,7 @@ public class OPMLTests {
     }
 
     @Test
-    public void opmlParserTestDigg() throws Exception {
+    public void testOpmlParserTestDigg() throws Exception {
         String s = readTestResource("opml_digg.opml");
 
         OPMLParser opmlParser = new OPMLParser();
@@ -145,7 +145,7 @@ public class OPMLTests {
     }
 
     @Test
-    public void opmlParserTestGoogleReader() throws Exception {
+    public void testOpmlParserTestGoogleReader() throws Exception {
         String s = readTestResource("opml_google-reader.opml");
 
         OPMLParser opmlParser = new OPMLParser();
@@ -163,7 +163,7 @@ public class OPMLTests {
     }
 
     @Test
-    public void opmlParserNPTech() throws Exception {
+    public void testOpmlParserNPTech() throws Exception {
         String s = readTestResource("opml_nptech.opml");
 
         OPMLParser opmlParser = new OPMLParser();
@@ -202,5 +202,71 @@ public class OPMLTests {
         Assert.assertTrue(feedFolder.folders.get(6).feeds.size() == 7);
         Assert.assertTrue(feedFolder.folders.get(6).feeds.get(1).title.equalsIgnoreCase("Doug Varone & Dancers: <i>Deconstructing English</i>"));
         Assert.assertTrue(feedFolder.folders.get(6).feeds.get(0).xmlUrl.equalsIgnoreCase("http://www.artsjournal.com/artfulmanager/feed.xml"));
+    }
+
+    @Test
+    public void testOpmlParserPodcast() throws Exception {
+        String s = readTestResource("opml_podcast.opml");
+
+        OPMLParser opmlParser = new OPMLParser();
+        RSSFeedFolder feedFolder = opmlParser.parseOPMLDoc(s);
+
+        Assert.assertTrue(feedFolder.folders.size() == 0);
+        Assert.assertTrue(feedFolder.title.equalsIgnoreCase("Top Podcasts"));
+        Assert.assertTrue(feedFolder.feeds.size() == 22);
+
+        Assert.assertTrue(feedFolder.feeds.get(0).xmlUrl.equalsIgnoreCase("http://feeds.feedburner.com/web20Show"));
+        Assert.assertTrue(feedFolder.feeds.get(17).xmlUrl.equalsIgnoreCase("http://www.theonion.com/content/feeds/radionews"));
+        Assert.assertTrue(feedFolder.feeds.get(14).xmlUrl.equalsIgnoreCase("http://dawnanddrew.podshow.com/wp-rss2.php"));
+        Assert.assertTrue(feedFolder.feeds.get(10).xmlUrl.equalsIgnoreCase("http://podcasts.engadget.com/rss.xml"));
+
+        Assert.assertTrue(feedFolder.feeds.get(5).title.equalsIgnoreCase("Diggnation w/Kevin Rose & Alex Albrecht"));
+        Assert.assertTrue(feedFolder.feeds.get(20).title.equalsIgnoreCase("On The Media from NPR/WNYC"));
+    }
+
+    @Test
+    public void testOpmlParserScoble() throws Exception {
+        String s = readTestResource("opml_scoble.opml");
+
+        OPMLParser opmlParser = new OPMLParser();
+        RSSFeedFolder feedFolder = opmlParser.parseOPMLDoc(s);
+
+        Assert.assertTrue(feedFolder.folders.size() == 3);
+        Assert.assertTrue(feedFolder.title.equalsIgnoreCase("Bloglines Subscriptions"));
+        Assert.assertTrue(feedFolder.feeds.size() == 498);
+
+        Assert.assertTrue(feedFolder.folders.get(0).feeds.size() == 0);
+        Assert.assertTrue(feedFolder.folders.get(1).feeds.size() == 54);
+        Assert.assertTrue(feedFolder.folders.get(2).feeds.size() == 0);
+    }
+
+    @Test
+    public void testOpmlTop100() throws Exception {
+        String s = readTestResource("opml_top100.opml");
+
+        OPMLParser opmlParser = new OPMLParser();
+        RSSFeedFolder feedFolder = opmlParser.parseOPMLDoc(s);
+
+        Assert.assertTrue(feedFolder.folders.size() == 0);
+        Assert.assertTrue(feedFolder.title.equalsIgnoreCase("Top 100 Feeds"));
+        Assert.assertTrue(feedFolder.feeds.size() == 100);
+    }
+
+    @Test
+    public void testOpmlVolume() throws Exception {
+        String s = readTestResource("opml_volume.opml");
+
+        OPMLParser opmlParser = new OPMLParser();
+        RSSFeedFolder feedFolder = opmlParser.parseOPMLDoc(s);
+
+        Assert.assertTrue(feedFolder.folders.size() == 0);
+        Assert.assertTrue(feedFolder.title.equalsIgnoreCase("<unknown OPML feed>"));
+        Assert.assertTrue(feedFolder.feeds.size() == 119);
+
+        Assert.assertTrue(feedFolder.feeds.get(118).title.equalsIgnoreCase(""));
+        Assert.assertTrue(feedFolder.feeds.get(118).xmlUrl.equalsIgnoreCase("http://feeds.mixx.com/MixxFun"));
+
+        Assert.assertTrue(feedFolder.feeds.get(109).title.equalsIgnoreCase(""));
+        Assert.assertTrue(feedFolder.feeds.get(109).xmlUrl.equalsIgnoreCase("http://feeds.mixx.com/MixxPopular"));
     }
 }

@@ -5,7 +5,8 @@
     <artifactId>RSSFeedFetcher</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <name>CFTA-Lib-RSSFeedFetcher</name>
-    <description>RSS feed fetching and parsing</description>
+    <description>RSS and OPML feed parsing</description>
+
     <build>
         <sourceDirectory>src</sourceDirectory>
         <resources>
@@ -26,6 +27,7 @@
                 <directory>${project.basedir}/test/resources</directory>
             </testResource>
         </testResources>
+
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
