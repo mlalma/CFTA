@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.io.*;
 
+// Unit tests for OPML functionality
 public class OPMLTests {
 
     private String readTestResource(String name) {
@@ -268,5 +269,46 @@ public class OPMLTests {
 
         Assert.assertTrue(feedFolder.feeds.get(109).title.equalsIgnoreCase(""));
         Assert.assertTrue(feedFolder.feeds.get(109).xmlUrl.equalsIgnoreCase("http://feeds.mixx.com/MixxPopular"));
+    }
+
+    @Test
+    public void testOpmlVolume20() throws Exception {
+        String s = readTestResource("opml_volume_20.opml");
+
+        OPMLParser opmlParser = new OPMLParser();
+        RSSFeedFolder feedFolder = opmlParser.parseOPMLDoc(s);
+
+        Assert.assertTrue(feedFolder.folders.size() == 0);
+        Assert.assertTrue(feedFolder.title.equalsIgnoreCase("<unknown OPML feed>"));
+        Assert.assertTrue(feedFolder.feeds.size() == 20);
+
+        Assert.assertTrue(feedFolder.feeds.get(16).title.equalsIgnoreCase(""));
+        Assert.assertTrue(feedFolder.feeds.get(16).xmlUrl.equalsIgnoreCase("http://feeds.mixx.com/MixxPopular"));
+
+        Assert.assertTrue(feedFolder.feeds.get(19).title.equalsIgnoreCase(""));
+        Assert.assertTrue(feedFolder.feeds.get(19).xmlUrl.equalsIgnoreCase("http://feeds.mixx.com/MixxEntertainment"));
+    }
+
+    @Test
+    public void testOpmlWomen() throws Exception {
+        String s = readTestResource("opml_women.opml");
+
+        OPMLParser opmlParser = new OPMLParser();
+        RSSFeedFolder feedFolder = opmlParser.parseOPMLDoc(s);
+
+        Assert.assertTrue(feedFolder.folders.size() == 1);
+        Assert.assertTrue(feedFolder.title.equalsIgnoreCase("FeedDemon Subscriptions"));
+        Assert.assertTrue(feedFolder.feeds.size() == 0);
+
+        Assert.assertTrue(feedFolder.folders.get(0).title.equalsIgnoreCase("[My Feeds]"));
+        Assert.assertTrue(feedFolder.folders.get(0).folders.size() == 1);
+        Assert.assertTrue(feedFolder.folders.get(0).folders.get(0).title.equalsIgnoreCase("misbehaving"));
+        Assert.assertTrue(feedFolder.folders.get(0).folders.get(0).feeds.size() == 107);
+
+        Assert.assertTrue(feedFolder.folders.get(0).folders.get(0).feeds.get(7).xmlUrl.equalsIgnoreCase("http://feeds.smallbiztrends.com/parsers/feedParser?feedId=220"));
+        Assert.assertTrue(feedFolder.folders.get(0).folders.get(0).feeds.get(9).xmlUrl.equalsIgnoreCase("http://purselipsquarejaw.org/blogger_rss.xml"));
+        Assert.assertTrue(feedFolder.folders.get(0).folders.get(0).feeds.get(106).htmlUrl.equalsIgnoreCase("http://windsormedia.blogs.com/"));
+
+
     }
 }

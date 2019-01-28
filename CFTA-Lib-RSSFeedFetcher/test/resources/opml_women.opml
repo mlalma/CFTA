@@ -18,7 +18,7 @@
                 
                 <outline text="Anita Campbell" title="Anita Campbell" type="rss" xmlUrl="http://feeds.smallbiztrends.com/parsers/feedParser?feedId=220" htmlUrl="http://www.smallbusinesses.blogspot.com"/>
                 <outline text="Anna Vallgarda" title="Anna Vallgarda" type="rss" xmlUrl="http://akav.dk/blog/feed/" htmlUrl="http://akav.dk/blog"/>
-                <outline text="Anne Galloway" title="Anne Galloway" type="rss" xmlUrl="http://purselipsquarejaw.org/blogger_rss.xml" htmlUrl="http://www.purselipsquarejaw.org/"/>
+                    <outline text="Anne Galloway" title="Anne Galloway" type="rss" xmlUrl="http://purselipsquarejaw.org/blogger_rss.xml" htmlUrl="http://www.purselipsquarejaw.org/"/>
                 <outline text="Ariel Meadow Stallings" title="Ariel Meadow Stallings" type="rss" xmlUrl="http://electrolicious.com/index.rdf" htmlUrl="http://www.electrolicious.com/"/>
 
                 <outline text="Beth Mazur" title="Beth Mazur" type="rss" xmlUrl="http://www.idblog.org/feed/atom/" htmlUrl="http://idblog.org/"/>
