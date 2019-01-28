@@ -5,6 +5,7 @@ package com.cfta.rssfeed.data;
 import java.util.ArrayList;
 import java.util.List;
 
+// Feed folder contains feeds and recursively other folders
 public class RSSFeedFolder {
     public String title;
 

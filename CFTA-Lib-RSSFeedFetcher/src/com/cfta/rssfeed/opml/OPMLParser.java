@@ -3,29 +3,25 @@ package com.cfta.rssfeed.opml;
 import com.cfta.rssfeed.data.RSSFeed;
 import com.cfta.rssfeed.data.RSSFeedFolder;
 
-import java.io.IOException;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.apache.commons.io.IOUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.helper.W3CDom;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
-import org.xml.sax.SAXException;
 
 // Parses OPML (Outline Processor Markup Language) Files
 public class OPMLParser {
+
     private static final String OPML_HEADER = "opml";
     private static final String OPML_VERSION_ATTR = "version";
     private static final String BODY_HEADER = "body";
-    private static final String HEAD_HEADER = "head";
     private static final String OPML_TITLE = "title";
     private static final String OUTLINE_ELEM = "outline";
-
-    private static final String ROOT_FOLDER = "root";
+    private static final String TYPE_ELEM = "type";
+    private static final String XMLURL_ELEM = "xmlUrl";
+    private static final String TITLE_ELEM = "title";
+    private static final String TEXT_ELEM = "text";
+    private static final String HTMLURL_ELEM = "htmlUrl";
 
     private static final String EMPTY_STRING = "";
 
@@ -37,18 +33,14 @@ public class OPMLParser {
         eVersion2
     }
 
-    // Returns attribute value or null if none
-    private String getAttributeValueOrNull(String attrName, Node node) {
-        if (node.getAttributes() != null && node.getAttributes().getNamedItem(attrName) != null) {
-            return node.getAttributes().getNamedItem(attrName).getNodeValue();
-        }
-        return null;
-    }
-
     // Returns attribute value or empty string if none
     private String getAttributeValueOrEmpty(String attrName, Node node) {
-        if (node.getAttributes() != null && node.getAttributes().getNamedItem(attrName) != null) {
-            return node.getAttributes().getNamedItem(attrName).getNodeValue();
+        if (node.getAttributes() != null) {
+            for (int i = 0; i < node.getAttributes().getLength(); i++) {
+                if (node.getAttributes().item(i).getNodeName().trim().equalsIgnoreCase(attrName.trim())) {
+                    return node.getAttributes().item(i).getNodeValue();
+                }
+            }
         }
         return EMPTY_STRING;
     }
@@ -64,31 +56,30 @@ public class OPMLParser {
         return null;
     }
 
-    // Parses OPML 1.0 and 1.1 doc
-    private void parseOPML10Doc(Node outlineNode, RSSFeedFolder parentFolder) {
+    // Parses OPML 1.0, 1.1 and 2.0 documents
+    private void parseOPMLDoc(Node outlineNode, RSSFeedFolder parentFolder) {
         if (outlineNode.getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
-            String typeAttr = getAttributeValueOrEmpty("type", outlineNode);
+            String typeAttr = getAttributeValueOrEmpty(TYPE_ELEM, outlineNode);
 
-            String xmlUrl = getAttributeValueOrEmpty("xmlUrl", outlineNode);
-            if (xmlUrl.length() == 0) { xmlUrl = getAttributeValueOrEmpty("xmlURL", outlineNode); }
+            String xmlUrl = getAttributeValueOrEmpty(XMLURL_ELEM, outlineNode);
 
-            String title = getAttributeValueOrEmpty("title", outlineNode);
-            if (title.length() == 0) {  title = getAttributeValueOrEmpty("text", outlineNode); }
+            String title = getAttributeValueOrEmpty(TITLE_ELEM, outlineNode);
+            if (title.length() == 0) {
+                title = getAttributeValueOrEmpty(TEXT_ELEM, outlineNode);
+            }
 
-            String htmlUrl = getAttributeValueOrEmpty("htmlUrl", outlineNode);
-            if (htmlUrl.length() == 0) {  htmlUrl = getAttributeValueOrEmpty("htmlURL", outlineNode); }
+            String htmlUrl = getAttributeValueOrEmpty(HTMLURL_ELEM, outlineNode);
 
-            if (typeAttr.equalsIgnoreCase("text") || xmlUrl.length() == 0) {
+            if (typeAttr.equalsIgnoreCase(TEXT_ELEM) || xmlUrl.length() == 0) {
                 // is folder
                 RSSFeedFolder folder = new RSSFeedFolder(title);
                 parentFolder.folders.add(folder);
                 for (int i = 0; i < outlineNode.getChildNodes().getLength(); i++) {
-                    parseOPML10Doc(outlineNode.getChildNodes().item(i), folder);
+                    parseOPMLDoc(outlineNode.getChildNodes().item(i), folder);
                 }
-            } else if (typeAttr.equalsIgnoreCase("rss") || typeAttr.equalsIgnoreCase("link") || xmlUrl.length() > 0) {
+            } else {
                 // is RSS feed
-
-                if (xmlUrl.length() > 0 && xmlUrl.toLowerCase().startsWith("http")) {
+                if (xmlUrl.toLowerCase().startsWith("http")) {
                     RSSFeed feed = new RSSFeed(title, xmlUrl, htmlUrl);
                     parentFolder.feeds.add(feed);
                 } else {
@@ -99,14 +90,11 @@ public class OPMLParser {
     }
 
     // Parses OPML document
-    public RSSFeedFolder parseOPMLDoc(String docString) throws SAXException, IOException, ParserConfigurationException {
-        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-
+    public RSSFeedFolder parseOPMLDoc(String docString) {
+        // Using JSoup reorganizes the document structure a bit, but it can handle mal-formatted documents better
         org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(docString);
         W3CDom w3cDom = new W3CDom();
         Document doc = w3cDom.fromJsoup(prettifiedDoc);
-        //Document doc = dBuilder.parse(IOUtils.toInputStream(prettifiedDoc.toString()));
         doc.getDocumentElement().normalize();
 
         Node bodyNode = childNode(doc.getDocumentElement(), BODY_HEADER);
@@ -141,11 +129,11 @@ public class OPMLParser {
                 rootFolder.title = nl.item(i).getTextContent().trim();
             } else if (nl.item(i).getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
                 if (opmlVer == OPMLVersion.eVersion1) {
-                    parseOPML10Doc(nl.item(i), rootFolder);
+                    parseOPMLDoc(nl.item(i), rootFolder);
                 } else if (opmlVer == OPMLVersion.eVersion11) {
-                    parseOPML10Doc(nl.item(i), rootFolder);
+                    parseOPMLDoc(nl.item(i), rootFolder);
                 } else if (opmlVer == OPMLVersion.eVersion2) {
-                    parseOPML10Doc(nl.item(i), rootFolder);
+                    parseOPMLDoc(nl.item(i), rootFolder);
                 }
             }
         }

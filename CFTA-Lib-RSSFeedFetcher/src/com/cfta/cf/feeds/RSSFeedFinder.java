@@ -17,8 +17,14 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-// Simple RSS feed finder, looks only for "application/rss+xml" link attributes
+// Simple RSS feed finder, looks only for "application/rss+xml" link attributes from HTML page source
 public class RSSFeedFinder {
+
+    // Feed source data structure
+    public class RSSFeedSource {
+        public String sourceUrl;
+        public String name;
+    }
 
     private HttpFetcherBase fetcher = new ApacheHttpClientFetcher();
 
@@ -55,7 +61,8 @@ public class RSSFeedFinder {
         NodeList nodes = doc.getElementsByTagName(LINK_TAG);
         for (int i = 0; i < nodes.getLength(); i++) {
             Node n = nodes.item(i);
-            if (n.hasAttributes() && n.getAttributes().getNamedItem(TYPE_ATTR) != null && n.getAttributes().getNamedItem(TYPE_ATTR).getNodeValue().trim().equalsIgnoreCase(RSS_TYPE)) {
+            if (n.hasAttributes() && n.getAttributes().getNamedItem(TYPE_ATTR) != null &&
+                    n.getAttributes().getNamedItem(TYPE_ATTR).getNodeValue().trim().equalsIgnoreCase(RSS_TYPE)) {
                 String linkUrl = null;
                 String name = "";
                 if (n.getAttributes().getNamedItem(HREF_ATTR) != null) {
