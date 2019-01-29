@@ -4,31 +4,10 @@ import com.cfta.rssfeed.data.RSSFeedFolder;
 import com.cfta.rssfeed.opml.OPMLParser;
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.io.*;
+import static com.tests.TestUtil.readTestResource;
 
 // Unit tests for OPML functionality
 public class OPMLTests {
-
-    private String readTestResource(String name) {
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource(name).getFile());
-
-        StringBuilder sb = new StringBuilder();
-        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-            String s;
-            while ((s = br.readLine()) != null) {
-                sb.append(s).append("\r\n");
-            }
-        } catch (FileNotFoundException fne) {
-            fne.printStackTrace();
-            Assert.assertTrue(false);
-        } catch (IOException ioe) {
-            ioe.printStackTrace();
-            Assert.assertTrue(false);
-        }
-        return sb.toString();
-    }
 
     @Test
     public void testOpmlParserTestCnet() throws Exception {
