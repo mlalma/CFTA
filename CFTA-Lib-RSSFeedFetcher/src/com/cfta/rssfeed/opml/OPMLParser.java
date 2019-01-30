@@ -9,6 +9,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 
+import static com.cfta.rssfeed.util.NodeTools.childNode;
+import static com.cfta.rssfeed.util.NodeTools.getAttributeValueOrEmpty;
+
 // Parses OPML (Outline Processor Markup Language) Files
 public class OPMLParser {
 
@@ -23,8 +26,6 @@ public class OPMLParser {
     private static final String TEXT_ELEM = "text";
     private static final String HTMLURL_ELEM = "htmlUrl";
 
-    private static final String EMPTY_STRING = "";
-
     // Identified OPML version
     private enum OPMLVersion {
         eUnknown,
@@ -33,31 +34,8 @@ public class OPMLParser {
         eVersion2
     }
 
-    // Returns attribute value or empty string if none
-    private String getAttributeValueOrEmpty(String attrName, Node node) {
-        if (node.getAttributes() != null) {
-            for (int i = 0; i < node.getAttributes().getLength(); i++) {
-                if (node.getAttributes().item(i).getNodeName().trim().equalsIgnoreCase(attrName.trim())) {
-                    return node.getAttributes().item(i).getNodeValue();
-                }
-            }
-        }
-        return EMPTY_STRING;
-    }
-
-    // Returns child node with given name
-    private Node childNode(Node n, String nodeName) {
-        for (int i = 0; i < n.getChildNodes().getLength(); i++) {
-            Node child = n.getChildNodes().item(i);
-            if (child.getNodeName() != null && child.getNodeName().trim().equalsIgnoreCase(nodeName)) {
-                return child;
-            }
-        }
-        return null;
-    }
-
     // Parses OPML 1.0, 1.1 and 2.0 documents
-    private void parseOPMLDoc(Node outlineNode, RSSFeedFolder parentFolder) {
+    private void parseOPMLDoc(final Node outlineNode, final RSSFeedFolder parentFolder) {
         if (outlineNode.getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
             String typeAttr = getAttributeValueOrEmpty(TYPE_ELEM, outlineNode);
 
@@ -90,8 +68,8 @@ public class OPMLParser {
     }
 
     // Parses OPML document
-    public RSSFeedFolder parseOPMLDoc(String docString) {
-        // Using JSoup reorganizes the document structure a bit, but it can handle mal-formatted documents better
+    public RSSFeedFolder parseOPMLDoc(final String docString) {
+        // Using JSoup reorganizes the document structure a bit, but it can handle malformatted documents better
         org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(docString);
         W3CDom w3cDom = new W3CDom();
         Document doc = w3cDom.fromJsoup(prettifiedDoc);

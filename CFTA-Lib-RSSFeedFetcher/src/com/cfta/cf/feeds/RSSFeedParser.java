@@ -118,7 +118,7 @@ public class RSSFeedParser {
     // Parses the feed
     public RSSFeedResponse parse(String feed) throws XMLParserException, IOException {
         if (feed.length() > 0) {
-            XMLNode rootFeedNode = feedRecognizer.findFeedRootNode(feed);
+            /*XMLNode rootFeedNode = feedRecognizer.findFeedRootNode(feed);
             RSSFeedType feedType = feedRecognizer.recognizeFeedType(rootFeedNode);
 
             if (feedType == RSSFeedRecognizer.RSSFeedType.eRSSFeed) {
@@ -129,7 +129,7 @@ public class RSSFeedParser {
                 return feedBurnerTypeFeedParser.parseFeed(rootFeedNode);
             } else {
                 // Unknown feed type
-            }
+            }*/
         }
 
         return null;

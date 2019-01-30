@@ -4,6 +4,7 @@ import com.cfta.rssfeed.data.RSSFeedFolder;
 import com.cfta.rssfeed.opml.OPMLParser;
 import org.junit.Assert;
 import org.junit.Test;
+
 import static com.tests.TestUtil.readTestResource;
 
 // Unit tests for OPML functionality

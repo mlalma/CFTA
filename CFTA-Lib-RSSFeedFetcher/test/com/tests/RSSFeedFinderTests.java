@@ -7,6 +7,7 @@ import org.junit.Test;
 import java.util.List;
 
 import static com.tests.TestUtil.readTestResource;
+
 import com.cfta.cf.feeds.RSSFeedFinder.RSSFeedSource;
 
 public class RSSFeedFinderTests {

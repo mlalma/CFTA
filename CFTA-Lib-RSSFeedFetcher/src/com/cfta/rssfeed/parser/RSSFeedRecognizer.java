@@ -2,12 +2,11 @@
 // Lassi Maksimainen, 2019
 package com.cfta.rssfeed.parser;
 
-import com.cfta.rssfeed.xmlparser.XMLNode;
-import com.cfta.rssfeed.xmlparser.XMLParserException;
-import com.cfta.rssfeed.xmlparser.XMLParserUtil;
-import com.cfta.rssfeed.xmlparser.XMLTreeParser;
-
-import java.io.IOException;
+import org.jsoup.Jsoup;
+import org.jsoup.helper.W3CDom;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import static com.cfta.rssfeed.util.NodeTools.childNode;
 
 public class RSSFeedRecognizer {
 
@@ -17,9 +16,6 @@ public class RSSFeedRecognizer {
     private static final String FEEDBURNER_RSS_FEED_TYPE = "rdf:RDF";
     private static final String ITEM_NODE = "item";
 
-    private final XMLTreeParser treeParser = new XMLTreeParser();
-    //private final RSSFeedCleaner feedCleaner = new RSSFeedCleaner();
-
     public enum RSSFeedType {
         eRSSFeed,
         eAtom,
@@ -27,27 +23,29 @@ public class RSSFeedRecognizer {
         eUnknown
     }
 
+    // Constructor
     public RSSFeedRecognizer() {
     }
 
-    private XMLNode doRecognize(XMLNode root) {
-        for (int i = 0; i < root.childNodes.size(); i++) {
-            XMLNode n = root.childNodes.get(i);
-            if (n.name.toLowerCase().equalsIgnoreCase(RSS_FEED_ROOT_TYPE)) {
-                XMLNode channel = XMLParserUtil.findNode(CHANNEL_NODE, n.childNodes);
+    // Tries to find the node that defines the RSS Feed type
+    private Node doRecognize(final Node root) {
+        for (int i = 0; i < root.getChildNodes().getLength(); i++) {
+            Node n = root.getChildNodes().item(i);
+            if (n.getNodeName().trim().equalsIgnoreCase(RSS_FEED_ROOT_TYPE)) {
+                Node channel = childNode(n, CHANNEL_NODE);
                 if (channel != null) {
                     return n;
                 }
-            } else if (n.name.equalsIgnoreCase(ATOM_FEED_ROOT_TYPE)) {
+            } else if (n.getNodeName().trim().equalsIgnoreCase(ATOM_FEED_ROOT_TYPE)) {
                 return n;
-            } else if (n.name.equalsIgnoreCase(FEEDBURNER_RSS_FEED_TYPE)) {
-                XMLNode channel = XMLParserUtil.findNode(CHANNEL_NODE, n.childNodes);
-                XMLNode item = XMLParserUtil.findNode(ITEM_NODE, n.childNodes);
+            } else if (n.getNodeName().trim().equalsIgnoreCase(FEEDBURNER_RSS_FEED_TYPE)) {
+                Node channel = childNode(n, CHANNEL_NODE);
+                Node item = childNode(n, ITEM_NODE);
                 if (channel != null && item != null) {
                     return n;
                 }
             } else {
-                XMLNode childFeed = doRecognize(root.childNodes.get(i));
+                Node childFeed = doRecognize(root.getChildNodes().item(i));
                 if (childFeed != null) {
                     return childFeed;
                 }
@@ -58,20 +56,26 @@ public class RSSFeedRecognizer {
     }
 
     // Finds feed root node
-    public XMLNode findFeedRootNode(String page) throws XMLParserException, IOException {
-        XMLNode root = treeParser.createXMLTreeFromString(page);
-        return doRecognize(root);
+    public Node findFeedRootNode(final String page) {
+        org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(page);
+        W3CDom w3cDom = new W3CDom();
+        Document doc = w3cDom.fromJsoup(prettifiedDoc);
+        doc.getDocumentElement().normalize();
+
+        Node bodyNode = childNode(doc.getDocumentElement(), "body");
+
+        return doRecognize(bodyNode);
     }
 
     // Recognizes feed type from node
-    public RSSFeedType recognizeFeedType(XMLNode n) {
+    public RSSFeedType recognizeFeedType(final Node n) {
         if (n == null) {
             return RSSFeedType.eUnknown;
-        } else if (n.name.equalsIgnoreCase(RSS_FEED_ROOT_TYPE)) {
+        } else if (n.getNodeName().trim().equalsIgnoreCase(RSS_FEED_ROOT_TYPE)) {
             return RSSFeedType.eRSSFeed;
-        } else if (n.name.equalsIgnoreCase(ATOM_FEED_ROOT_TYPE)) {
+        } else if (n.getNodeName().trim().equalsIgnoreCase(ATOM_FEED_ROOT_TYPE)) {
             return RSSFeedType.eAtom;
-        } else if (n.name.equalsIgnoreCase(FEEDBURNER_RSS_FEED_TYPE)) {
+        } else if (n.getNodeName().trim().equalsIgnoreCase(FEEDBURNER_RSS_FEED_TYPE)) {
             return RSSFeedType.eFeedBurnerRSSFeed;
         } else {
             return RSSFeedType.eUnknown;
