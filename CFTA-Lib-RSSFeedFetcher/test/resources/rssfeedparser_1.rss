@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+
+<channel>
+	<title>CoinDesk</title>
+	
+	<link>https://www.coindesk.com</link>
+	<description>Leader in blockchain news.</description>
+	<lastBuildDate>Thu, 31 Jan 2019 20:02:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.9</generator>
+
+<image>
+	<url>https://www.coindesk.com/wp-content/uploads/2017/05/cropped-coindesk-new-favicon.png</url>
+	<title>CoinDesk</title>
+	<link>https://www.coindesk.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Coindesk" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="coindesk" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Cboe Resubmits the VanEck/SolidX Bitcoin ETF Proposal for SEC Approval</title>
+		<link>https://www.coindesk.com/cboe-re-files-vaneck-solidx-bitcoin-etf-proposal</link>
+		<pubDate>Thu, 31 Jan 2019 19:18:05 +0000</pubDate>
+		<dc:creator><![CDATA[Nikhilesh De]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[SolidX]]></category>
+		<category><![CDATA[VanEck]]></category>
+		<category><![CDATA[CBOE]]></category>
+		<category><![CDATA[Bitcoin ETFs]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=378230</guid>
+		<description><![CDATA[Cboe has re-filed the VanEck/SolidX bitcoin ETF proposal, which it previously withdrew due to the U.S. government shutdown.]]></description>
+		</item>
+		<item>
+		<title>Prime Trust Undercuts Rivals in Crypto Custody Race</title>
+		<link>https://www.coindesk.com/prime-trust-now-charges-no-fee-for-crypto-custody</link>
+		<pubDate>Thu, 31 Jan 2019 19:00:17 +0000</pubDate>
+		<dc:creator><![CDATA[Nikhilesh De]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Business News]]></category>
+		<category><![CDATA[fees]]></category>
+		<category><![CDATA[custody]]></category>
+		<category><![CDATA[Prime Trust]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=378198</guid>
+		<description><![CDATA[Prime Trust has eliminated its fees for storing digital assets such as bitcoin, ether and Stellar lumens, in a move the custodian called an industry first.]]></description>
+		</item>
+		<item>
+		<title>NYDFS Grants BitLicense to Third Bitcoin ATM Operator</title>
+		<link>https://www.coindesk.com/nydfs-grants-bitlicense-to-third-bitcoin-atm-operator</link>
+		<pubDate>Thu, 31 Jan 2019 16:15:34 +0000</pubDate>
+		<dc:creator><![CDATA[Nikhilesh De]]></dc:creator>
+				<category><![CDATA[Regulation]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[US & Canada]]></category>
+		<category><![CDATA[BitLicense]]></category>
+		<category><![CDATA[NYDFS]]></category>
+		<category><![CDATA[Bitcoin ATM]]></category>
+		<category><![CDATA[Cottonwood Vending]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=378180</guid>
+		<description><![CDATA[NYDFS has granted a third bitcoin ATM operator a BitLicense Thursday, with Cottonwood Vending LLC becoming the latest recipient. ]]></description>
+		</item>
+		<item>
+		<title>Germany’s No.2 Stock Exchange Launches Mobile App for Crypto Trading</title>
+		<link>https://www.coindesk.com/germanys-no-2-stock-exchange-launches-mobile-app-for-crypto-trading</link>
+		<pubDate>Thu, 31 Jan 2019 16:00:20 +0000</pubDate>
+		<dc:creator><![CDATA[Yogita Khatri]]></dc:creator>
+				<category><![CDATA[Markets]]></category>
+		<category><![CDATA[Exchanges]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Business News]]></category>
+		<category><![CDATA[Germany]]></category>
+		<category><![CDATA[Trading]]></category>
+		<category><![CDATA[Mobile Apps]]></category>
+		<category><![CDATA[Boerse Stuttgart]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=378145</guid>
+		<description><![CDATA[Stock exchange operator Boerse Stuttgart Group has launched a mobile app for German cryptocurrency traders.]]></description>
+		</item>
+		<item>
+		<title>A New Test Network Just Activated and Ethereum 2.0 Will Be Using It</title>
+		<link>https://www.coindesk.com/testnet-gorli-ethereum-serenity</link>
+		<pubDate>Thu, 31 Jan 2019 15:21:29 +0000</pubDate>
+		<dc:creator><![CDATA[Christine Kim]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Ethereum]]></category>
+		<category><![CDATA[Technology News]]></category>
+		<category><![CDATA[testnet]]></category>
+		<category><![CDATA[Ethereum 2.0]]></category>
+		<category><![CDATA[Serenity]]></category>
+		<category><![CDATA[Afri Schoedon]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377592</guid>
+		<description><![CDATA[Launched today, the Görli test network wants to help developers build applications across ethereum software clients without restricting their access to developer tools.]]></description>
+		</item>
+		<item>
+		<title>Pantera, Coinbase Join $4.5 Million Round for Staking-as-a-Service Startup</title>
+		<link>https://www.coindesk.com/pantera-coinbase-join-4-5-million-round-in-staking-as-a-service-startup</link>
+		<pubDate>Thu, 31 Jan 2019 14:00:57 +0000</pubDate>
+		<dc:creator><![CDATA[Brady Dale]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Proof-of-Stake]]></category>
+		<category><![CDATA[Funding Rounds]]></category>
+		<category><![CDATA[Pantera Capital]]></category>
+		<category><![CDATA[Coinbase Ventures]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377842</guid>
+		<description><![CDATA[Pantera Capital and Coinbase Ventures have joined a $4.5 million round for Staked, a firm that helps investors back proof-of-stake cryptos.]]></description>
+		</item>
+		<item>
+		<title>Blockchain Capital Leads $1.7 Million Round for Crypto Compliance Startup</title>
+		<link>https://www.coindesk.com/blockchain-capital-leads-1-7-million-round-for-crypto-compliance-startup</link>
+		<pubDate>Thu, 31 Jan 2019 13:00:16 +0000</pubDate>
+		<dc:creator><![CDATA[Yogita Khatri]]></dc:creator>
+				<category><![CDATA[Venture Capital]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Business News]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Investment]]></category>
+		<category><![CDATA[Compliance]]></category>
+		<category><![CDATA[Funding Rounds]]></category>
+		<category><![CDATA[Blockchain Capital]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=378118</guid>
+		<description><![CDATA[Venture capital firm Blockchain Capital has led a $1.7 million seed round for San Francisco-based crypto compliance startup TRM Labs.]]></description>
+		</item>
+		<item>
+		<title>Binance Users Can Now Pay for Crypto With Credit Cards</title>
+		<link>https://www.coindesk.com/binance-users-can-now-pay-for-crypto-with-credit-cards</link>
+		<pubDate>Thu, 31 Jan 2019 12:00:20 +0000</pubDate>
+		<dc:creator><![CDATA[Yogita Khatri]]></dc:creator>
+				<category><![CDATA[Exchanges]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Payments]]></category>
+		<category><![CDATA[Business News]]></category>
+		<category><![CDATA[Credit Cards]]></category>
+		<category><![CDATA[Binance]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=378086</guid>
+		<description><![CDATA[Top crypto exchange Binance now lets customers purchase some cryptocurrencies using Visa and Mastercard credit cards.]]></description>
+		</item>
+		<item>
+		<title>February Is Often Good for Bitcoin Prices, Will History Repeat in 2019?</title>
+		<link>https://www.coindesk.com/february-is-often-good-for-bitcoin-prices-will-history-repeat-in-2019</link>
+		<pubDate>Thu, 31 Jan 2019 11:15:05 +0000</pubDate>
+		<dc:creator><![CDATA[Omkar Godbole]]></dc:creator>
+				<category><![CDATA[Markets]]></category>
+		<category><![CDATA[Bitcoin]]></category>
+		<category><![CDATA[Markets News]]></category>
+		<category><![CDATA[Prices]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=378090</guid>
+		<description><![CDATA[Bitcoin could end its four-year February winning streak unless prices see a strong bounce from key support.]]></description>
+		</item>
+		<item>
+		<title>South Korea Will Maintain ICO Ban After Finding Token Projects Broke Rules</title>
+		<link>https://www.coindesk.com/south-korea-will-maintain-ico-ban-after-finding-token-projects-broke-rules</link>
+		<pubDate>Thu, 31 Jan 2019 10:15:57 +0000</pubDate>
+		<dc:creator><![CDATA[Yogita Khatri]]></dc:creator>
+				<category><![CDATA[Regulation]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Initial Coin Offerings]]></category>
+		<category><![CDATA[Asia-Pacific]]></category>
+		<category><![CDATA[South Korea]]></category>
+		<category><![CDATA[ICOs]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=378052</guid>
+		<description><![CDATA[South Korea has decided not to lift its ban on domestic initial coin offerings after a watchdog's survey found projects have been violating rules.]]></description>
+		</item>
+		<item>
+		<title>IOTA: Almost All Tokens From $11 Million Hack Have Been Found</title>
+		<link>https://www.coindesk.com/iota-almost-all-tokens-from-11-million-hack-have-been-found</link>
+		<pubDate>Thu, 31 Jan 2019 09:00:22 +0000</pubDate>
+		<dc:creator><![CDATA[Daniel Palmer]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Crime]]></category>
+		<category><![CDATA[Europe]]></category>
+		<category><![CDATA[Law Enforcement]]></category>
+		<category><![CDATA[IOTA]]></category>
+		<category><![CDATA[Hacks]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=378051</guid>
+		<description><![CDATA[Almost all of roughly $11 million-worth of iota tokens alleged to have been stolen by a British man have been found.]]></description>
+		</item>
+		<item>
+		<title>NEM Foundation, Nearly Broke, Plans Layoffs and Pivot</title>
+		<link>https://www.coindesk.com/nem-foundation-layoffs-xem-crypto</link>
+		<pubDate>Thu, 31 Jan 2019 03:00:20 +0000</pubDate>
+		<dc:creator><![CDATA[Leigh Cuen]]></dc:creator>
+				<category><![CDATA[Features]]></category>
+		<category><![CDATA[Funding]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Voting]]></category>
+		<category><![CDATA[Nonprofits]]></category>
+		<category><![CDATA[NEM]]></category>
+		<category><![CDATA[XEM]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377962</guid>
+		<description><![CDATA[The leading non-profit behind the NEM blockchain is seeking $7.5 million in emergency funding to keep the lights on.]]></description>
+		</item>
+		<item>
+		<title>A Bitcoin-Backed Stablecoin Has Launched on the Ethereum Blockchain</title>
+		<link>https://www.coindesk.com/a-bitcoin-backed-stablecoin-has-launched-on-the-ethereum-blockchain</link>
+		<pubDate>Thu, 31 Jan 2019 01:00:09 +0000</pubDate>
+		<dc:creator><![CDATA[Christine Kim]]></dc:creator>
+				<category><![CDATA[Bitcoin]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Ethereum]]></category>
+		<category><![CDATA[Technology News]]></category>
+		<category><![CDATA[BitGo]]></category>
+		<category><![CDATA[Stablecoins]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377942</guid>
+		<description><![CDATA[Wrapped BTC (WBTC), an ERC-20 ethereum token collateralized 1-to-1 with bitcoin, is officially live, with about $250,000 worth in circulation. ]]></description>
+		</item>
+		<item>
+		<title>We Asked 66 Startups Just How Bad This Crypto Winter Has Been</title>
+		<link>https://www.coindesk.com/we-asked-66-startups-just-how-bad-this-crypto-winter-has-been</link>
+		<pubDate>Wed, 30 Jan 2019 22:15:41 +0000</pubDate>
+		<dc:creator><![CDATA[Brady Dale]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Business News]]></category>
+		<category><![CDATA[Startups]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=375132</guid>
+		<description><![CDATA[While the bear market has sparked layoffs at some firms, a survey conducted by CoinDesk found that many companies find the slowdown to be "a blessing."]]></description>
+		</item>
+		<item>
+		<title>Ripple Hires General Counsel from Lending Giant CIT Group</title>
+		<link>https://www.coindesk.com/ripple-hires-general-counsel-from-lending-giant-cit-group</link>
+		<pubDate>Wed, 30 Jan 2019 19:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[Anna Baydakova]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Ripple]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377878</guid>
+		<description><![CDATA[Ripple has hired banking veteran Stuart Alderoty as its new general counsel, filling a position that had been vacant for several months.]]></description>
+		</item>
+		<item>
+		<title>The Next Big Ethereum Conference Will Run Almost Entirely on Blockchains</title>
+		<link>https://www.coindesk.com/the-next-big-ethereum-conference-will-run-almost-entirely-on-blockchains</link>
+		<pubDate>Wed, 30 Jan 2019 17:00:05 +0000</pubDate>
+		<dc:creator><![CDATA[Christine Kim]]></dc:creator>
+				<category><![CDATA[Use Cases & Verticals]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Payments]]></category>
+		<category><![CDATA[Business News]]></category>
+		<category><![CDATA[Hot Wallet]]></category>
+		<category><![CDATA[Hackathon]]></category>
+		<category><![CDATA[MakerDAO]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377723</guid>
+		<description><![CDATA[Everything from applications to attend ETHDenver to the processes for submitting, judging and voting on projects will be supported in some way through blockchain platforms.]]></description>
+		</item>
+		<item>
+		<title>Hackers Just Stole Another $180K in Ether From Cryptopia Exchange</title>
+		<link>https://www.coindesk.com/hackers-just-stole-another-180k-in-ether-from-cryptopia-exchange</link>
+		<pubDate>Wed, 30 Jan 2019 15:15:37 +0000</pubDate>
+		<dc:creator><![CDATA[Yogita Khatri]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Crime]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[New Zealand]]></category>
+		<category><![CDATA[Hacks]]></category>
+		<category><![CDATA[Cryptopia]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377754</guid>
+		<description><![CDATA[Hackers still have control over cryptocurrency exchange Cryptopia and have removed more funds, says blockchain data firm Elementus.]]></description>
+		</item>
+		<item>
+		<title>Crypto Lender Genesis Capital Processed Nearly $1.1 Billion In 2018</title>
+		<link>https://www.coindesk.com/crypto-lender-genesis-capital-processed-nearly-1-1-billion-in-2018</link>
+		<pubDate>Wed, 30 Jan 2019 14:00:01 +0000</pubDate>
+		<dc:creator><![CDATA[Nikhilesh De]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Business News]]></category>
+		<category><![CDATA[Loans]]></category>
+		<category><![CDATA[Trading]]></category>
+		<category><![CDATA[Genesis Capital]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377586</guid>
+		<description><![CDATA[Institutional crypto loans provider Genesis Global Capital says it processed more than $1.1 billion in lends and borrows in 2018.]]></description>
+		</item>
+		<item>
+		<title>Crypto Exchange Gemini Passes Security Audit Conducted by Deloitte</title>
+		<link>https://www.coindesk.com/crypto-exchange-gemini-passes-security-compliance-audit-conducted-by-deloitte</link>
+		<pubDate>Wed, 30 Jan 2019 12:00:10 +0000</pubDate>
+		<dc:creator><![CDATA[Yogita Khatri]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Business News]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Winklevoss]]></category>
+		<category><![CDATA[Gemini]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377732</guid>
+		<description><![CDATA[Cryptocurrency exchange Gemini says it has passed a SOC 2 security compliance review conducted by Deloitte.]]></description>
+		</item>
+		<item>
+		<title>Bitcoin Eyes Minor Price Bounce But Bear Trend Intact</title>
+		<link>https://www.coindesk.com/bitcoin-eyes-minor-price-bounce-but-bear-trend-intact</link>
+		<pubDate>Wed, 30 Jan 2019 11:15:23 +0000</pubDate>
+		<dc:creator><![CDATA[Omkar Godbole]]></dc:creator>
+				<category><![CDATA[Markets]]></category>
+		<category><![CDATA[Bitcoin]]></category>
+		<category><![CDATA[Markets News]]></category>
+		<category><![CDATA[Prices]]></category>
+
+		<guid isPermaLink="false">https://www.coindesk.com/?p=377752</guid>
+		<description><![CDATA[Bitcoin has recovered slightly from six-week lows seen yesterday and could see a short-term corrective bounce to $3,500.]]></description>
+		</item>
+	</channel>
+</rss>

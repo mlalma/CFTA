@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Crypto-News.net</title>
+	<atom:link href="https://www.crypto-news.net/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.crypto-news.net</link>
+	<description>News from the world of cryptocurrencies</description>
+	<lastBuildDate>Wed, 30 Jan 2019 22:00:32 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.3</generator>
+	<item>
+		<title>Curated blockchain and cryptocurrency news &#8211; week 4&#8217;19</title>
+		<link>https://www.crypto-news.net/curated-blockchain-and-cryptocurrency-news-week-419/</link>
+		<comments>https://www.crypto-news.net/curated-blockchain-and-cryptocurrency-news-week-419/#respond</comments>
+		<pubDate>Wed, 30 Jan 2019 22:00:32 +0000</pubDate>
+		<dc:creator><![CDATA[Zoran Spirkovski]]></dc:creator>
+				<category><![CDATA[Bitcoin]]></category>
+		<category><![CDATA[Blockchain Technology]]></category>
+		<category><![CDATA[Curated Lists]]></category>
+		<category><![CDATA[National News]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[binance]]></category>
+		<category><![CDATA[CBOE]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[IMF]]></category>
+		<category><![CDATA[india]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[malta]]></category>
+		<category><![CDATA[SEC]]></category>
+		<category><![CDATA[south korea]]></category>
+		<category><![CDATA[Venezuela]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9972</guid>
+		<description><![CDATA[Cboe exchange withdraws VanEck-SolidX ETF proposal prematurely, IMF consulting Malta on how to continue and what to fix, South Korean exchanges joining hands to prevent scammer and hacker success, Maduro&#8217;s gold stuck in the UK due to US sanctions (Kraken CEO has something to say about that), Kik messenger likely to bravely go to court ]]></description>
+				<content:encoded><![CDATA[
+<p>Cboe exchange withdraws VanEck-SolidX ETF proposal prematurely, IMF consulting Malta on how to continue and what to fix, South Korean exchanges joining hands to prevent scammer and hacker success, Maduro&#8217;s gold stuck in the UK due to US sanctions (Kraken CEO has something to say about that), Kik messenger likely to bravely go to court against the SEC&#8217;s accusations of them being a security,  India embracing blockchain (but not in the way that we would like them to), and Iran finally announces an initial framework for allowing cryptocurrencies in the country (as well as launching and managing ICOs).</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h4>Weekly Bitcoin price</h4>
+
+
+
+<figure class="wp-block-image"><img src="https://www.crypto-news.net/wp-content/uploads/2019/01/Crypto-news-Bitcoin-price-23rd-to-29th.png" alt="" class="wp-image-9980" srcset="https://www.crypto-news.net/wp-content/uploads/2019/01/Crypto-news-Bitcoin-price-23rd-to-29th.png 800w, https://www.crypto-news.net/wp-content/uploads/2019/01/Crypto-news-Bitcoin-price-23rd-to-29th-300x206.png 300w, https://www.crypto-news.net/wp-content/uploads/2019/01/Crypto-news-Bitcoin-price-23rd-to-29th-768x528.png 768w, https://www.crypto-news.net/wp-content/uploads/2019/01/Crypto-news-Bitcoin-price-23rd-to-29th-611x420.png 611w, https://www.crypto-news.net/wp-content/uploads/2019/01/Crypto-news-Bitcoin-price-23rd-to-29th-640x440.png 640w, https://www.crypto-news.net/wp-content/uploads/2019/01/Crypto-news-Bitcoin-price-23rd-to-29th-681x468.png 681w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+
+
+
+<p>Bitcoin&#8217;s price in this last week has held on for dear life, but finally support gave way near the end as we experienced a loss of about $170 per Bitcoin, dropping from a relatively stable $3,600 to $3,435. The news that Steve Wozniak sold BTC at the all-time high was made public at around 27th of January. Unless that was the news story that moved the markets, we have to mark this one to a speculative dump by a whale or a group of crypto investors making an exit. Apart from that loss, the market seems quite stable with minimal levels of volatility pervading the charts. </p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h3>January 23rd</h3>
+
+
+
+<h4><em>Cboe withdraws VanEck-SolidX Bitcoin ETF proposal</em></h4>
+
+
+
+<figure class="wp-block-image"><img src="https://images.pexels.com/photos/850216/pexels-photo-850216.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt=""/></figure>
+
+
+
+<p>Whether it was caused by the <a href="https://www.forbes.com/sites/billybambrough/2019/01/24/the-u-s-government-shutdown-has-delivered-a-surprise-blow-to-bitcoin/#5b71a8602ec1">U.S. government shutdown,</a> an internal struggle in handling the situation with the SEC, or simply an executive decision to back away from the venture, one thing is clear. Cboe has decided to withdraw their proposal to the SEC in regards to the VanEck-SolidX physically-settled Bitcoin ETF, which would have been the first in the world, once approved. </p>
+
+
+
+<p>The fed has until 27th of February to make a decision, but now since the <a href="https://www.sec.gov/rules/sro/cboebzx/2019/34-84988.pdf">proposal is off the table</a>, institutional investors were disappointed to discover that their long-awaited ETF proposal will not get the closure it deserved. Gabor Grubacs, VanEck&#8217;s director of digital strategy, told Coindesk that the proposal is only temporarily withdrawn and that they are actively working with the regulatory body and major market forces to create the necessary structural framework for Bitcoin ETFs and digital assets. </p>
+
+
+
+<p>From our perspective it seems that the proposal has been withdrawn prematurely, not giving the opportunity for the governmental situation in the U.S. to stabilize. The executives leading the proposal are simply not confident enough that the SEC can potentially approve, as many of them have expressed their concerns. </p>
+
+
+
+<p>They claim that the SEC would sooner decline the proposal, well before it can have the chance to be approved on a technicality. Once again, this is rather premature and may point to a back-door strategy that the organization may have started to fear approval.</p>
+
+
+
+<h5>Other News:</h5>
+
+
+
+<ul><li><a href="https://thebell.io/durov-zapustit-kriptovalyutu-dlya-vseh-v-marte/">Rumors arise about a Telegram platform (TON) release in March</a></li><li><a href="https://www.forbes.com/sites/michaeldelcastillo/2019/01/23/exclusive-nasdaq-leads-20-million-investment-in-enterprise-blockchain-startup-symbiont/#62b56e9746d1">NASDAQ invests $20 million in a blockchain startup</a></li><li><a href="https://www.bbc.com/news/uk-england-oxfordshire-46980658">$11.4 million crypto thief arrested in Oxford</a></li><li><a href="https://www.binance.com/en/blog/294786426278453248">Binance announces OTC trading desk</a></li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h3>January 24th</h3>
+
+
+
+<h4><a href="https://www.timesofmalta.com/articles/view/20190124/local/blockchain-carries-significant-risks.699960"><em>IMF highlights blockchain adoption on Malta to carry significant risks</em></a></h4>
+
+
+
+<p>The International Monetary Fund (IMF) executed a regular mission on Malta which is an annual part of the Fund&#8217;s regular activities. The mission concluded on January 16th, but it took some time for results to reach the public, revealing concerns in regards to blockchain and crypto-adoption.</p>
+
+
+
+<p>The mission looked at a couple of factors such as:</p>
+
+
+
+<ul><li>Financial Sector</li><li>Housing Market</li><li>Fiscal Policy</li><li>Structural Reforms</li></ul>
+
+
+
+<p>For the purposes of our article, we will only look at blockchain related information found in the <a href="https://www.imf.org/en/News/Articles/2019/01/16/Malta-Concluding-Statement-of-the-2019-Article-IV-Mission">full report</a>. According to the IMF&#8217;s staff report, Malta needs to focus on the effective implementation of Anti Money Laundering and the Countering of Financing Terrorism which is deemed critical in the safeguarding of the country&#8217;s financial integrity and stability, as well as their role as a financial center.</p>
+
+
+
+<p>Malta&#8217;s financial and gaming sectors, together with the vision of attracting blockchain-related companies place the country in the responsible position of being internationally connected, and according to the IMF these associations cause Money Laundering and Terrorist Financing risks. The report calls on Malta to undertake immediate action to close supervisory and enforcement gaps and to take steps to understand the risks and identification efforts. <br></p>
+
+
+
+<h5>Other News:</h5>
+
+
+
+<ul><li><a href="https://www.reuters.com/article/us-cryptocurrencies-robinhood/cryptocurrency-firm-robinhood-wins-new-york-trading-license-idUSKCN1PI2L4">Robinhood claims the New York trading license</a></li><li><a href="https://www.ccn.com/dark-web-hacker-proves-leak-of-customer-data-from-worlds-leading-cryptocurrency-exchanges/">Hacker claims to have access to secure exchange user data</a></li><li><a href="https://ethereumworldnews.com/ripple-ceo-on-bitcoin-im-not-prepared-to-say-bitcoin-goes-to-zero-i-still-own-bitcoin/">Ripple&#8217;s CEO: &#8220;I&#8217;m not prepared to say that Bitcoin goes to zero&#8221;</a></li><li><a href="https://newsroom.ibm.com/2019-01-24-Aetna-Anthem-Health-Care-Service-Corporation-PNC-Bank-and-IBM-announce-collaboration-to-establish-blockchain-based-ecosystem-for-the-healthcare-industry">IBM announces blockchain-based ecosystem for healthcare</a></li><li><a href="https://www.reuters.com/article/us-usa-blockchain-harvard/harvard-levi-strauss-u-s-think-tank-in-blockchain-tie-up-on-worker-welfare-idUSKCN1PI2FA">Harvard, Levi Strauss collaboration for worker safety</a></li><li><a href="https://cointelegraph.com/news/despite-crypto-winter-number-of-blockchain-firms-in-switzerland-liechtenstein-grows">Blockchain companies in Liechtenstein&nbsp;and Switzerland on the rise</a></li><li><a href="http://www.ccidnet.com/2019/0124/10452682.shtml">EOS ranked #1 blockchain produc by the Chinese government</a></li><li><a href="https://www.businesswire.com/news/home/20190124005816/en/tZERO-Security-Tokens-Live-Trading">tZERO, Overstock&#8217;s Security Token Trading platform goes live﻿</a></li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h2>January 25th</h2>
+
+
+
+<h4><a href="https://www.cryptoninjas.net/2019/01/25/south-koreas-top-four-crypto-exchanges-announce-joint-aml-initiative/"><em>Four South Korean exchanges form AML initiative</em></a></h4>
+
+
+
+<figure class="wp-block-image"><img src="https://images.pexels.com/photos/872955/pexels-photo-872955.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt=""/></figure>
+
+
+
+<p>In the wake of hundreds of thefts, misappropriations, and straight up scams, and other criminal misdoings seeing their end, South Korean exchange leadership took action to start the nation&#8217;s regulatory advancement in terms of AML and CTF.</p>
+
+
+
+<p>The four exchanges are:</p>
+
+
+
+<ul><li>Upbit</li><li>Korbit</li><li>Coinone</li><li>Bithumb</li></ul>
+
+
+
+<p>They&#8217;ve created a hotline between themselves which enables the organizations to communicate issues that support user protection and fraud detection. Issues such as voice phishing, predatory lending, schemes are the main target for this implementation, which will enable the exchanges to protect their own users. </p>
+
+
+
+<p>Scammers will no longer be able to leverage the existence of different exchanges in the country to retrieve their ill-gotten gains. The initiative will overall improve the quality of the crypto ecosystem in the country, enabling higher levels of user protection, as well as placing the exchanges in a better position in the case of criminal activity, enabling them to help the police with more relevant and complete information.</p>
+
+
+
+<h5>Other News:</h5>
+
+
+
+<ul><li><a href="https://news.bitcoin.com/swiss-bank-bitstamp-btc-funding-withdrawals/"><em>Bitstamp partners with Swiss bank to facilitate BTC usage for clients</em></a></li><li><a href="https://www.coindesk.com/nyse-arca-files-paperwork-for-bitwise-bitcoin-etf-approval"><em>Bitwise files ETF proposal to the SEC</em></a></li><li><a href="https://www.theice.com/products/69281872/Bakkt-Bitcoin-USD-Daily-Future/specs"><em>Bakkt releases details regarding the daily BTC futures contract</em></a></li><li><a href="https://losangeles.cbslocal.com/2019/01/25/bakery-burglary-bitcoin/"><em>LA Bakery has their Bitcoin ATM stolen</em></a></li><li><a href="https://www.forbes.com/sites/billybambrough/2019/01/25/samsungs-new-galaxy-s10-could-give-surprise-boost-to-bitcoin-adoption/#1cbedf156010"><em>Latest Samsung smartphone may come with a cryptocurrency wallet built-in</em></a></li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h2>January 26th</h2>
+
+
+
+<h4><a href="https://www.newsbtc.com/2019/01/26/after-uk-denies-maduro-1-2b-gold-withdrawal-kraken-ceo-cites-importance-of-crypto/"><em>&#8220;Not your vault, not your gold&#8221; &#8211; Kraken CEO comments on Maduro not being able to withdraw his gold</em></a></h4>
+
+
+
+<figure class="wp-block-image"><img src="https://images.pexels.com/photos/47047/gold-ingots-golden-treasure-47047.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt=""/><figcaption>Disclaimer: Not actual photograph of Nicolas Maduro&#8217;s gold.</figcaption></figure>
+
+
+
+<p>Whether or not you want to support a dictator in Venezuela is a completely different question, but when it comes down to ownership, we should all have access to our own property, regardless if we are a president of a country with the help of an army against impoverished citizens. Right?</p>
+
+
+
+<p>Well, the powers that be, in this case the United States of America have once again sanctioned Venezuela&#8217;s dictator/president Maduro, by instructing the U.K. not to release the gold that was requested by the leader. Kraken&#8217;s CEO,  Jesse Powell took the opportunity to give his own opinion on the matter by making a play on Andreas&#8217; expression &#8220;Not your keys, not your Bitcoin&#8221;:</p>
+
+
+
+<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">Not your vault, not your gold. <a href="https://t.co/ThSkkuXGqO">https://t.co/ThSkkuXGqO</a></p>&mdash; Jesse Powell (@jespow) <a href="https://twitter.com/jespow/status/1088891647612481536?ref_src=twsrc%5Etfw">January 25, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>Venezuela&#8217;s going through a rough spot, as Nicolas Maduro tried to hold onto the authoritative position that he has claimed, and if the country&#8217;s property was in Bitcoin, there would be no third party to have any say whatsoever as to what happens to the assets. </p>
+
+
+
+<p>In some cases this is a good thing, but we can see the limiting factors over the freedom of making a decision. It&#8217;s not uncommon for media, organizations, and countries to paint a picture about someone, and before you know it you or me could become Nicolas Maduro, not being able to access our assets, whether they are stored in the bank or kept by another third-party custodian.</p>
+
+
+
+<h5>Other News:</h5>
+
+
+
+<ul><li><a href="https://www.coindesk.com/2-executives-are-leaving-blockchain-startup-r3-in-management-shake-up">Blockchain startup R3 loses two top-tier management executives</a></li><li><a href="https://www.ccn.com/leaked-crypto-exchange-user-kyc-data-doesnt-affect-our-accounts-binance/">Binance denies being affected by hacked user data</a></li><li></li><li><a href="https://cointelegraph.com/news/crypto-critic-nouriel-roubini-blockchain-is-no-better-than-an-excel-spreadsheet">Nouriel: &#8220;Blockchain is no more than an Excel spreadsheet&#8221;</a></li><li><a href="http://focustaiwan.tw/news/asoc/201901260013.aspx">Taiwanese scam shutdown as more than 12 people are arrested</a></li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h2>January 27th</h2>
+
+
+
+<h4><a href="https://medium.com/kinblog/why-were-fighting-back-against-the-sec-b54e6f609b2"><em>Cryptocurrency startup under fire by the SEC, promises to fight back for the entire community</em></a></h4>
+
+
+
+<figure class="wp-block-image"><img src="https://images.pexels.com/photos/1089549/pexels-photo-1089549.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt=""/></figure>
+
+
+
+<p>Is every ICO a security? If you ask any of the staff members of the SEC, the answer would a resound &#8220;Yes.&#8221; But is that really the case?</p>
+
+
+
+<p>Kik, an instant messenger that was funded through an ICO in early 2017, held off on releasing their &#8220;Kin&#8221; token (due to technical issues and subpoenas) which is currently used in more than 30 apps on the Google Play and iOS App stores, in addition to the instant messaging application.</p>
+
+
+
+<p>Now, the SEC is considering taking this start-up to court, under the assumption that they&#8217;ve created a security, which the startup&#8217;s leadership fiercely defends that it is not. &#8220;Kin was created to be a currency for the digital world. We&#8217;ve never detailed the cryptocurrency to be anything other than a means to exchange with other users on the application,&#8221; says Ted Livingston, founder and CEO of both Kik and Kin.</p>
+
+
+
+<p>He explains that his conviction in Kin being a real currency is grounded in reality, and that he would be glad to fight the SEC in court. He considers that  Kin is a real currency and has nothing to do with any profit-sharing agreements, nor it was ever marketed as an investment vehicle.</p>
+
+
+
+<p>They&#8217;ve taken this case into the public realm and are speaking about it as openly as humanly possible, giving us an insight into their situation. The team seriously leverages their awkward position and uses the negative attention to generate a wider userbase for their cryptocurrency and application, claiming this is a historic case for crypto innovation in the United States.</p>
+
+
+
+<h5>Other News:</h5>
+
+
+
+<ul><li><a href="https://www.prnewswire.com/news-releases/tangem-to-produce-physical-blockchain-banknotes-for-the-marshall-islands-digital-currency-legal-tender-300784876.html">Marshall Island&#8217;s Sovereign will have physical blockchain banknotes</a></li><li><a href="https://ethereumworldnews.com/italy-announces-first-set-of-regulation-for-blockchain-technologies/">Italy makes the first steps towards blockchain legislation</a></li><li><a href="https://oracletimes.com/apples-co-founder-steve-wozniak-who-believes-that-bitcoin-is-digital-gold-sold-all-btc-when-it-peaked-at-20k-in-2017/">Steve Wozniak sold all BTC at $16-20k</a></li><li><a href="https://www.coinrivet.com/how-south-korea-is-becoming-a-big-player-in-cryptocurrency/">South Korea continues to make waves in crypto</a></li><li><a href="https://www.aljazeera.com/news/2019/01/iran-inches-closer-unveiling-state-backed-cryptocurrency-190127060320571.html">Iran getting closer to state-backed cryptocurrency</a></li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h2>January 28th</h2>
+
+
+
+<h4><a href="https://economictimes.indiatimes.com/markets/stocks/news/icici-kotak-axis-among-11-to-launch-blockchain-linked-funding-for-smes/articleshow/67718025.cms?from=mdr"><em>Eleven Indian banks to create a blockchain-powered financing program for SMEs</em></a></h4>
+
+
+
+<figure class="wp-block-image"><img src="https://images.pexels.com/photos/761144/pexels-photo-761144.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt=""/></figure>
+
+
+
+<p>India does not like cryptocurrencies, but the country&#8217;s national bank or legislators have no issue with blockchain technology. The banks have joined together to mitigate the risks of lending to smaller companies that tend to default on their loans.</p>
+
+
+
+<p>Abhijeet Singh, head of business technology at ICICI, says the idea of organizing in this way is to remove the communication hurdles between the major banks. According to him, a requirement for a blockchain network to thrive is for the entire ecosystem (in this case the banks) to converge on a single network and pool their forces in synergy.</p>
+
+
+
+<p>The main goal of the consortium and organization is to ensure the transparency in credit disbursement, meaning money paid out by the banks. The network will also help the banks access public credit data, helping them make logical decisions instead of relying on risk-assessment. Initially, the banks will set up a network for the entire lending supply-chain in the country and help digitize all of the information. </p>
+
+
+
+<p>While it is not our ideal target, we are happy to see development in blockchain happening in India, and secretly hoping that it will lead to the removal of the ban on cryptocurrencies in the country.</p>
+
+
+
+<h5>Other News:</h5>
+
+
+
+<ul><li><a href="https://www.24heures.ch/economie/tracabilite-nestle-mise-blockchain/story/22352423">Nestle to opt-in IBM&#8217;s Food Trust to provide transparency to products</a></li><li><a href="https://www.chicagobusiness.com/finance-banking/chicago-becomes-crypto-kiosk-battleground">Chicago now has 100+ cryptocurrency ATMs</a></li><li><a href="https://www.capitalwatch.com/article-3386-1.html">Chinese plastic film Fuwei Film company acquires blockchain development company Gold Glory</a></li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h2>January 29th</h2>
+
+
+
+<h4><a href="https://www.aljazeera.com/news/2019/01/iran-central-bank-issues-draft-rules-cryptocurrency-190129051653656.html"><em>Iran&#8217;s Central Bank releases regulatory framework</em></a></h4>
+
+
+
+<p>During the annual Iranian Electronic Banking and Payment System Conference, representatives from the Central Bank of Iran announced the new draft regulations on cryptocurrency, as reported by Al Jazeera. </p>
+
+
+
+<p>The regulatory framework recognizes cryptocurrencies and blockchain technology, but still continues to limit the interaction of cryptos within the country. As part of the regulatory draft, it is deemed illegal for individuals to accept crypto payments within the country, as well as limits the ownership potential of citizens to $10k worth of value. The crypto community in Iran is outraged in regards to the proposed draft, but regulators promise to take their feedback into consideration. The current version of the draft is considered to be &#8220;Version 0.0&#8221; indicating the very beginning of Iran making its mind up in regards to crypto.</p>
+
+
+
+<p>The regulatory framework also includes government-backed cryptocurrencies, for which we know that Iran has had a plan for a while now, making it a real need for them to start to include cryptocurrencies and blockchain in their legal framework. Iran has been looking towards the creation of this cryptocurrency as a way to mitigate U.S. sanctions and eliminate reliance on the American dollar, while potentially strengthening their own economical situation.</p>
+
+
+
+<p>Interestingly enough, the framework includes and enables ICOs and tokens, cryptocurrency exchanges, and the act of mining. Once these changes are implemented, the ban which the country had under effect will be void. </p>
+
+
+
+<h5>Other News:</h5>
+
+
+
+<ul><li><a href="https://ambcrypto.com/roger-ver-confirms-bitcoin-cash-bch-partnership-with-japanese-giant/"><em>BCH forms partnership with Alliance Group</em></a></li><li><a href="https://www.bloomberg.com/news/articles/2019-01-29/fidelity-is-said-to-plan-march-launch-of-bitcoin-custody-service"><em>Fidelity to launch Bitcoin Custody service in March</em></a></li><li><a href="https://thenextweb.com/hardfork/2019/01/29/cryptocurrency-gambling-blockchain/"><em>EOS overtakes ETH-powered gambling</em></a></li><li><a href="https://www.news.com.au/finance/economy/world-economy/hamas-calls-for-supporters-to-send-bitcoin/news-story/f3648cac909dd20046dda2cb44cb8142"><em>Terror group &#8220;Hamas&#8221; calls on supporters to send Bitcoin</em></a></li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>That’s it for this week. As always, share your opinions about the most interesting ones or link those stories we might have missed in our collections, which you found interesting and noteworthy over the week. You can also send us suggestions of stories to include in the next list if you find something interesting over the next days.</p>
+
+
+
+<h5>Join us:</h5>
+
+
+
+<ul><li><a href="https://www.facebook.com/Crypto-News-1767592356791307">Facebook</a></li><li><a href="https://plus.google.com/u/0/106283222288362649441">Google +</a></li><li><a href="https://uk.linkedin.com/in/crypto-news-077900133">LinkedIn</a></li><li><a href="https://za.pinterest.com/cryptonews/">Pinterest</a></li><li><a href="https://twitter.com/Crypt0_News">Twitter</a></li><li><a href="https://vk.com/cryptonewsbtc">VK</a></li><li></li></ul>
+
+
+
+<p><br><em>Featured Images via </em><a href="http://www.pexels.com"><em>Pexels</em></a><em> and </em><a href="http://www.unsplash.com"><em>Unsplash</em></a><em>.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/curated-blockchain-and-cryptocurrency-news-week-419/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Massive Digital Attraction of Major Auditing Firms</title>
+		<link>https://www.crypto-news.net/massive-digital-attraction-of-major-auditing-firms/</link>
+		<comments>https://www.crypto-news.net/massive-digital-attraction-of-major-auditing-firms/#respond</comments>
+		<pubDate>Tue, 29 Jan 2019 23:00:09 +0000</pubDate>
+		<dc:creator><![CDATA[Grace Muthoni]]></dc:creator>
+				<category><![CDATA[Blockchain Technology]]></category>
+		<category><![CDATA[Trading]]></category>
+		<category><![CDATA[deloitte]]></category>
+		<category><![CDATA[JPmorgan chase]]></category>
+		<category><![CDATA[KPMG]]></category>
+		<category><![CDATA[PwC]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9809</guid>
+		<description><![CDATA[The cryptocurrency sector has elicited massive interest from different parties worldwide. Top professional auditing firms are hiring more specialized staff to respond to new products and service provision in the industry. The auditors have realized the huge opportunities connected with digital currencies and blockchains. Despite the current bearish market, major accountancy firms, including Ernst&#38;Young, PwC, ]]></description>
+				<content:encoded><![CDATA[
+<p>The cryptocurrency sector has elicited massive interest from different parties worldwide. Top professional auditing firms are hiring more specialized staff to respond to new products and service provision in the industry. The auditors have realized the huge opportunities connected with digital currencies and blockchains.</p>
+
+
+
+<p>Despite the current bearish market, major accountancy firms, including Ernst&amp;Young, PwC, Deloitte and KPMG have since rushed to offer their services. A <a href="https://www.thomsonreuters.com/en/press-releases/2018/april/thomson-reuters-survey-finds-one-in-five-financial-institutions-considering-cryptocurrency-trading-in-2018.html">Thomson Reuters survey</a> shows that at least one in five of all financial firms are joining in on this trend in equal measure. And while most of them are still wary of the volatile nature of the market and the lack of consensus on regulatory rules, they have recognized the disruptive nature of blockchain technology.</p>
+
+
+
+<p><strong>The Future of blockchain in accountancy</strong></p>
+
+
+
+<p>Lori Beer, Chief Information Officer at JP Morgan Chase, <a href="https://www.infobae.com/cripto247/ethereum/2018/08/23/lori-beer-cio-global-de-jp-morgan-blockchain-reemplazara-la-tecnologia-existente/">has previously stated that</a> blockchain technology is set to &#8220;<em>replace existing technology</em>.&#8221; She went further to add that her firm is very keen on adopting blockchain technology for its potential opportunities to business. &#8220;<em>We are looking not only for cost reduction but also for opportunities to develop new products,</em>&#8221; she said.</p>
+
+
+
+<p>The &#8216;Big Four&#8217; auditing firms reify with her views. They have made big waves in the crypto sphere by launching blockchain enabled auditing products fit for the market. Could it be that blockchain technology is quickly questioning the relevance of traditional accounting firms? </p>
+
+
+
+<p>In a <a href="https://www2.deloitte.com/us/en/pages/consulting/articles/innovation-blockchain-survey.html?id=us:2sm:3tw:4gblock18::6cons:20180827010700:&amp;linkId=55968490">2018 Global Blockchain survey</a>, Deloitte questioned 1000 blockchain savvy individuals on the perception of blockchain in practical business applications. The prominent company executives from seven different countries and major economies strongly suggested that these firms may go obsolete if they do not adapt. A significant 74% of the respondents viewed blockchain adoption as a compelling business case. Another 34% confessed that they have incorporated the technology into their operations. Another 40% of these businesses plan to inject over $5 million into blockchain tech. </p>
+
+
+
+<p><strong>The impact the ‘Big Four&#8217; have had on the crypto sphere</strong></p>
+
+
+
+<p>The world&#8217;s largest accounting firms, PwC, KPMG, Deloitte and Ernst&amp;Young (EY), collectively form the &#8216;Big Four&#8217;. Their newly released tools are targeting efficient reviews and audit of transactions between businesses in the crypto sphere. According to a <a href="https://www.ey.com/en_gl/news/2018/04/ey-announces-blockchain-audit-technology">2018 press release by EY</a>, the EY Blockchain Analyzer was designed to facilitate the firms auditing teams to gather data for multiple blockchain ledgers. This improves the review and analysis of blockchain based transactions. PwC is also targeting private equity audits through blockchain.</p>
+
+
+
+<p>On 5th November 2018, Deloitte <a href="https://www.prnewswire.com/news-releases/deloitte-and-attest-to-bring-digital-identity-solutions-to-the-government-market-300744030.html">announced its strategic partnership with Attest Inc.</a> The collaboration aims at developing a digital identity system based on the blockchain. This system is aimed at helping identify government compliant identifiers. A digital identity issued by the government is projected to reduce risks while minimizing costs of conducting business for blockchain technology-based industries.</p>
+
+
+
+<p>Cab Morris, co-founder and CEO of Attest Inc, also believes that this identity will provide citizens with greater security, privacy and control over personal data. He stated that Attest&#8217;s prowess in helping businesses and their clients attain secure transactions on digital platforms will greatly come in handy with the shared identity platform. Additionally, the partnership with Deloitte and its prowess in audit could only mean a high level of trust for digital operations.</p>
+
+
+
+<p><strong>What&#8217;s in it for the ‘Big Four&#8217;?</strong></p>
+
+
+
+<p><strong>Relevance</strong><br>The adoption of advanced audit tools will keep the big four relevant, albeit where private blockchain audits are concerned. With these tools, the Big Four can keep a leash on the expansion of public blockchains, keeping the revenue flowing into their coffers for longer.</p>
+
+
+
+<p>Despite their minimal altruistic focus, these systems will further enhance the technology&#8217;s accuracy and transparency which can only strengthen its further adoption by businesses. Furthermore, there is mutual benefits in provision of specialized audit services.</p>
+
+
+
+<p><strong>Money to be made</strong><br>Such large establishments exist to make ample gains from their underlying clientele. Adoption of blockchain technology would thus further augment their resources. The crypto sphere has vast opportunities and there is a lot of money to be made in the industry. From a very humble beginning, the cryptocurrency market is now worth over <a href="https://coinmarketcap.com/charts/">$220 billion</a>. </p>
+
+
+
+<p>As
+<a href="https://www.crypto-news.net/how-institutional-investors-are-positioning-themselves-in-the-crypto-sphere/">institutional
+investors slowly</a> edge out high net worth investors, it therefore comes as
+no surprise that these massive entities want a piece of the pie as well. These
+investors in turn entice other stakeholders and industry players to get more involved
+in the industry. </p>
+
+
+
+<p><strong>The growing legitimacy of the trade</strong><br>The crypto sphere is currently attracting a lot of legislation and regulation from governments. This has helped build confidence in its growth and sustainability thus attracting big industry players such as the Big Four.</p>
+
+
+
+<p>The
+Internal Revenue Service (IRS) for example, <a href="https://www.forbes.com/sites/kellyphillipserb/2017/11/29/irs-nabs-big-win-over-coinbase-in-bid-for-bitcoin-customer-data/#42756f46259a">already
+won a case</a> against Coinbase. This significant win paved a way for
+institutions to face the taxman legally. In Asia, the Know Your Customer (KYC)
+policy enforcement has been felt in their exchanges. Bitfinex has actually gone
+ahead and blocked trades from United States customers citing uncertainty and
+regulatory issues. </p>
+
+
+
+<p><strong>A change in government stance</strong><br>Major world bodies like the IMF, UN and the World Trade Organization are beginning to discuss the impact of the blockchain revolution. Not left behind are the governments of countries like Japan, for example, who have built an environment that has become the breeding ground for cryptocurrency trade in Asia. It has legalized the payment of goods and services via cryptocurrencies.</p>
+
+
+
+<p>The US SEC&#8217;s firm grip on crypto regulation has enhanced investor and consumer confidence. On the other hand, Canada has developed its first government-approved cryptocurrency. Germany too has legalized Bitcoin as a legal currency while Holland has a Bitcoin city in the literal sense of the term. </p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>Conclusively, the agenda of the &#8216;Big Four&#8217; audit firms and its effects on the crypto sphere in the long run remains to be seen. The increased interest from these firms is a concrete validation of the bright future of blockchain technology and it can only mean more investments opportunities for all players involved.<br><br></p>
+
+
+
+<p><em>Featured Image via <a href="https://www.bigstockphoto.com/">BigStock</a>.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/massive-digital-attraction-of-major-auditing-firms/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Demand is Growing For Blockchain-Related Jobs, Salaries Continue to Rise</title>
+		<link>https://www.crypto-news.net/demand-is-growing-for-blockchain-related-jobs-salaries-continue-to-rise/</link>
+		<comments>https://www.crypto-news.net/demand-is-growing-for-blockchain-related-jobs-salaries-continue-to-rise/#respond</comments>
+		<pubDate>Mon, 28 Jan 2019 23:00:36 +0000</pubDate>
+		<dc:creator><![CDATA[Trevor Smith]]></dc:creator>
+				<category><![CDATA[Blockchain Technology]]></category>
+		<category><![CDATA[Ethereum]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[CNBC]]></category>
+		<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[distributed ledger]]></category>
+		<category><![CDATA[ethereum]]></category>
+		<category><![CDATA[LinkedIn]]></category>
+		<category><![CDATA[solarity]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9841</guid>
+		<description><![CDATA[The blockchain space is known for its tremendous volatility and risk, yet there is no doubt that mass adoption of the technology will soon take place. This tremendous interest in blockchain has created a strong demand for experts across the sector. Job opportunities are numerous, with workers able to command large salaries. Also, given the ]]></description>
+				<content:encoded><![CDATA[
+<p>The blockchain space is known for its tremendous volatility and risk, yet there is no doubt that mass adoption of the technology will soon take place. This tremendous interest in blockchain has created a strong demand for experts across the sector. Job opportunities are numerous, with workers able to command large salaries. Also, given the expected long-term growth of the field, job security is all but assured.</p>
+
+
+
+<p>LinkedIn recently reported that “blockchain engineer” was the fastest growing emerging job in the United States in 2018. According to the professional social media site, demand for the position has grown by 3,300% over the past twelve months. Experts in Ethereum and Solidity (Ethereum’s smart contract programming language) are in especially high demand.</p>
+
+
+
+<p>Of particular note is the fact that the demand for blockchain specialists is coming from a diverse range of companies and organizations. Not surprisingly, tech companies, crypto development teams, and governments are hiring, yet job openings are also appearing in areas such as finance, transportation, and journalism. Simply put, distributed ledger technology will soon have such a broad impact that virtually every employment sector will require persons with some level of expertise.</p>
+
+
+
+<p>Not surprisingly, blockchain workers are paid handsomely for their skills. A CNBC study has found that blockchain engineers in the United States earn between $150,000 and $175,000 per year on average. However, a number of factors make quantifying income in this sector quite difficult. Notably, demand is all but certain to grow over the next few months, which will likely increase what workers can expect to be paid. Also, blockchain workers are often paid in cryptocurrency, which makes determining their salaries problematic.</p>
+
+
+
+<p>The lack of skilled workers is having an impact on development teams, and is likely to play a significant role in the success or failure of various platforms. Top teams are now competing for talent, and unlike the early days of blockchain development, teams that rely on volunteers are struggling to grow. Within this environment, should market caps and coin values rebound, salaries within teams are likely to skyrocket.</p>
+
+
+
+<p>The robust job market is also pushing schools to create blockchain programs and courses to train the next generation of workers. In all likelihood blockchain will soon be a standard component of computer science education. Also, blockchain training and certification will no doubt become standardized over the next few years.<br></p>
+
+
+
+<p>The substantial growth of employment for blockchain experts is a bright spot in what has been a difficult period for many cryptocurrency platforms. Although valuations have plummeted, persons who have worked on these systems are well-positioned to thrive in the coming years. The growing demand for experts is also a reflection of how distributed ledger technology is moving mainstream, and mass adoption is just around the corner. <br><br></p>
+
+
+
+<p><em>Featured Image via <a href="http://www.bigstockphoto.com">BigStock</a>.<br></em></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/demand-is-growing-for-blockchain-related-jobs-salaries-continue-to-rise/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Security Tokens Set To Become Major Assets Within The Crypto Space</title>
+		<link>https://www.crypto-news.net/security-tokens-set-to-become-major-assets-within-the-crypto-space/</link>
+		<comments>https://www.crypto-news.net/security-tokens-set-to-become-major-assets-within-the-crypto-space/#respond</comments>
+		<pubDate>Sat, 26 Jan 2019 23:30:57 +0000</pubDate>
+		<dc:creator><![CDATA[Trevor Smith]]></dc:creator>
+				<category><![CDATA[Alt coins]]></category>
+		<category><![CDATA[amazon]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[bancor]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[Bithumb]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[coinbase]]></category>
+		<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[dx.exchange]]></category>
+		<category><![CDATA[estonia]]></category>
+		<category><![CDATA[netflix]]></category>
+		<category><![CDATA[security tokens]]></category>
+		<category><![CDATA[tokenizeu]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9899</guid>
+		<description><![CDATA[Over the past several months a number of developments have emerged that enable blockchain technology to be used in the purchase, management, and trading of traditional assets. Blockchain-based security tokens will enable stocks, bonds, or other financial products to be linked to immutable distributed ledgers. Much like stablecoins, which are backed by fiat currency, security ]]></description>
+				<content:encoded><![CDATA[
+<p>Over the past several months a number of developments have emerged that enable blockchain technology to be used in the purchase, management, and trading of traditional assets. Blockchain-based security tokens will enable stocks, bonds, or other financial products to be linked to immutable distributed ledgers. Much like stablecoins, which are backed by fiat currency, security tokens will be backed by whatever property they represent. This breakthrough promises to revolutionize the very foundation of the global investment infrastructure. <br></p>
+
+
+
+<p>In theory, anything of value can be managed on a blockchain, as distributed ledgers are designed to securely store data. The concept of using this architecture for asset management is not new, but recent developments promise to enable tokenization of assets to begin over the next few months. These moves include the creation of exchanges for trading security tokens as well as the development of blockchain platforms geared toward their management.<br></p>
+
+
+
+<p>Comistar Estonia is one emerging player in this space, and will soon launch TokenizEU, a security token brokerage service that will enable the creation of tokens and facilitate their sale across the European Union. Also, DX.Exchange is a newly launched Estonian crypto exchange that, in addition to offering trading among cryptocurrency pairs, will enable the purchase of several stocks including Apple, Amazon, and Netflix. Many other exchanges and crypto platforms are either exploring securities tokens, or have plans to offer them. These include Coinbase, Bithumb, and Bancor. </p>
+
+
+
+<p>The revolutionary potential of these developments cannot be understated. Although there is significant debate over the long-term future of central banks and fiat currencies in the wake of the crypto revolution, there is no doubt that owning other forms of property will remain commonplace. By shifting the ownership of assets such as stocks and real estate onto blockchains an entire new global ecosystem can be created that renders obsolete virtually every method of traditional investment. Investors will have the ability to not only buy and trade tokens backed by these assets, but they will also be able to use them as currency. Additionally, blockchain-based security tokens will be available globally for purchase by many that presently do not have access to standard financial markets.<br></p>
+
+
+
+<p>Not surprisingly, financial regulators have taken great interest in security tokens, and thus far exchanges have been cooperative in seeking to work with authorities. A myriad of laws and protections will be necessary to ensure that securities tokens can be handled properly. However, the remarkable potential of bringing secure decentralized ownership to asset management cannot be taken lightly. The need to regulate such a potentially vast market may also play a key role in the creation of legal recognition for other forms of crypto assets, and possibly the eventual recognition of cryptocurrency as legal tender. </p>
+
+
+
+<p>The introduction of security tokens is one of many areas where blockchain development is progressing, and the next few months promise to be very transformative as the first steps are taken toward putting them into real-world use. Given the trillions of dollars worth of assets that could potentially be tokenized, the stakes are very high for success. Nevertheless, there is little doubt that the process has begun, and it represents a radical new means of managing wealth.<br><br></p>
+
+
+
+<p><em>Featured Image via <a href="https://bigstockphoto.com">BigStock</a>.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/security-tokens-set-to-become-major-assets-within-the-crypto-space/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>China &#038; India Continue To Take Steps To Thwart Crypto Use</title>
+		<link>https://www.crypto-news.net/china-india-continue-to-take-steps-to-thwart-crypto-use/</link>
+		<comments>https://www.crypto-news.net/china-india-continue-to-take-steps-to-thwart-crypto-use/#respond</comments>
+		<pubDate>Fri, 25 Jan 2019 23:00:31 +0000</pubDate>
+		<dc:creator><![CDATA[Trevor Smith]]></dc:creator>
+				<category><![CDATA[Alt coins]]></category>
+		<category><![CDATA[Bitcoin]]></category>
+		<category><![CDATA[National News]]></category>
+		<category><![CDATA[arun jaitley]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[chinese cyberspace affairs commission]]></category>
+		<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[india]]></category>
+		<category><![CDATA[reserve bank of india]]></category>
+		<category><![CDATA[shaktikanta das]]></category>
+		<category><![CDATA[xi jinping]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9822</guid>
+		<description><![CDATA[The governments of China and India are known to be hostile to decentralized cryptocurrencies, and have taken steps over the past few years to curb their adoption. Although largely unsuccessful, these steps have frustrated citizens seeking to enter the crypto space. Both governments now appear to be strengthening their resolve to block the use of ]]></description>
+				<content:encoded><![CDATA[
+<p>The governments of China and India are known to be hostile to decentralized cryptocurrencies, and have taken steps over the past few years to curb their adoption. Although largely unsuccessful, these steps have frustrated citizens seeking to enter the crypto space. Both governments now appear to be strengthening their resolve to block the use of crypto within their borders. China has just announced tight regulations on the operation of blockchain nodes and other crypto-related services. Also, Indian banks appear to be complying with rules prohibiting their involvement with cryptocurrency services and companies.</p>
+
+
+
+<p>On January 10th the Chinese Cyberspace Affairs Commission (CAC) announced that beginning &nbsp;February 15th, all firms engaged in blockchain technology must register with the agency. Blockchain services must provide positive identification, and also agree to government censorship and management. This new regulation, if strictly interpreted, will give the Chinese government control over all nodes throughout the country. It will also provide the legal authority to take over mining and exchanges. </p>
+
+
+
+<p>India’s actions against crypto adoption are aimed at blocking banking access. Last year the Reserve Bank of India (RBI) issued rules prohibiting banks from working with cryptocurrency companies. This restriction also includes blocking account access to exchanges. A number of Indian banks now appear to be following the RBI’s directive, as reports are emerging of individual bank accounts being frozen. Also, some banks are requiring new account holders to confirm that they will not use accounts for cryptocurrency-related activity. </p>
+
+
+
+<p>Actions by their respective governments have done little to thwart crypto adoption in China and India, and these new steps are also likely to be ineffective. Interestingly, both governments view crypto as a threat, despite having very different political and economic structures. China is governed by an authoritarian regime that oversees a centrally planned economy, yet is gradually transitioning to a free market. India is the largest democracy on the planet with a free market economy dating back to colonial rule. Both governments, however, recognize that decentralized cryptocurrencies promise to undermine their state-backed fiats. Both nations also have hundreds of millions of citizens that are poor and unbanked, and thus well-positioned to adopt blockchain assets.</p>
+
+
+
+<p>Ironically both Chinese and Indian officials have praised blockchain as a promising new technology. Chinese President Xi Jinping has referred to it as part of a “new generation of information technology,” and Indian Finance Minister Arun Jaitley has stated that his government will “explore the use of blockchain technology for ushering in digital economy.” It is also worth noting, however, that incoming RBI head Shaktikanta Das is openly hostile to crypto, and has even called for it to be made illegal.</p>
+
+
+
+<p>Perhaps the most important takeaway from the actions of these two governments is the fact that their leaders do not yet understand blockchain’s fundamental architecture. China’s attempt to regulate, and thus centralize, a technology that is by design resistant to central control demonstrates this point. Also, India’s banking ban clearly overlooks the fact that a number of Indian banks are planning to use cryptocurrency as a medium for international transfers. Nevertheless, these nations have by-far the world’s largest populations, as well as two of the largest economies. Thus, their impact on blockchain development cannot be understated. As the technology moves mainstream, it will be imperative for leaders and officials to become more educated on the true nature of decentralized ledgers and their revolutionary potential. </p>
+
+
+
+<p></p>
+
+
+
+<p><em>Featured Image via <a href="http://www.bigstockphoto.com">BigStock</a>.<br></em></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/china-india-continue-to-take-steps-to-thwart-crypto-use/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Amazon shakes hands with Kaleido to launch an enterprise-level blockchain marketplace</title>
+		<link>https://www.crypto-news.net/amazon-shakes-hands-with-kaleido-to-launch-an-enterprise-level-blockchain-marketplace/</link>
+		<comments>https://www.crypto-news.net/amazon-shakes-hands-with-kaleido-to-launch-an-enterprise-level-blockchain-marketplace/#respond</comments>
+		<pubDate>Fri, 25 Jan 2019 00:51:24 +0000</pubDate>
+		<dc:creator><![CDATA[Azeem Saifi]]></dc:creator>
+				<category><![CDATA[Blockchain Technology]]></category>
+		<category><![CDATA[amazon]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[bnp]]></category>
+		<category><![CDATA[cerveny]]></category>
+		<category><![CDATA[citi]]></category>
+		<category><![CDATA[ConsenSys]]></category>
+		<category><![CDATA[enterprise]]></category>
+		<category><![CDATA[ethereum]]></category>
+		<category><![CDATA[kaleido]]></category>
+		<category><![CDATA[komgo]]></category>
+		<category><![CDATA[Marketplace]]></category>
+		<category><![CDATA[paribas]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9875</guid>
+		<description><![CDATA[Some of you might be hearing about Kaleido for the first time. But those who have been following enterprise-level blockchain implementations must already be aware that it aids businesses in implementing decentralized use cases in pretty much all niches. Since Amazon is also taking a keen interest in blockchain technology and is quite rapidly expanding ]]></description>
+				<content:encoded><![CDATA[
+<p>Some of you might be hearing about Kaleido for the first
+time. But those who have been following enterprise-level blockchain
+implementations must already be aware that it aids businesses in implementing
+decentralized use cases in pretty much all niches.</p>
+
+
+
+<p>Since Amazon is also taking a keen interest in blockchain
+technology and is quite rapidly expanding its outreach, Kaleido has partnered
+with them – for mutual benefits, of course! With the help of this partnership,
+they aim to launch a marketplace where enterprises could buy different tools,
+services, and protocols as per their requirements.</p>
+
+
+
+<p>Indeed, it happens to be a very decent initiative, given that
+several businesses are willing to adopt the blockchain technology but their
+‘twisted and complicated’ use cases do not allow much automation. Well, that
+issue seems to be resolving now.</p>
+
+
+
+<p>If you are curious about its success or outreach in the
+market, please note that this joint venture has already nested Komgo (a
+commodities platform with its client base consisting of Citi, BNP Paribas,
+Shell, etc.) </p>
+
+
+
+<p>In such a short span, the milestone achievement is going
+pretty well and it was expected to happen since Amazon is a very well-known
+brand across the Planet and Kaleido has a decent reputation in its niche as
+well.</p>
+
+
+
+<h2><strong>Kaleido at a glance</strong></h2>
+
+
+
+<p>Joe Lubin, Ethereum’s co-founder, launched an incubator in 2014, named ‘ConsenSys.’ The primary aim of this initiative is to design and develop multiple blockchain projects for varying demands of the industry and currently, Kaleido is also overseen by ConsenSys.</p>
+
+
+
+<p>Cerveny, the overseer of Kaleido Marketplace, issued a
+statement and said that the potential customer base is quite huge. But the real
+problem is that they need more automation to set up a blockchain based
+environment for different processes. In order to achieve that, Kaleido must
+provide a platform where they could buy tools to enable efficient integrations.</p>
+
+
+
+<p>One of the primary things to be noticed here is that this
+latest marketplace allows the users to take help in development as well as
+front end. Moreover, it does not only enable you to utilize the tools related
+to the main blockchain network. In fact, if you want to do some configurations
+on the supporting infrastructures or work with other protocols, there is a wide
+variety of tools available.</p>
+
+
+
+<p>Therefore, mainstream users do not have to worry about the
+variance in different technologies.</p>
+
+
+
+<p>It is important to realize that Amazon is not the only giant
+in this exploration. There are several companies including IBM, SAP, and
+Deloitte trying to roll out newer solutions for the community. However, Amazon
+has partnered with Kaleido at the time of its launch and together they have
+crafted several AWS integrations for Amazon’s enterprise-level blockchain
+customers.</p>
+
+
+
+<p>Let it be HD wallet, data backup tools or private networking.
+With the help of this marketplace, customers will have easy access to pretty
+much all of the Amazon Web Services related to the blockchain. </p>
+
+
+
+<p>Kaleido confessed that a couple of its early adopters have
+already realized that it cuts about 80% of the extensive work required to write
+custom code. </p>
+
+
+
+<p>It does only stop here. In fact, this joint venture will also
+allow different traders, developers, and resellers to list their products on
+the marketplace. Moreover, Kaleido also offers consultation services to the
+budding ventures looking forward to penetrating the market.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/amazon-shakes-hands-with-kaleido-to-launch-an-enterprise-level-blockchain-marketplace/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Curated blockchain and cryptocurrency News – Week 3’19</title>
+		<link>https://www.crypto-news.net/curated-blockchain-and-cryptocurrency-news-week-319/</link>
+		<comments>https://www.crypto-news.net/curated-blockchain-and-cryptocurrency-news-week-319/#respond</comments>
+		<pubDate>Wed, 23 Jan 2019 22:00:59 +0000</pubDate>
+		<dc:creator><![CDATA[Zoran Spirkovski]]></dc:creator>
+				<category><![CDATA[Curated Lists]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[binance]]></category>
+		<category><![CDATA[DNM]]></category>
+		<category><![CDATA[ibm]]></category>
+		<category><![CDATA[ING]]></category>
+		<category><![CDATA[Taiwan]]></category>
+		<category><![CDATA[visa]]></category>
+		<category><![CDATA[Weekly Curated]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9921</guid>
+		<description><![CDATA[Weekly overview This week is pretty interesting in developments with quite a few firsts for blockchain and other industries. Binance opens up the doors for fiat exchanges through their latest addition to the platform called Binance Jersey. Next we have academia taking an active role in blockchain development with an amazing goal on mind, to ]]></description>
+				<content:encoded><![CDATA[
+<h5>Weekly overview</h5>
+
+
+
+<p>This week is pretty interesting in developments with quite a few <em>firsts </em>for blockchain and other industries. Binance opens up the doors for fiat exchanges through their latest addition to the platform called Binance Jersey. Next we have academia taking an active role in blockchain development with an amazing goal on mind, to outperform both Visa and Bitcoin. We learn more about what&#8217;s been happening to the darknet markets, and discover the story of seven sad scammers that finally got punished for their misdeeds. Unfortunately no details on the punishment. After that we look at the United Nations report that talks about frontier technologies, including blockchain. </p>
+
+
+
+<p>IBM is also making a showing in this edition of the weekly article where we look at its Blockchain Accelerator Program and one of the participants &#8220;Securitize&#8221;, a start-up that wants to issue securities representing the multi-trillion American dollar corporate debt, using blockchain technology. To wrap things up we look at some interesting news from the banking industry. ING, Dutch bank has done the inevitable and has signed an agreement with R3 Corda, which will enable them to fully transition all of their operations to the blockchain. This is the first bank to make such a commitment as far as we are aware!</p>
+
+
+
+<h4>Bitcoin Weekly Price</h4>
+
+
+
+<p>Bitcoin&#8217;s price in the past week has lost some of its value going from $3656 at the start of the week, peaking to $3756 on the 20th of January and then sharply dropping leaving the price at the end of the week at $3600. In terms of crypto, quite minimal volatility, but the unusually high spike in value suggests whales at play, taking positions that influence the markets. </p>
+
+
+
+<p>There were some good news on the 20th, but it&#8217;s highly unlikely that the United Nation&#8217;s positive sentiment towards blockchain in general should and will influence the price movement. Most likely the price movements recorded are stemming from speculative movements, as opposed to the market reacting to positive or negative Bitcoin news.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.crypto-news.net/wp-content/uploads/2019/01/chart-1-1.png" alt="" class="wp-image-9927" srcset="https://www.crypto-news.net/wp-content/uploads/2019/01/chart-1-1.png 800w, https://www.crypto-news.net/wp-content/uploads/2019/01/chart-1-1-300x206.png 300w, https://www.crypto-news.net/wp-content/uploads/2019/01/chart-1-1-768x528.png 768w, https://www.crypto-news.net/wp-content/uploads/2019/01/chart-1-1-611x420.png 611w, https://www.crypto-news.net/wp-content/uploads/2019/01/chart-1-1-640x440.png 640w, https://www.crypto-news.net/wp-content/uploads/2019/01/chart-1-1-681x468.png 681w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+
+
+
+<h3>January 16th</h3>
+
+
+
+<h3><a href="https://toshitimes.com/european-cryptocurrency-markets-welcome-binance-exchange/"><em>New Binance platform in Europe dedicated to exchanging fiat to crypto</em></a></h3>
+
+
+
+<figure class="wp-block-image"><img src="https://www.crypto-news.net/wp-content/uploads/2019/01/binance-1024x464.png" alt="" class="wp-image-9928" srcset="https://www.crypto-news.net/wp-content/uploads/2019/01/binance-1024x464.png 1024w, https://www.crypto-news.net/wp-content/uploads/2019/01/binance-300x136.png 300w, https://www.crypto-news.net/wp-content/uploads/2019/01/binance-768x348.png 768w, https://www.crypto-news.net/wp-content/uploads/2019/01/binance-926x420.png 926w, https://www.crypto-news.net/wp-content/uploads/2019/01/binance-640x290.png 640w, https://www.crypto-news.net/wp-content/uploads/2019/01/binance-681x309.png 681w, https://www.crypto-news.net/wp-content/uploads/2019/01/binance.png 1261w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Screen capture from www.binance.je </figcaption></figure>
+
+
+
+<p><a href="https://www.crypto-news.net/binance-exchange-review/">Binance </a>is dipping their feet in fiat for the first time in history, making it possible for European citizens to use their services to change British Pounds or Euros to purchase Bitcoin or Ethereum. This is a major step for the exchange and it shows a great deal of maturity and ability to deal with the existing regulatory aspects of handling cash exchanges as a business.</p>
+
+
+
+<p>By extrapolating the main exchange, Binance is able to separate the activities and responsibilities, but the expectation is that this latest addition to the platform&#8217;s assortment of services and products will provide the level of excellence that the market has learned to expect from <a href="https://www.crypto-news.net/binance-exchange-review/">Binance</a>. This is a great step towards the promotion of cryptocurrency adoption, but it is unfortunate that Binance have not created a sort of academy or library from which new users can learn about cryptocurrency and the way it works.</p>
+
+
+
+<p>Of course, education is on the hand of the individual to take care of themselves, but any additional value by the companies involved in the industry is welcome. There are many risks when dealing with crypto, and people should be made aware of them. Adoption is great, but it needs to be coupled with education. What do you think about <a href="https://www.crypto-news.net/binance-exchange-review/">Binance Jersey</a>? </p>
+
+
+
+<h5>Other news:</h5>
+
+
+
+<ul><li><a href="https://www.ft.com/content/9eb01af6-1964-11e9-b93e-f4351a53f1c3"><em>Vakt, a Blockchain-powered trading platform attracts Chevron, Total and Reliance</em></a></li><li><a href="https://cointelegraph.com/news/canada-digital-id-system-could-use-blockchain-to-secure-data-says-banking-executive"><em>Canada&#8217;s Digital ID system shows potential for blockchain technology</em></a></li><li><a href="https://twitter.com/WWF_Australia/status/1085720162832080896"><em>WWF joins the blockchain race with a food tracking solution OpenSC</em></a><em> </em></li><li><a href="https://www.reuters.com/article/us-usa-blockchain-bitfury/global-blockchain-unicorn-bitfury-launches-music-business-idUSKCN1PA0Q9"><em>Bitfury starts &#8220;Bitfury Surround&#8221; hoping to resolve issues in the entertainment industry</em></a></li><li></li><li><a href="https://newsroom.ibm.com/2019-01-16-Ford-Motor-Company-Huayou-Cobalt-IBM-LG-Chem-and-RCS-Global-Launch-Blockchain-Pilot-to-Address-Concerns-in-Strategic-Mineral-Supply-Chains?cm_mmc=OSocial_Blog-_-Blockchain+and+Watson+Financial+Services_Blockchain-_-WW_WW-_-Blockchain+for+the+mining+industry+Ethical+cobalt+production+In+Text+IBM+Newsroom&amp;cm_mmca1=000020YK&amp;cm_mmca2=10005803"><em>IBM, Ford, LG and others launch a blockchain pilot to track the global cobalt supply chain</em></a></li><li><a href="https://cointelegraph.com/news/blockchain-featured-in-big-four-firm-deloittes-annual-tech-trends-report"><em>Deloitte lists blockchain in their annual tech trends report</em></a><em> </em></li><li><a href="https://venturebeat.com/2019/01/16/inside-sirin-labs-first-blockchain-smartphone-retail-store/"><em>Inside look at the first Sirin Labs retail store in London</em></a></li></ul>
+
+
+
+<h3>January 17th</h3>
+
+
+
+<h4><a href="https://www.bloomberg.com/news/articles/2019-01-17/mit-stanford-academics-design-cryptocurrency-to-better-bitcoin"><em>US academics set out to create a cryptocurrency faster than VISA called Unit-e</em></a></h4>
+
+
+
+<figure class="wp-block-image"><img src="https://images.unsplash.com/photo-1468645547353-56d325bb57ff?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt=""/></figure>
+
+
+
+<p>A big promise comes from researchers from 7 major universities across the USA have teamed up to create a cryptocurrency that is better than both Bitcoin and VISA. These professors come from MIT, Stanford, The University of California, and other educational institutions and they are hoping to create the next best crypto on the market. </p>
+
+
+
+<p>Their efforts are attributed to the work of &#8220;Distributed Technology Research&#8221; (DTR) a non-profit foundation created by the academics involved in the development, an organization which is funded by Pantera Capital. The investment fund is aware of the limitations of cryptocurrencies like Bitcoin, which are effective, but difficult to scale up. Anybody that&#8217;s been involved in crypto has felt the incredible transaction fees and network clogging. This was especially apparent in the 2017 hype, where the Bitcoin network took weeks to process some payments as senders were competing with the transaction fees.</p>
+
+
+
+<p>Pantera Capital looks at this endeavor as a way to &#8220;save&#8221; decentralized currencies preventing them from becoming 3D printing, and enabling them to become just like the internet, as said by Joey Krug, the co-chief investment officer at Pantera Capital and member of the DTR council. Unit-e is supposed to launch mid-2019 and will use &#8220;sharding&#8221; to achieve the projected results. </p>
+
+
+
+<h5>Other news:</h5>
+
+
+
+<ul><li><a href="https://www.coindesk.com/wyoming-blockchain-bill-proposes-issuance-of-tokenized-stock-certificates"><em>Bill proposed in Wyoming can make way for Security Token Adoption</em></a></li><li><a href="https://www.eventbrite.co.uk/e/hackion-tickets-54344484817"><em>Barclays invites coders to a hackathon to connect ETH to Hyperledger</em></a></li><li><a href="https://news.bitcoin.com/bitpay-reports-processing-over-1-billion-transactions-in-2018/"><em>BitPay processed over $1 billion worth of transactions in 2018</em></a></li><li><a href="https://www.globenewswire.com/news-release/2019/01/16/1696802/0/en/Inxeption-Announces-Investment-from-UPS-Strategic-Enterprise-Fund.html"><em>UPS acquires an equity stake in Inxeption, a blockchain-based e-commerce solution</em></a></li><li><a href="https://www.gamesindustry.biz/articles/2019-01-17-former-playstation-take-two-nintendo-execs-launch-blockchain-investment-firm"><em>Executives from Nintendo and Take-2 to create a blockchain-powered game publisher company</em></a></li></ul>
+
+
+
+<h3>January 18th</h3>
+
+
+
+<h4><a href="https://www.reuters.com/article/us-crypto-currencies/daily-bitcoin-transactions-on-darknet-markets-doubled-throughout-2018-report-idUSKCN1PC1OE"><em>Darknet markets daily transaction value doubled in 2018</em></a></h4>
+
+
+
+<p>Chainalysis, a data research company, discovered that darknet market activity has risen to $2 million daily value on average, twice as much as the average of 2017, as reported by Reuters.The company explains that 2017 was a year when two major darknet markets were shut down by the authorities which contributed to the low average of 2017. </p>
+
+
+
+<p>According to the data company 2019 is not going to look all that great for darknet markets, with the increased activity of law enforcement towards shutting the markets down, and the tendency for dark market participants to slowly transition to encrypted and secret channels. What is most surprising is the fact that 2018 was a very active year for the market, regardless of the drop in prices showcasing that these individuals do not really care about the price, but are simply using the crypto as a means for exchanging value.</p>
+
+
+
+<p>In their case, anonymity is considered a very attractive feature, especially as the nature of the majority of products and services available on the platform are illegal. Sellers and buyers would prefer to remain completely anonymous and Bitcoin provides them with the opportunity. Creating a public ledger of private and public keys does not concern them, as catching the trace is difficult in the first place. Another company recently in the news for other things, Bitfury has a solution called Exonum, which enables law enforcement to screen BTC and evaluate whether the crypto is tainted or not. </p>
+
+
+
+<p>Following the history of transactions and individual recordings on the blockchain can reveal a lot of information for law enforcement, and as time progresses agents of law gather more knowledge about the systems and how they operate.</p>
+
+
+
+<h5>Other news:</h5>
+
+
+
+<ul><li><a href="https://www.reuters.com/article/us-crypto-currencies/daily-bitcoin-transactions-on-darknet-markets-doubled-throughout-2018-report-idUSKCN1PC1OE"><em>2018 recorded twice as much daily darknet activity compared to 2017</em></a></li><li><a href="https://info.shapeshift.io/blog/2019/01/18/pulling-back-the-curtain-how-shapeshift-handles-law-enforcement-compliance/"><em>ShapeShift shares law enforcement compliance statistics</em></a></li><li><a href="https://www.fnlondon.com/articles/blockchain-firm-setl-hires-former-french-central-bank-governor-20190118"><em>Former French central bank governor joins blockchain company Setl</em></a></li><li><a href="https://ambcrypto.com/thailands-national-stock-exchange-venturing-into-the-cryptocurrency-space/"><em>Thailand&#8217;s national stock exchange lobbies for a crypto license</em></a></li></ul>
+
+
+
+<h3>January 19th</h3>
+
+
+
+<h3><a href="http://focustaiwan.tw/news/asoc/201901180015.aspx"><em>Seven people indicted in Taiwan for investment scheme fraud</em></a></h3>
+
+
+
+<figure class="wp-block-image"><img src="https://images.unsplash.com/photo-1521437100987-e1cb2178879b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80" alt=""/></figure>
+
+
+
+<p>Scams are not uncommon for the crypto ecosystem, as unfortunate as that fact may be. There are cases however, when the perpetrators are caught and jailed, and this is one of those cases. Seven individuals in Taiwan who were arrested on the 13th of June in 2018 were charged for breaking several business and banking laws. Sources do not indicate is the penalty for the fraudsters.</p>
+
+
+
+<p>During their time, they were running an investment scheme which promised annual returns of up to 355% to investors, but subsequently failed to provide payouts to the majority of investors, landing safely in the category of a ponzi scheme. </p>
+
+
+
+<p>The group&#8217;s leader only known as Lin managed to attract investors from Taiwan and China, and has managed to collect $51 million since starting their operations in October 2016. Now the law has caught up to them and they have received their official sentence. Yet another example that crime does not pay. Investors that got burned in the scheme will most likely not get their money back, as by now they are either hidden or simply spent.</p>
+
+
+
+<h5>Other news:</h5>
+
+
+
+<ul><li><a href="https://bitcoinist.com/venezuela-first-bitcoin-atm/"><em>First Bitcoin ATM to be installed in Venezuela at the start of February</em></a></li><li></li><li><a href="https://www.thenational.ae/uae/uae-and-saudi-arabia-unveil-seven-point-co-operation-plan-including-new-cryptocurrency-1.815401"><em>Saudi Arabia and UAE to co-develop a cryptocurrency</em></a></li><li><a href="https://twitter.com/jchervinsky/status/1086266216568799233?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1086266216568799233&amp;ref_url=https%3A%2F%2Fethereumworldnews.com%2Fcrypto-lawyer-us-shutdown-bitcoin-etf%2F"><em>Lawyer claims &#8220;U.S. government shutdown will not influence SEC&#8217;s ETF decision making&#8221;</em></a></li><li><a href="https://www.ccn.com/chilean-citizens-will-begin-paying-cryptocurrency-taxes-in-2019/"><em>Chilean Internal Revenue Services add cryptocurrencies to the lis</em>t</a></li></ul>
+
+
+
+<h3>January 20th</h3>
+
+
+
+<h4><a href="https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/WESS2018_full_web.pdf"><em>UN&#8217;s “World Economic and Social Survey 2018” describes crypto and blockchain as the new frontier</em></a></h4>
+
+
+
+<p>The United Nations is dedicated to improving the life of people worldwide, and in their latest report they are looking, among other things, at blockchain as a potential solution to some of the world&#8217;s most pressing issues. In the report you can find a lot of information about all of the frontier technologies including AI, renewable energy technologies, energy storage technologies, autonomous vehicles and drones, and of course cryptocurrencies and blockchain technology.</p>
+
+
+
+<p>Focusing only on the blockchain part of the report, which briefly explains the technology, where it comes from, and how it appeared. It also explains the benefits of the trustless modality of the bitcoin blockchain, which requires no central authority to manage the ledger of transactions. One of our favorite takeaways is &#8220;<em>Blockchain technology presents the possibility—a first in the field of finance!—that trust in institutions backed by government can be replaced by trust in computer code.</em>&#8220;</p>
+
+
+
+<p>The United Nations looks at blockchain technology as a way to deal with some of the incumbent issues that humanity has been dealing, from machines that record carbon emission and automatically purchase carbon credits, to a blockchain solution that would record children&#8217;s information as a way to eliminate child trafficking. The world is troubled in so many ways. Misfortune and lack of justice are commonplace in some parts of the globe. It might be right next door too. The United Nations are looking at blockchain and are trying to figure out what is the best way to leverage the techology.</p>
+
+
+
+<h5>Other news:</h5>
+
+
+
+<ul><li><a href="https://www.forbes.com/sites/jasonbloomberg/2019/01/20/the-six-ways-to-make-money-mining-cryptocurrency-are-equally-surprising/#39ac90951952"><em>IT analyst talks about six crypto mining business models</em></a></li><li></li></ul>
+
+
+
+<h3>January 21st</h3>
+
+
+
+<h4><em>IBM Blockchain Accelerator to host &#8220;Securitize&#8221; as their tenth participant</em></h4>
+
+
+
+<figure class="wp-block-image"><img src="https://images.pexels.com/photos/1253591/pexels-photo-1253591.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt=""/></figure>
+
+
+
+<p>IBM has established themselves as a pretty strong player in the cryptocurrency and blockchain worlds. They&#8217;ve embraced blockchain and have contributed to the creation of tools that are now used by other companies around the world. Now, a compliance platform for digitizing securities called &#8220;Securitize&#8221; has been revealed to be one of the 10 participants of the program. IBM&#8217;s idea is to guide and mentor these companies for three months as they work on their ideas to incorporate blockchain.</p>
+
+
+
+<p>What Securitize is trying to do is to cut down on the time and effort associated with issuing corporate debt. According to the company&#8217;s CEO, Carlos Domingo, Securitize wants to build the world&#8217;s first debt issuance platform with blockchain tech in 2019 and completely revamp the existing paper-based model in use today.</p>
+
+
+
+<p>Their platform will use the Hyperledger framework, a project hosted by the Linux foundation to which IBM is one of the main contributors. As mentioned before there are a total of ten companies that get involved in the accelerator every year, and this year the list looks like this:</p>
+
+
+
+<ul><li><strong>Lucidity </strong>&#8211; Marketing Analytics</li><li><strong>TigerTrade </strong>&#8211; B2B marketplace for excess retail inventory</li><li><strong>Phunware </strong>&#8211; Mobile Enterprise Software</li><li><strong>Connecting Food </strong>&#8211; Food Chain Transparency</li><li><strong>Ferrum </strong>&#8211; Equipment Lease Financing</li><li><strong>Bandwagon </strong>&#8211; Ticket issuance and fan management company</li><li><strong>IPwe </strong>&#8211; Marketplace for intellectual property</li><li><strong>MetaMe </strong>&#8211; Universal Wallet and Data Marketplace </li><li><strong>Credly </strong>&#8211; Public third-party reference and recognition for competence</li></ul>
+
+
+
+<h5>Other news:</h5>
+
+
+
+<ul><li><a href="https://www.prnewswire.com/news-releases/tangem-raises-15m-from-sbi-for-the-industrial-adoption-of-blockchain-enabled-smart-cards-300781293.html"><em>Smart cards company Tangem attracts additional $15 million</em></a><em> </em></li><li><a href="https://techcrunch.com/2019/01/21/digital-garage-teams-up-with-blockstream-to-develop-blockchain-financial-services-in-japan/"><em>Blockstream to team up with early-startup Digital Garage to provide financial services in Japan</em></a></li><li><a href="https://cointelegraph.com/news/spanish-port-authority-joins-blockchain-platform-developed-by-ibm-and-maersk"><em>Spanish Port Authority joins IBM/Maersk shipping blockchain platform</em></a></li><li></li></ul>
+
+
+
+<h3>January 22nd</h3>
+
+
+
+<h4><a href="https://www.r3.com/news/ing-signs-deal-for-large-scale-corda-enterprise-adoption/"><em>Dutch bank &#8220;ING&#8221; signs five-year deal with R3 Corda for a large-scale implementation</em></a></h4>
+
+
+
+<figure class="wp-block-image"><img src="https://images.pexels.com/photos/12619/house-money-capitalism-fortune-12619.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt=""/></figure>
+
+
+
+<p>Banks have been involved with cryptocurrency and blockchain technology for a while. They&#8217;ve had their time to experiment and experience the new technology and the effects it can have on their business. But none of them have decided to dive as deep as ING has decided on the 22nd of January, as we learn from R3&#8217;s press release.</p>
+
+
+
+<p>ING has taken a major step forward and a commitment to the use of the R3 Corda commercial platform and CorDapps to enhance their processes across all of their business operations and branches. This is just the beginning of what can be a catalyst in the banking industry. Since nobody has really taken a dive into blockchain like this before, banks around the world will be paying close attention to ING and how they incorporate the technology. </p>
+
+
+
+<p>ING has self-selected to be the guinea pig for the bank&#8217;s attempt at completely overhauling their processes. If successful, ING might propel themselves forward and above, as they would save time, energy, and increase profits from practical implementations of blockchain technology. There are risks, but the worst thing that can happen is to have them take a loss, cut the deal, and go back to the paper and central database system they are already using effectively.</p>
+
+
+
+<p>The promise however is that things will get simpler and faster with blockchain, as R3&#8217;s platform provides the bank with many different tools, expertise, and support. What do you think about this leap from ING?</p>
+
+
+
+<h5>Other news:</h5>
+
+
+
+<ul><li><a href="https://blog.blockchain.com/2019/01/22/limited-bsv-support/"><em>Blockchain Wallet will provide limited support for Bitcoin SV</em></a></li><li><a href="https://www.ccn.com/oops-south-korean-crypto-exchange-accidentally-sends-traders-5-million-in-bitcoin/"><em>South Korean Exchange accidentally airdrops $5 mil in BTC</em></a></li><li><a href="https://www.coindesk.com/sapphire-tech-targets-grin-cryptocurrency-with-new-gpu-miner"><em>New GPU miner by Sapphire Technology &#8211; RX570 16GB</em></a></li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>
+
+That’s it for this week. As always, share your opinions about the most interesting ones or link those stories we might have missed in our collections, which you found interesting and noteworthy over the week. You can also send us suggestions of stories to include in the next list if you find something interesting over the next days.
+
+</p>
+
+
+
+<h5>Join us on your favorite social network:</h5>
+
+
+
+<ul><li><a href="https://www.facebook.com/Crypto-News-1767592356791307">Facebook</a></li><li><a href="https://plus.google.com/u/0/106283222288362649441">Google +</a></li><li><a href="https://uk.linkedin.com/in/crypto-news-077900133">LinkedIn</a></li><li><a href="https://za.pinterest.com/cryptonews/">Pinterest</a></li><li><a href="https://twitter.com/Crypt0_News">Twitter</a></li><li><a href="https://vk.com/cryptonewsbtc">VK</a></li></ul>
+
+
+
+<p><br><em>Featured Images via Pexels.com &amp; Unsplash.com</em></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/curated-blockchain-and-cryptocurrency-news-week-319/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Blockchain is all Set to Revamp the Education Sector</title>
+		<link>https://www.crypto-news.net/blockchain-is-all-set-to-revamp-the-education-sector/</link>
+		<comments>https://www.crypto-news.net/blockchain-is-all-set-to-revamp-the-education-sector/#respond</comments>
+		<pubDate>Tue, 22 Jan 2019 21:30:41 +0000</pubDate>
+		<dc:creator><![CDATA[Rameez Ramzan]]></dc:creator>
+				<category><![CDATA[Blockchain Technology]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[Blockchain app Development]]></category>
+		<category><![CDATA[blockchain application developers]]></category>
+		<category><![CDATA[blockchain applications]]></category>
+		<category><![CDATA[Blockchain Apps]]></category>
+		<category><![CDATA[Blockchain development]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9864</guid>
+		<description><![CDATA[Blockchain has been the talk of the town for some time now, for its extensive application in various industries. The global blockchain market value is expected to reach $60 billion by 2020, showing its tremendous potential in the coming times. The Blockchain technology has massive implications in politics, helping in adding transparency in elections, registering ]]></description>
+				<content:encoded><![CDATA[
+<p>Blockchain has been the talk of the town for some time now, for its extensive application in various industries. The global blockchain market value is expected to reach <a href="https://expandedramblings.com/index.php/blockchain-statistics/">$60 billion</a> by 2020, showing its tremendous potential in the coming times. </p>
+
+
+
+<p>The Blockchain technology has massive implications in politics, helping in adding transparency in elections, registering immigrants, storing national records, and so on. And its next hit is the education industry. Blockchain’s distributed ledger restricts editing of stored data, enabling high-end security. </p>
+
+
+
+<p>Let’s explore the implications of blockchain in the education sector! </p>
+
+
+
+<p><strong>Security of Educational Records</strong></p>
+
+
+
+<p>Blockchain will enhance the security of educational records, ensuring that students are able to track their data till the end of time. Several students lose their degrees during a natural disaster or shifting from one place to another. Educational institutes rarely provide years old data, making it difficult for students to continue their education and professions without verifiable records. </p>
+
+
+
+<p>Blockchain’s distributed ledger will store educational records, so they are accessible whenever and wherever required. This means that even if your educational institute is no longer operational or you’ve lost physical copies of your degrees, you can easily access them through a personal code or USB. </p>
+
+
+
+<p>Fake diplomas and degrees are a major concern, as it raises concerns on the reliability of educational institutes and their operations. Blockchain’s distributed ledger makes it almost impossible for hackers to attack the system. Data is stored across several nodes, and each node requires an individual attack. Therefore, no more fake degrees forged.</p>
+
+
+
+<p><strong>Easy Verification of Credentials</strong></p>
+
+
+
+<p>Verifying degrees and educational credentials from an applicant’s educational institute takes a lot of time to request and receive feedback. Till then, the applicant’s file is withheld which is frustrating for both, employer and candidate. </p>
+
+
+
+<p>Blockchain has the ability to speed up the process. Some universities have started experimenting with Blockchain, such as the Massachusetts Institute of Technology. All students have their degrees available on a Blockchain-based mobile app, called Blockcerts. The degrees can be shared with potential employers, protected by Blockchain’s distributed ledger. The app is being run as a pilot project by MIT, aiming to achieve maximum self-sovereignty for students. </p>
+
+
+
+<p>Blockchain will soon replace institutes’ departments required for verification of degrees.</p>
+
+
+
+<p><strong>Preparing Students for Educational and Professional Challenges</strong></p>
+
+
+
+<p>Blockchain will help prepare students for educational and professional exams. For example, a <a href="https://www.cubix.co/solutions/chat-bot/">chatbot</a> will address student queries, guide them about admission and examination processes, help solve sample tests, identify individual shortcomings, and so on. The platform will present problems for students to solve, increasing difficulty levels as the students proceed. </p>
+
+
+
+<p>The portal will serve as a student diary, storing data of students’ area of expertise, interests, learning speed, competencies, and shortcomings. The profiles created by the application will help employers find relevant candidates as well as recommending relevant open vacancies to students, based on their interest and expertise. </p>
+
+
+
+<p>This platform can help students looking for financial help to pursue their educations. Non-profit organizations and donors can find deserving candidates for education loans and aid. </p>
+
+
+
+<p>Opet Foundation is working on a similar model. It helps students gear up for the challenges ahead and connects them with potential employers.</p>
+
+
+
+<p><em>‘People who are underprivileged or don’t have the access to the right kind of finances, end up falling behind or having to struggle a lot in admissions’</em> – Ameya Kulkarni, Co-Founder of Opet Foundation</p>
+
+
+
+<p><strong>Cryptocurrency Payments</strong></p>
+
+
+
+<p>One of the most popular uses of Blockchain is payments via cryptocurrencies. Educational institutes will soon start accepting tuition fees in cryptocurrencies. This is exciting because young adults are interested in digital currencies and are investing in Bitcoin and other currencies. </p>
+
+
+
+<p>University of Nicosia, Simon Fraser University, King’s College, and a few other are accepting payment in cryptocurrencies. Various universities have given the facility to tech students meanwhile testing the feasibility of the system. Later, the institutes will accommodate the infrastructural requirements for supporting cryptocurrency payments. </p>
+
+
+
+<p>More students will be inclined towards paying fees in cryptocurrencies in the future, as the price of Bitcoin and other digital currencies begins to match the college fees.</p>
+
+
+
+<p>Blockchain is ready to revolutionize the education sector, by offering alternate payments and high-end security systems. Transparency and reliability are a must-have in the educational world as the degrees set the foundation for recruitment and selection in the organizations. The technology is ready to revamp education like never before!</p>
+
+
+
+<p><em>Featured image via <a href="https://www.bigstockphoto.com">BigStock</a>.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/blockchain-is-all-set-to-revamp-the-education-sector/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How Sustainable Blockchain Options That Don’t Rely on Crypto Markets Can be Achieved</title>
+		<link>https://www.crypto-news.net/how-sustainable-blockchain-options-that-dont-rely-on-crypto-markets-can-be-achieved/</link>
+		<comments>https://www.crypto-news.net/how-sustainable-blockchain-options-that-dont-rely-on-crypto-markets-can-be-achieved/#respond</comments>
+		<pubDate>Mon, 21 Jan 2019 21:30:01 +0000</pubDate>
+		<dc:creator><![CDATA[Grace Muthoni]]></dc:creator>
+				<category><![CDATA[Blockchain Technology]]></category>
+		<category><![CDATA[B3i]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[blockchain technology]]></category>
+		<category><![CDATA[BlockVerify]]></category>
+		<category><![CDATA[BurstleIQ]]></category>
+		<category><![CDATA[Cryptocurrency]]></category>
+		<category><![CDATA[Orbs]]></category>
+		<category><![CDATA[Propy]]></category>
+		<category><![CDATA[Shiyom]]></category>
+		<category><![CDATA[technology]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9883</guid>
+		<description><![CDATA[The power of the blockchain to change the world for the better is undeniable. Its growth has been astronomical. Between 2014 and 2015, over $800 million has been injected into startups related to blockchain. An update released by the International Data Corp. indicated that Blockchain solutions are expected to grow by 75% through to 2022. ]]></description>
+				<content:encoded><![CDATA[
+<p>The power of the blockchain to
+change the world for the better is undeniable. Its growth has been astronomical.
+Between 2014 and 2015, over $800 million has been injected into startups
+related to blockchain. </p>
+
+
+
+<p>An update <a href="https://www.idc.com/tracker/showproductinfo.jsp?prod_id=1842">released by the International Data Corp.</a> indicated that Blockchain solutions are expected to grow by 75% through to 2022. The update on its worldwide Semiannual Blockchain Spending Guide shows that the solutions&#8217; annual global spending would reach $11.7 billion.</p>
+
+
+
+<h2>What
+is blockchain?</h2>
+
+
+
+<p>Blockchain was invented by Satoshi Nakamoto in 2008. It was first, a public
+transaction verification database for the premier cryptocurrency, Bitcoin. Information
+on its network is mathematically encrypted as a &#8216;block&#8217; and added to a chain of
+records.</p>
+
+
+
+<p>Don Tapscott, <g class="gr_ gr_6 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" id="6" data-gr-id="6">co-author</g> of <a href="http://blockchain-revolution.com/">Blockchain Revolution</a>, refers to blockchain technology as “The second generation of the Internet.” Blockchain is premised to alter every institution that it will encounter just as much as the internet did.</p>
+
+
+
+<p>It is now estimated that
+blockchain investments will hit a whopping <a href="https://www.researchandmarkets.com/reports/4593797/global-blockchain-technology-market-2018-2023">$19.9 billion</a> in global revenues by 2023. In December 2018, UNICEF
+<a href="https://www.blockstuffs.com/blog/unicef-investment-in-blockchain-related-startups">announced a $100,000 Innovation Fund</a> for the first cohort of blockchain
+investments in six companies focused on blockchain innovation.&nbsp; </p>
+
+
+
+<h2>How
+sustainable blockchain options can be achieved</h2>
+
+
+
+<p><strong>Transparency</strong><br>
+A new block in blockchain is usually validated through consensus protocols
+before it is added to the chain. This is what makes blockchain such a powerful
+force for change and innovation. This system hinders double spending and fraud.
+</p>
+
+
+
+<p>To modify blockchain records, a person would have to have the consensus of every validator on the chain. There would then be the need to alter all the subsequent records on the massive network. Unlike paper processes, this system is transparent, consistent and readily available to all parties involved.</p>
+
+
+
+<p><strong>Security</strong><br>Every blockchain transaction has to be verified by the chain before it is recorded. There is also encryption and linking processes whereby new data is stored on a network of computers rather than a server. This process makes hacking of information much harder. Furthermore sensitive information stored through the network is safely protected.</p>
+
+
+
+<p><strong>Traceability</strong><br>It is very challenging to trace the origins of products traded along complex chains. Not so on blockchain. The existence of an audit trail on the platform builds trust since it shows the source of an asset and its every stop.</p>
+
+
+
+<p><strong>Speed</strong><br>The level of human error and slow speed witnessed in classic paper heavy transactions is unseen in blockchain processes. There is a single digital record shared amongst many participants, building trust and efficiency.</p>
+
+
+
+<p><strong>Affordability </strong><br>Without middlemen and third parties, the cost of doing business becomes relatively cheaper. The traditional methods for transacting require a trusted third party to complete a transaction. This could either be a bank, a government agency or an online platform. </p>
+
+
+
+<p>Blockchain eliminates the need for a middleman thus speeding the process as well as minimizing costs. This further eliminates double spend problems for parties in a transaction.</p>
+
+
+
+<h2>How
+sustainable is blockchain without crypto?</h2>
+
+
+
+<p>According to a <a href="http://www3.weforum.org/docs/WEF_GAC15_Technological_Tipping_Points_report_2015.pdf"> survey by the World Economic Forum</a>, 10% of the world&#8217;s GDP will be stored on the blockchain by 2027. This is reified by  Mckinsey and Company <a href="https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/blockchain-beyond-the-hype-what-is-the-strategic-business-value">on the strategic value</a> of blockchain in businesses. There are so far more than half a million reports published about the technology and its potential implications. </p>
+
+
+
+<p>Many world governments are actively studying and releasing innovations on
+the technology and its usage. Today, blockchain investments have transformed
+many sectors of the economies of the world. The most notable disruptions are in
+the areas of insurance, real estate, health care, supply chain, IoT, banking,
+Fintech and logistics.</p>
+
+
+
+<p>In the financial sector, for example, blockchain&#8217;s ability to verify and transfer assets and information fast and securely has been very transformative. It is no wonder then that <a href="https://www.ccn.com/blockchain-explored-90-major-north-american-european-banks-survey-finds/">90% of all major</a> North American, Australian and European banks are investing in blockchain technology.</p>
+
+
+
+<p><a href="https://www.burstiq.com/">BurstleIQ</a> is a blockchain based startup, that won the 2018 Red Herring award. The firm has combined the power of big data, the processing prowess of Artificial Intelligence and blockchain&#8217;s security to create a health data platform like no other. It links B2B digital health services, government, pharma, providers, consumers and developers on its platform. </p>
+
+
+
+<p><a href="https://shivom.io/">Shivom</a>, an artificial intelligence and blockchain based firm <a href="https://www.cryptoninjas.net/2018/04/24/shivom-sees-32-million-raised-for-its-blockchain-based-genomic-data-pool/">recently raised $32 million</a> to build a platform that analyses and protects genomic data. Through its platform, it offers an integrated solution for genome data donors and patients where genomes are stored securely. This also provides a marketplace that is open for other providers such as research institutions, insurance companies, pharmaceuticals and patients support groups.</p>
+
+
+
+<p><a href="https://orbs.com/">Orbs</a>, a network powered by virtual chain&nbsp; technology is a &#8220;consumer-ready
+blockchain&#8221; <a href="https://www.prnewswire.com/news-releases/orbs-raises-118-million-to-fund-development-of-blockchain-platform-for-large-scale-consumer-applications-300648320.html">recently raised $118 million</a> to build large scale consumer
+applications. Its goal of commoditizing blockchain infrastructure via a fully
+decentralized public platform enables an easier transition to blockchain for
+the industry in totality.</p>
+
+
+
+<p>In the insurance sector, <a href="https://www.nexusmutual.io/">NexusMutual</a> has designed a blockchain based risk sharing
+platform. This platform will allow its users to forego insurance companies, and
+instead rely on smart contracts to manage claims. </p>
+
+
+
+<p><a href="https://b3i.tech/home.html">B3i</a>, the Blockchain Insurance Industry
+Initiative on the other hand, is a trading platform for the reinsurance and
+insurance sector that is designed to improve efficiency in the industry and
+improve the quality and speed of transactions.</p>
+
+
+
+<p>In the real estate market, <a href="https://propy.com/">Propy</a> has revolutionized real estate acquisition via the blockchain. By enhancing and providing trust, speed and security, an individual can now buy their desired home via Propy. In the supply chain market, <a href="http://blockverify.io/">BlockVerify</a> has built a solution that prevents fraud. Companies can access tools on this platform that restrict the distribution of counterfeit, stolen or diverted goods.</p>
+
+
+
+<p>Although the blockchain revolution has been hampered by many hindrances, including regulation problems and a lack of awareness, it has made vast strides in its adoption. There is a lot of ideology clashes that are slowing the uptake of the technology. </p>
+
+
+
+<p>However, major industry players and institutional investors like Deloitte, IBM, Accenture <g class="gr_ gr_4 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep" id="4" data-gr-id="4">and</g> Microsoft are however investing heavily in it. Its exponential growth away from cryptocurrency cannot be denied.</p>
+
+
+
+<p><em>Featured image via <a href="https://www.bigstockphoto.com">BigStock</a>.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/how-sustainable-blockchain-options-that-dont-rely-on-crypto-markets-can-be-achieved/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Inside The World’s Anti-Crypto Countries: South America</title>
+		<link>https://www.crypto-news.net/inside-the-worlds-anti-crypto-countries-south-america/</link>
+		<comments>https://www.crypto-news.net/inside-the-worlds-anti-crypto-countries-south-america/#respond</comments>
+		<pubDate>Sun, 20 Jan 2019 23:30:07 +0000</pubDate>
+		<dc:creator><![CDATA[Daniel Dob]]></dc:creator>
+				<category><![CDATA[Opinionated Series]]></category>
+		<category><![CDATA[Anti-Crypto Countries]]></category>
+		<category><![CDATA[bitcoin ban]]></category>
+		<category><![CDATA[bolivia]]></category>
+		<category><![CDATA[ecuador]]></category>
+		<category><![CDATA[Inside Series]]></category>
+		<category><![CDATA[latin america]]></category>
+
+		<guid isPermaLink="false">https://www.crypto-news.net/?p=9805</guid>
+		<description><![CDATA[This article is&#160;part of a series&#160;on governments with an anti-crypto stance. Like other regions in the world, South America welcomed the cryptocurrency revolution, granted the large percentage of unbanked individuals, and opportunities offered by digital assets. While most countries in the region are either neutral, or positive towards the emergence of the crypto market, some ]]></description>
+				<content:encoded><![CDATA[
+<p><em>This article is&nbsp;</em><a href="https://www.crypto-news.net/%EF%BB%BFseries-inside-the-worlds-anti-crypto-countries/"><em>part of a series</em></a><em>&nbsp;on governments with an anti-crypto stance.</em></p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>Like other regions in the world, South America welcomed the cryptocurrency revolution, granted the large percentage of unbanked individuals, and opportunities offered by digital assets. While most countries in the region are either neutral, or positive towards the emergence of the crypto market, some have chosen a more aggressive stance. In this article, we will conduct a case study, analysing the situation in two countries that have positioned themselves as anti-crypto: Bolivia and Ecuador. </p>
+
+
+
+<p><strong>The crypto situation in Bolivia</strong></p>
+
+
+
+<p>Here, the crypto market was affected
+by a decision announced by the El Banco Central de Bolivia, which is the nation’s
+central bank. Back in 2014, when bitcoin started gaining more media coverage,
+the central bank announced its decision to ban all currencies that were not
+issued or regulated by a government. The list of forbidden digital assets
+included bitcoin, alongside other altcoins like PeerCoin or NameCoin. </p>
+
+
+
+<p>The statement responsible for the
+ban read: <em>“It is illegal to use any kind
+of currency that is not issued and controlled by a government or an authorized
+entity.”</em>The Bolivian
+central bank quickly backed its decision through a few arguments. According to
+them, the motivation lays in doing everything in their power to protect the
+country’s national currency – the boliviano. Secondly, the bank stated that uncontrolled
+currencies can have unprecedented effects, thus causing users to lose their
+money. </p>
+
+
+
+<p>Following the announcement, members of the financial community quickly reacted, stating that the decision was unwise granted that Bolivia is one of the poorest Latin American countries. Thus, banning bitcoin would reduce development and innovation of the fintech market there. Reports that emerged in 2017 showcase that the Bolivian government is relatively serious about imposing its ban. With this in mind, the country’s Financial System Supervision Authority (ASFI) reportedly arrested 60 people for promoting bitcoin investments.</p>
+
+
+
+<p>According to the ASFI, <em>“ee confiscated pamphlets relating to business schemes that go around giving training and making business plans regarding virtual currencies that are operating abroad. The Bolivian population should not be fooled. It should not participate in closed crypto groups through WhatsApp. The only thing they are doing is taking advantage of the population, deceiving the people to appropriate their money.”</em></p>
+
+
+
+<p>Following the arrests, the ASFI reiterated its belief that digital currencies are nothing but illegal pyramid schemes. Despite the grim situation, the Bolivian government cannot control private cryptocurrency use, such as trading crypto-for-crypto. So far, no plans to positively regulate the industries have been announced.</p>
+
+
+
+<p><strong>The crypto situation in Ecuador </strong></p>
+
+
+
+<p>The situation
+is Ecuador is quite interesting, given the motivation behind the reported
+cryptocurrency ban. To put things
+better into perspective, back in 2014, the country’s National Assembly decided to
+impose a ban against digital currencies, through a reform of its financial
+laws. As such, buying, selling, and using digital assets became illegal. Violating
+the amendments would lead to a penal sanction, followed by the confiscation of
+the assets in question. However, the ban was imposed in favour of Ecuador’s
+very own digital cash system. </p>
+
+
+
+<p>Thus, Ecuador
+became one of the world’s first countries to work on its own central bank
+digital currency. According to its National Assembly, <em>“Digital money will
+stimulate the economy; it will be possible to attract more Ecuadorian citizens,
+especially those who do not have checking or savings accounts and credit cards
+alone. The digital currency will be backed by the assets of the Central Bank of
+Ecuador.”</em></p>
+
+
+
+<p>The Ecuadorian central bank later talked about the benefits associated with this system. According to them, the digital cash system would reduce transaction and monetary issuance costs, while also providing citizens with an easier method of sending money digitally, via their smartphones. Controversies were quick to appear. A popular one mentioned that the CBDC’s purpose was to allow the country’s central bank to issue new currency that wouldn’t be tied to the United States dollar reserves, as per international regulations. So far, it is unclear to what extent the bitcoin ban is respected, and whether the digital cash system is actually a popular payment option used by the citizens.<br></p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p><strong>Di<em>sclaimer</em></strong><em>: If you are looking to conduct digital currency-related activities in China, it is best to thoroughly check the updated applicable laws. Do not take the information presented in this article as advice.</em><br><br></p>
+
+
+
+<p><em>Featured Image via <a href="https://www.bigstockphoto.com/">BigStock</a>.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.crypto-news.net/inside-the-worlds-anti-crypto-countries-south-america/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

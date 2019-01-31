@@ -2,6 +2,7 @@
 // Lassi Maksimainen, 2019
 package com.cfta.rssfeed.parser;
 
+import com.cfta.rssfeed.util.NodeTools;
 import com.cfta.rssfeed.xmlparser.XMLNode;
 import com.cfta.rssfeed.xmlparser.XMLParserUtil;
 import com.cfta.cf.handlers.protocol.RSSFeedResponse;
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.Locale;
 
 import org.apache.commons.lang.StringEscapeUtils;
+import org.w3c.dom.Node;
 
 public class RSSTypeFeedParser {
 
@@ -26,12 +28,12 @@ public class RSSTypeFeedParser {
     public RSSTypeFeedParser() {
     }
 
-    private RSSFeedResponse parseChannel(XMLNode rootNode) {
-        XMLNode n = XMLParserUtil.findNode(CHANNEL_NODE, rootNode.childNodes);
+    private RSSFeedResponse parseChannel(Node rootNode) {
+        Node n = NodeTools.childNode(rootNode, CHANNEL_NODE);
 
         RSSFeedResponse response = new RSSFeedResponse();
-        XMLNode title = XMLParserUtil.findNode(TITLE_NODE, n.childNodes);
-        XMLNode description = XMLParserUtil.findNode(DESCRIPTION_NODE, n.childNodes);
+        Node title = NodeTools.childNode(n, TITLE_NODE);
+        Node description = NodeTools.childNode(n, DESCRIPTION_NODE);
 
         if (title != null) {
             response.feedTitle = StringEscapeUtils.unescapeHtml(title.getTextContent());
@@ -45,13 +47,13 @@ public class RSSTypeFeedParser {
             response.description = "";
         }
 
-        List<XMLNode> items = XMLParserUtil.findNodes(ITEM_NODE, n.childNodes);
+        List<Node> items = NodeTools.childNodes(n, ITEM_NODE);
         for (int i = 0; i < items.size(); i++) {
-            XMLNode itemTitle = XMLParserUtil.findNode(TITLE_NODE, items.get(i).childNodes);
-            List<XMLNode> itemLink = XMLParserUtil.findNodes(LINK_NODE, items.get(i).childNodes);
-            XMLNode itemDescription = XMLParserUtil.findNode(DESCRIPTION_NODE, items.get(i).childNodes);
-            XMLNode itemDate = XMLParserUtil.findNode(DC_DATE_NODE, items.get(i).childNodes);
-            XMLNode pubDate = XMLParserUtil.findNode(PUB_DATE_NODE, items.get(i).childNodes);
+            Node itemTitle = NodeTools.childNode(items.get(i), TITLE_NODE);
+            List<Node> itemLink = NodeTools.childNodes(items.get(i), LINK_NODE);
+            Node itemDescription = NodeTools.childNode(items.get(i), DESCRIPTION_NODE);
+            Node itemDate = NodeTools.childNode(items.get(i), DC_DATE_NODE);
+            Node pubDate = NodeTools.childNode(items.get(i), PUB_DATE_NODE);
 
             if (itemTitle != null && itemLink.size() > 0) {
                 RSSFeedResponse.RSSItem item = response.newItem();
@@ -67,11 +69,11 @@ public class RSSTypeFeedParser {
                 }
 
                 if (item.date == null && pubDate != null) {
-                    item.date = XMLParserUtil.parseDate(pubDate.getTextContent().trim(), Locale.ENGLISH);
+                    item.date = NodeTools.parseDate(pubDate.getTextContent().trim(), Locale.ENGLISH);
                 }
 
                 if (item.date == null && itemDate != null) {
-                    item.date = XMLParserUtil.parseDate(itemDate.getTextContent().trim(), Locale.ENGLISH);
+                    item.date = NodeTools.parseDate(itemDate.getTextContent().trim(), Locale.ENGLISH);
                 }
 
                 response.rssItems.add(item);
@@ -81,7 +83,7 @@ public class RSSTypeFeedParser {
         return response;
     }
 
-    public RSSFeedResponse parseFeed(XMLNode rootNode) {
+    public RSSFeedResponse parseFeed(Node rootNode) {
         return parseChannel(rootNode);
     }
 }

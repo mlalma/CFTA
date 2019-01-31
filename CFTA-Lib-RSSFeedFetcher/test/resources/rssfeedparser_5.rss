@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[ETHNews]]></title>
+        <description><![CDATA[ETHNews is the authority in news, prices, analysis and information on Ethereum and its decentralized blockchain platform and cryptocurrency]]></description>
+        <link>https://www.ethnews.com</link>
+        <image>
+            <url>https://cdn.ethnews.com/images/content/ethnews-logo-rss.png</url>
+            <title>ETHNews</title>
+            <link>https://www.ethnews.com</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 31 Jan 2019 21:13:42 GMT</lastBuildDate>
+        <atom:link href="https://www.ethnews.com/rss" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 31 Jan 2019 21:13:42 GMT</pubDate>
+        <copyright><![CDATA[Copyright 2017 ETHNews.com. A division of Berns Inc. All rights reserved.]]></copyright>
+        <language><![CDATA[en]]></language>
+        <ttl>60</ttl>
+        <item>
+            <title><![CDATA[<h1>Distributed Digest: Thursday, January 31, 2019</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/DD3-01-31-2019.jpg" alt="distributed-digest-thursday-january-31-2019" ><p>Can’tstantinople is out, buffiDai comes to ETHDenver, and the Görli testnet goes live.</p>]]></description>
+            <link>https://www.ethnews.com/distributed-digest-thursday-january-31-2019</link>
+            <guid isPermaLink="false">distributed-digest-thursday-january-31-2019</guid>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Dani Putney]]></dc:creator>
+            <pubDate>Thu, 31 Jan 2019 16:36:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>UC Berkeley Forms Blockchain Accelerator</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/UC-Berkeley-Forms-Blockchain-Accelerator-01-30-2019.jpg" alt="uc-berkeley-forms-blockchain-accelerator" ><p>The university’s accelerator wants to help entrepreneurs pursue blockchain ventures.</p>]]></description>
+            <link>https://www.ethnews.com/uc-berkeley-forms-blockchain-accelerator</link>
+            <guid isPermaLink="false">uc-berkeley-forms-blockchain-accelerator</guid>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Dani Putney]]></dc:creator>
+            <pubDate>Wed, 30 Jan 2019 22:12:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Gemini Passes Security Compliance Review</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/Gemini-Passes-Security-Compliance-Review-01-30-2019.jpg" alt="gemini-passes-security-compliance-review" ><p>The Winklevoss twins may want to hang the test results on their fridge.</p>]]></description>
+            <link>https://www.ethnews.com/gemini-passes-security-compliance-review</link>
+            <guid isPermaLink="false">gemini-passes-security-compliance-review</guid>
+            <category><![CDATA[wallets and exchanges]]></category>
+            <dc:creator><![CDATA[Nicholas Ruggieri]]></dc:creator>
+            <pubDate>Wed, 30 Jan 2019 21:38:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Prominent Firearm Auction Site Shoots For Stablecoin</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/Worlds-Largest-Website-For-Firearms-Develops-Own-Stablecoin-01-30-2019.jpg" alt="prominent-firearm-auction-site-shoots-for-stablecoin" ><p>The new stablecoin would take aim at removing the hassle of a using a credit or debit card when purchasing a firearm.</p>]]></description>
+            <link>https://www.ethnews.com/prominent-firearm-auction-site-shoots-for-stablecoin</link>
+            <guid isPermaLink="false">prominent-firearm-auction-site-shoots-for-stablecoin</guid>
+            <category><![CDATA[application]]></category>
+            <dc:creator><![CDATA[Nathan Graham]]></dc:creator>
+            <pubDate>Wed, 30 Jan 2019 20:43:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Florida Appeals Court Overturns State v. Espinoza, Bitcoin May Be Money After All</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/State-v-Espinoza-Overturned-By-Florida-Court-Of-Appeal-01-30-2019.jpg" alt="florida-appeals-court-overturns-state-v-espinoza-bitcoin-may-be-money-after-all" ><p>In 2016, a Florida judge dismissed money laundering and illegal money transmission charges against a bitcoin trader, arguing that bitcoin wasn’t covered by state statutes. Today, an appeals court reversed that decision.</p>]]></description>
+            <link>https://www.ethnews.com/florida-appeals-court-overturns-state-v-espinoza-bitcoin-may-be-money-after-all</link>
+            <guid isPermaLink="false">florida-appeals-court-overturns-state-v-espinoza-bitcoin-may-be-money-after-all</guid>
+            <category><![CDATA[law and legislation]]></category>
+            <dc:creator><![CDATA[Jeff Benson]]></dc:creator>
+            <pubDate>Wed, 30 Jan 2019 19:15:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>FIND Bill Commissions Study Of Crypto Usage In Sex And Drug Trafficking</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/FIND-Bill-Commissions-Study-Of-Crypto-Usage-In-Sex-And-Drug-Trafficking-01-30-2019.jpg" alt="find-bill-commissions-study-of-crypto-usage-in-sex-and-drug-trafficking" ><p>The House may have passed FIND, but past laws don’t bode well for the bill’s effectiveness.</p>]]></description>
+            <link>https://www.ethnews.com/find-bill-commissions-study-of-crypto-usage-in-sex-and-drug-trafficking</link>
+            <guid isPermaLink="false">find-bill-commissions-study-of-crypto-usage-in-sex-and-drug-trafficking</guid>
+            <category><![CDATA[opinion]]></category>
+            <dc:creator><![CDATA[Nicholas Ruggieri]]></dc:creator>
+            <pubDate>Wed, 30 Jan 2019 18:32:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Distributed Digest: Wednesday, January 30, 2019</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/DD6-01-30-2019.jpg" alt="distributed-digest-wednesday-january-30-2019" ><p>Melonport taps Aragon for governance of the watermelon protocol, the Web3 Foundation awards its first grant to ChainSafe, and Kraken rebrands.</p>]]></description>
+            <link>https://www.ethnews.com/distributed-digest-wednesday-january-30-2019</link>
+            <guid isPermaLink="false">distributed-digest-wednesday-january-30-2019</guid>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Dani Putney]]></dc:creator>
+            <pubDate>Wed, 30 Jan 2019 16:31:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Want Privacy? AZTEC Proposes Confidential Token Contract Standard</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/Want-Confidentiality-AZTEC-Proposes-Standard-For-Private-Token-Contracts-01-29-2019.jpg" alt="want-privacy-aztec-proposes-confidential-token-contract-standard" ><p>AZTEC’s zkERC20 standard defines how to interact with a confidential token contract.</p>]]></description>
+            <link>https://www.ethnews.com/want-privacy-aztec-proposes-confidential-token-contract-standard</link>
+            <guid isPermaLink="false">want-privacy-aztec-proposes-confidential-token-contract-standard</guid>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Dani Putney]]></dc:creator>
+            <pubDate>Tue, 29 Jan 2019 22:36:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>BitGrail Owner Found Personally Liable For Losses In Exchange Hack</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/BitGrail-Owner-Found-Personally-Liable-For-Losses-In-Exchange-Hack-01-29-2019.jpg" alt="bitgrail-owner-found-personally-liable-for-losses-in-exchange-hack" ><p>Investors have finally received some good news nearly a year after the hack came to light.</p>]]></description>
+            <link>https://www.ethnews.com/bitgrail-owner-found-personally-liable-for-losses-in-exchange-hack</link>
+            <guid isPermaLink="false">bitgrail-owner-found-personally-liable-for-losses-in-exchange-hack</guid>
+            <category><![CDATA[wallets and exchanges]]></category>
+            <dc:creator><![CDATA[Nicholas Ruggieri]]></dc:creator>
+            <pubDate>Tue, 29 Jan 2019 21:21:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Cryptopia Exchange Reportedly Suffers Another Security Breach</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/UPDATE2-Cryptopia-Goes-Offline-After-Hack-Causes-Major-Losses-1-01-29-2019.jpg" alt="cryptopia-exchange-reportedly-suffers-another-security-breach" ><p>The Cryptopia saga continues.</p>]]></description>
+            <link>https://www.ethnews.com/cryptopia-exchange-reportedly-suffers-another-security-breach</link>
+            <guid isPermaLink="false">cryptopia-exchange-reportedly-suffers-another-security-breach</guid>
+            <category><![CDATA[wallets and exchanges]]></category>
+            <dc:creator><![CDATA[Nicholas Ruggieri]]></dc:creator>
+            <pubDate>Tue, 29 Jan 2019 18:57:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Marshall Islands To Issue Physical Banknotes For Its Digital Currency</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/Marshall-Islands-To-Issue-Physical-Digital-Currency-Banknotes-01-29-2019.jpg" alt="marshall-islands-to-issue-physical-banknotes-for-its-digital-currency" ><p>While the banknotes are aimed at increasing adoption, holders would need a smartphone to actually move funds off them.</p>]]></description>
+            <link>https://www.ethnews.com/marshall-islands-to-issue-physical-banknotes-for-its-digital-currency</link>
+            <guid isPermaLink="false">marshall-islands-to-issue-physical-banknotes-for-its-digital-currency</guid>
+            <category><![CDATA[cryptocurrencies and tokens]]></category>
+            <dc:creator><![CDATA[Nathan Graham]]></dc:creator>
+            <pubDate>Tue, 29 Jan 2019 18:06:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Distributed Digest: Tuesday, January 29, 2019</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/DD8-01-29-2019.jpg" alt="distributed-digest-tuesday-january-29-2019" ><p>Bittrex joins the Universal Protocol Alliance, Fluence Labs publishes its dApp survey results, and the MLN token will undergo a migration event starting in February.</p>]]></description>
+            <link>https://www.ethnews.com/distributed-digest-tuesday-january-29-2019</link>
+            <guid isPermaLink="false">distributed-digest-tuesday-january-29-2019</guid>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Dani Putney]]></dc:creator>
+            <pubDate>Tue, 29 Jan 2019 17:27:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Szabo’s Beast And Zamfir’s Law</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/Szabos-Beast-and-Zamfirs-Manifesto-01-28-2019.jpg" alt="szabos-beast-and-zamfirs-law" ><p>Vlad Zamfir challenges Nick Szabo’s social trust minimization approach – with an extra order of snark, supersized.</p>]]></description>
+            <link>https://www.ethnews.com/szabos-beast-and-zamfirs-law</link>
+            <guid isPermaLink="false">szabos-beast-and-zamfirs-law</guid>
+            <category><![CDATA[opinion]]></category>
+            <dc:creator><![CDATA[Rebekah Devine]]></dc:creator>
+            <pubDate>Mon, 28 Jan 2019 23:18:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Taiwan Authorities Arrest 15 Suspects Connected To $8 Million IBCoin Scam</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/Taiwan-Authorities-Arrest-Fifteen-Suspects-Connected-to-%248-Million-Crypto-Scam-01-28-2019.jpg" alt="taiwan-authorities-arrest-15-suspects-connected-to-8-million-ibcoin-scam" ><p>Investors never saw the large returns that were promised for purchasing IBCoin.</p>]]></description>
+            <link>https://www.ethnews.com/taiwan-authorities-arrest-15-suspects-connected-to-8-million-ibcoin-scam</link>
+            <guid isPermaLink="false">taiwan-authorities-arrest-15-suspects-connected-to-8-million-ibcoin-scam</guid>
+            <category><![CDATA[law and legislation]]></category>
+            <dc:creator><![CDATA[Nicholas Ruggieri]]></dc:creator>
+            <pubDate>Mon, 28 Jan 2019 22:12:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>The Ethereum Name Service Wants To Keep Auction Proceeds … But For Good Reason</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/ENS-Wants-To-Keep-Potential-Overflow-Funds-But-For-Good-Reason-01-28-2019.jpg" alt="the-ethereum-name-service-wants-to-keep-auction-proceeds-but-for-good-reason" ><p>After announcing it had started to plan for its three-to-six-character domain auction, the Ethereum Name Service follows up with some operational propositions.</p>]]></description>
+            <link>https://www.ethnews.com/the-ethereum-name-service-wants-to-keep-auction-proceeds-but-for-good-reason</link>
+            <guid isPermaLink="false">the-ethereum-name-service-wants-to-keep-auction-proceeds-but-for-good-reason</guid>
+            <category><![CDATA[ecosystem]]></category>
+            <dc:creator><![CDATA[Dani Putney]]></dc:creator>
+            <pubDate>Mon, 28 Jan 2019 21:14:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Kik Prepares To Defend Its ICO Against SEC Allegations</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/Kik-Prepares-To-Defend-Its-ICO-Against-SEC-Allegations-01-28-2019.jpg" alt="kik-prepares-to-defend-its-ico-against-sec-allegations" ><p>The messaging app believes it has precedent on its side in a would-be court battle.</p>]]></description>
+            <link>https://www.ethnews.com/kik-prepares-to-defend-its-ico-against-sec-allegations</link>
+            <guid isPermaLink="false">kik-prepares-to-defend-its-ico-against-sec-allegations</guid>
+            <category><![CDATA[law and legislation]]></category>
+            <dc:creator><![CDATA[Nicholas Ruggieri]]></dc:creator>
+            <pubDate>Mon, 28 Jan 2019 20:17:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>Bithumb Joins Forces With Other South Korean Crypto Exchanges Against Money Laundering</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/South-Korean-Crypto-Exchanges-Join-Forces-To-Combat-Money-Laundering-And-Protect-Investors-01-28-2019.jpg" alt="bithumb-joins-forces-with-other-south-korean-crypto-exchanges-against-money-laundering" ><p>South Korean crypto exchanges set up a “hotline” to prevent money laundering.</p>]]></description>
+            <link>https://www.ethnews.com/bithumb-joins-forces-with-other-south-korean-crypto-exchanges-against-money-laundering</link>
+            <guid isPermaLink="false">bithumb-joins-forces-with-other-south-korean-crypto-exchanges-against-money-laundering</guid>
+            <category><![CDATA[wallets and exchanges]]></category>
+            <dc:creator><![CDATA[Nathan Graham]]></dc:creator>
+            <pubDate>Mon, 28 Jan 2019 19:23:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>BitTorrent Token Sells Out On Binance In 15 Minutes</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/BitTorrent-Token-Sells-Out-In-18-Minutes-01-28-2019.jpg" alt="bittorrent-token-sells-out-on-binance-in-15-minutes" ><p>Six percent of BTT, the amount allocated for the public sale, was snatched up for around $7.2 million, says Binance.</p>]]></description>
+            <link>https://www.ethnews.com/bittorrent-token-sells-outs-on-binance-in-15-minutes</link>
+            <guid isPermaLink="false">bittorrent-token-sells-outs-on-binance-in-15-minutes</guid>
+            <category><![CDATA[cryptocurrencies and tokens]]></category>
+            <dc:creator><![CDATA[Jeff Benson]]></dc:creator>
+            <pubDate>Mon, 28 Jan 2019 18:48:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[<h1>GörliCon 2k19: It’s Dappening In Berlin</h1>]]></title>
+            <description><![CDATA[<img src="https://cdn.ethnews.com/images/1024x512/GorliCon-2k19-Its-Dappening-In-Berlin-01-28-2019.jpg" alt="goerlicon-2k19-its-dappening-in-berlin" ><p>Why does the Görli testnet need its own conference? Because it’s really about uniting the Ethereum open-source community.</p>]]></description>
+            <link>https://www.ethnews.com/goerlicon-2k19-its-dappening-in-berlin</link>
+            <guid isPermaLink="false">goerlicon-2k19-its-dappening-in-berlin</guid>
+            <category><![CDATA[ecosystem]]></category>
+            <dc:creator><![CDATA[Dani Putney]]></dc:creator>
+            <pubDate>Mon, 28 Jan 2019 17:24:05 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

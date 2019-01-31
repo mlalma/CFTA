@@ -68,11 +68,11 @@ public class FeedBurnerRSSTypeFeedParser {
                 }
 
                 if (item.date == null && pubDate != null) {
-                    item.date = XMLParserUtil.parseDate(pubDate.getTextContent().trim(), Locale.ENGLISH);
+                    //item.date = XMLParserUtil.parseDate(pubDate.getTextContent().trim(), Locale.ENGLISH);
                 }
 
                 if (item.date == null && itemDate != null) {
-                    item.date = XMLParserUtil.parseDate(itemDate.getTextContent().trim(), Locale.ENGLISH);
+                    //item.date = XMLParserUtil.parseDate(itemDate.getTextContent().trim(), Locale.ENGLISH);
                 }
 
                 response.rssItems.add(item);

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom/"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Cointelegraph.com News</title>
+	<atom:link href="https://cointelegraph.com/rss/" rel="self" type="application/rss+xml" />
+	<link>https://cointelegraph.com</link>
+	<description>Cointelegraph covers fintech, blockchain and Bitcoin bringing you the latest news and analyses on the future of money.</description>
+	<generator>cointelegraph.com</generator>
+	<lastBuildDate>Thu, 31 Jan 2019 21:21:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+
+    <image>
+        <title>Cointelegraph.com News</title>
+        <link>https://cointelegraph.com</link>
+        <url>https://cointelegraph.com/assets/img/CT_Logo_YG_tag.png</url>
+        <description>Cointelegraph covers fintech, blockchain and Bitcoin bringing you the latest news and analyses on the future of money.</description>
+    </image>
+	
+	
+                    <item>
+            <title><![CDATA[CEO of Telecoms Giant Swisscom’s Blockchain Unit Steps Down]]></title>
+            <link>https://cointelegraph.com/news/ceo-of-telecoms-giant-swisscoms-blockchain-unit-steps-down</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84MWNlOTQ1MmVhMjRiOTdhYmIxNTZkZTUwNmQyZjQyYS5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84MWNlOTQ1MmVhMjRiOTdhYmIxNTZkZTUwNmQyZjQyYS5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 21:10:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Miranda Karanfili]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Switzerland]]></category>
+                                                                <category><![CDATA[Swisscom]]></category>
+                                                                <category><![CDATA[Crypto Valley]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/ceo-of-telecoms-giant-swisscoms-blockchain-unit-steps-down</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84MWNlOTQ1MmVhMjRiOTdhYmIxNTZkZTUwNmQyZjQyYS5qcGc=.jpg"><p>The CEO of the blockchain unit of Swiss state-owned telecoms company Swisscom has abruptly stepped down from his position</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[CBOE Re-Applies With US SEC to List Bitcoin Exchange-Traded Fund]]></title>
+            <link>https://cointelegraph.com/news/cboe-re-applies-with-us-sec-to-list-bitcoin-exchange-traded-fund</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy83Yzc2NzM5NDFkNWY0YWE4MjdhZTU3YzExMTE5MWU0NS5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy83Yzc2NzM5NDFkNWY0YWE4MjdhZTU3YzExMTE5MWU0NS5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 20:56:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Aaron Wood]]></dc:creator>
+                                                <category><![CDATA[Bitcoin]]></category>
+                                                                <category><![CDATA[CBOE]]></category>
+                                                                <category><![CDATA[ETF]]></category>
+                                                                <category><![CDATA[Solidx]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/cboe-re-applies-with-us-sec-to-list-bitcoin-exchange-traded-fund</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy83Yzc2NzM5NDFkNWY0YWE4MjdhZTU3YzExMTE5MWU0NS5qcGc=.jpg"><p>The Chicago Board Options Exchange’s has re-submitted an application with the United States Securities and Exchange Commission for a rule change to list a Bitcoin ETF</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[New York Financial Regulators Grant BitLicense to Bitcoin ATM Operator]]></title>
+            <link>https://cointelegraph.com/news/new-york-financial-regulators-grant-bitlicense-to-bitcoin-atm-operator</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy85MzI2MGMzN2FjN2U3MzI2NDAxNGIyMWVlYWQzYjc3Yi5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy85MzI2MGMzN2FjN2U3MzI2NDAxNGIyMWVlYWQzYjc3Yi5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 20:38:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Aaron Wood]]></dc:creator>
+                                                <category><![CDATA[Bitcoin]]></category>
+                                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                                                <category><![CDATA[New York]]></category>
+                                                                <category><![CDATA[NYDFS]]></category>
+                                                                <category><![CDATA[ATM]]></category>
+                                                                <category><![CDATA[Bitcoin Regulation]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/new-york-financial-regulators-grant-bitlicense-to-bitcoin-atm-operator</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy85MzI2MGMzN2FjN2U3MzI2NDAxNGIyMWVlYWQzYjc3Yi5qcGc=.jpg"><p>Bitcoin ATM operator Cottonwood Vending LLC has been granted a virtual currency license by the New York State Department of Financial Services</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Seoul City Gov’t Launches ‘Blockchain Governance Team’ for State Services]]></title>
+            <link>https://cointelegraph.com/news/seoul-city-govt-launches-blockchain-governance-team-for-state-services</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8xZTk5ODdkNGNkODE0YmYxMDY3NTZhMjAyOTgzNDkwYS5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8xZTk5ODdkNGNkODE0YmYxMDY3NTZhMjAyOTgzNDkwYS5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 20:30:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Helen Partz]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Adoption]]></category>
+                                                                <category><![CDATA[Government]]></category>
+                                                                <category><![CDATA[Voting]]></category>
+                                                                <category><![CDATA[South Korea]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/seoul-city-govt-launches-blockchain-governance-team-for-state-services</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8xZTk5ODdkNGNkODE0YmYxMDY3NTZhMjAyOTgzNDkwYS5qcGc=.jpg"><p>The government of Seoul has launched its own blockchain governance team to explore applications in administrative services</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Florida Appeals Court Reinstates Felony Charges for Unregistered Bitcoin Sale]]></title>
+            <link>https://cointelegraph.com/news/florida-appeals-court-reinstates-felony-charges-for-unregistered-bitcoin-sale</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy85NzZjMjYwYjlkMDFiMDMwNmY3ZmU2YzUxMDJiNmU2Mi5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy85NzZjMjYwYjlkMDFiMDMwNmY3ZmU2YzUxMDJiNmU2Mi5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 19:28:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Adrian Zmudzinski]]></dc:creator>
+                                                <category><![CDATA[Bitcoin]]></category>
+                                                                <category><![CDATA[USA]]></category>
+                                                                <category><![CDATA[Bitcoin Regulation]]></category>
+                                                                <category><![CDATA[AML]]></category>
+                                                                <category><![CDATA[Money Laundering]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/florida-appeals-court-reinstates-felony-charges-for-unregistered-bitcoin-sale</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy85NzZjMjYwYjlkMDFiMDMwNmY3ZmU2YzUxMDJiNmU2Mi5qcGc=.jpg"><p>An appellate court in the U.S. state of Florida has reinstated felony charges against a man who allegedly sold Bitcoin to an undercover detective</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Germany's 2nd Largest Stock Exchange Boerse Stuttgart Launches Crypto Trading App]]></title>
+            <link>https://cointelegraph.com/news/germanys-2nd-largest-stock-exchange-boerse-stuttgart-launches-crypto-trading-app</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8wOTkwYWUwMWE2OGExNjI3NjExZmIwODI2MzYyMDIyNy5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8wOTkwYWUwMWE2OGExNjI3NjExZmIwODI2MzYyMDIyNy5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 18:41:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Ana Berman]]></dc:creator>
+                                                <category><![CDATA[Altcoin]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                                                <category><![CDATA[Applications]]></category>
+                                                                <category><![CDATA[Germany]]></category>
+                                                                <category><![CDATA[Europe]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/germanys-2nd-largest-stock-exchange-boerse-stuttgart-launches-crypto-trading-app</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8wOTkwYWUwMWE2OGExNjI3NjExZmIwODI2MzYyMDIyNy5qcGc=.jpg"><p>Boerse Stuttgart Group, Germany’s second largest stock exchange, launches app for trading major cryptocurrencies to euro</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Blockchain Capital Leads Funding Round for Crypto Compliance Startup TRM]]></title>
+            <link>https://cointelegraph.com/news/blockchain-capital-leads-funding-round-for-crypto-compliance-startup-trm</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jY2Q5MjQ4MzM5NmFjOTAwZDcwMmY5NTBmZTdmOGQ4NC5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jY2Q5MjQ4MzM5NmFjOTAwZDcwMmY5NTBmZTdmOGQ4NC5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 17:59:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Ana Berman]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Blockchain Capital]]></category>
+                                                                <category><![CDATA[Tokens]]></category>
+                                                                <category><![CDATA[Startups]]></category>
+                                                                <category><![CDATA[AML]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/blockchain-capital-leads-funding-round-for-crypto-compliance-startup-trm</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jY2Q5MjQ4MzM5NmFjOTAwZDcwMmY5NTBmZTdmOGQ4NC5qcGc=.jpg"><p>U.S.-based venture firm Blockchain Capital leads a $1.7 million funding round for TRM — a compliance startup for crypto businesses</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Bitcoin Hovers Under $3,450 as All Top Cryptos See Moderate Losses]]></title>
+            <link>https://cointelegraph.com/news/bitcoin-hovers-under-3-450-as-all-top-cryptos-see-moderate-losses</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy81OGFiM2FjYmYzYzkwZTgyZWRlYjNiZDIyNGRhZDVkOS5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy81OGFiM2FjYmYzYzkwZTgyZWRlYjNiZDIyNGRhZDVkOS5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 17:35:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Adrian Zmudzinski]]></dc:creator>
+                                                <category><![CDATA[Bitcoin]]></category>
+                                                                <category><![CDATA[Ethereum]]></category>
+                                                                <category><![CDATA[Ripple]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                                                <category><![CDATA[Bitcoin Price]]></category>
+                                                                <category><![CDATA[NEM]]></category>
+                                                                <category><![CDATA[TRON]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/bitcoin-hovers-under-3-450-as-all-top-cryptos-see-moderate-losses</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy81OGFiM2FjYmYzYzkwZTgyZWRlYjNiZDIyNGRhZDVkOS5qcGc=.jpg"><p>Bitcoin stays under $3,450 as the top 20 cryptocurrencies report moderate-heavy losses on the day</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Pantera Capital, Coinbase Back Crypto Startup Staked in $4.5 Million Round]]></title>
+            <link>https://cointelegraph.com/news/pantera-capital-coinbase-back-crypto-startup-staked-in-45-million-round</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84ZjNlNzViYzc1YTFhN2I2MjIwNzk5MGUxYzEyZDQxNy5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84ZjNlNzViYzc1YTFhN2I2MjIwNzk5MGUxYzEyZDQxNy5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 16:49:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Adrian Zmudzinski]]></dc:creator>
+                                                <category><![CDATA[Altcoin]]></category>
+                                                                <category><![CDATA[Proof-of-Stake]]></category>
+                                                                <category><![CDATA[Coinbase]]></category>
+                                                                <category><![CDATA[Pantera Capital]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                                                <category><![CDATA[Winklevoss Twins]]></category>
+                                                                <category><![CDATA[Digital Currency Group]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/pantera-capital-coinbase-back-crypto-startup-staked-in-45-million-round</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84ZjNlNzViYzc1YTFhN2I2MjIwNzk5MGUxYzEyZDQxNy5qcGc=.jpg"><p>Major crypto investment firms, including Pantera Capital and Coinbase Ventures, back crypto staking startup Staked</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Global Pharma Giant Merck Wins US Blockchain, AI Patent for Product Authenticity]]></title>
+            <link>https://cointelegraph.com/news/global-pharma-giant-merck-wins-us-blockchain-ai-patent-for-product-authenticity</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hYjEwNWZmY2EyN2U3ZmMxNGU5YTQxNDllNzU4ZjIzNy5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hYjEwNWZmY2EyN2U3ZmMxNGU5YTQxNDllNzU4ZjIzNy5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 16:00:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Helen Partz]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Adoption]]></category>
+                                                                <category><![CDATA[Supply Chain]]></category>
+                                                                <category><![CDATA[Encryption]]></category>
+                                                                <category><![CDATA[Science]]></category>
+                                                                <category><![CDATA[Germany]]></category>
+                                                                <category><![CDATA[USA]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/global-pharma-giant-merck-wins-us-blockchain-ai-patent-for-product-authenticity</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hYjEwNWZmY2EyN2U3ZmMxNGU5YTQxNDllNzU4ZjIzNy5qcGc=.jpg"><p>Major pharma firm Merck has won a USPTO blockchain and AI patent focusing on supply chain security</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Under Fire: Kik Is Gearing Up for a Fight With the SEC]]></title>
+            <link>https://cointelegraph.com/news/under-fire-kik-is-gearing-up-for-a-fight-with-the-sec</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yMzMyNzRhZjk2NDE3YTc4NzBkZTI1Y2U3ZmEzNzJkMS5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yMzMyNzRhZjk2NDE3YTc4NzBkZTI1Y2U3ZmEzNzJkMS5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 15:42:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Gareth Jenkinson]]></dc:creator>
+                                                <category><![CDATA[Bitcoin Regulation]]></category>
+                                                                <category><![CDATA[SEC]]></category>
+                                                                <category><![CDATA[Kik]]></category>
+                                                                <category><![CDATA[ICO]]></category>
+                                                                <category><![CDATA[Ethereum]]></category>
+                                                                <category><![CDATA[Blockchain]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/under-fire-kik-is-gearing-up-for-a-fight-with-the-sec</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yMzMyNzRhZjk2NDE3YTc4NzBkZTI1Y2U3ZmEzNzJkMS5qcGc=.jpg"><p>Kik opposes potential regulatory action from SEC, saying its 2017 Kin token sale followed all the right rules</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Age of Scale: How Can Blockchain Systems Become Powerful Enough for a Global Audience?]]></title>
+            <link>https://cointelegraph.com/news/age-of-scale-how-can-blockchain-systems-become-powerful-enough-for-a-global-audience</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kOWJkOTI2MTRjNjM0ZTVhMWE3ZjRjZDNiNGI5YjI4NC5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kOWJkOTI2MTRjNjM0ZTVhMWE3ZjRjZDNiNGI5YjI4NC5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 15:16:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Guest Author]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Proof of Work]]></category>
+                                                                <category><![CDATA[Proof-of-Stake]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/age-of-scale-how-can-blockchain-systems-become-powerful-enough-for-a-global-audience</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kOWJkOTI2MTRjNjM0ZTVhMWE3ZjRjZDNiNGI5YjI4NC5qcGc=.jpg"><p>Blockchain technology is facing a serious scalability issue, and sorting it out might not be as easy as some think. What are some of the proposed approaches to solving the problem?</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Coincheck Q3 Finance Report Shows Twofold Improvement Since Trading Resumed]]></title>
+            <link>https://cointelegraph.com/news/coincheck-q3-finance-report-shows-twofold-improvement-since-trading-resumed</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84OWJjMmZjZDFkMzVmM2E3NTc1OWRjMTBjY2I4MmEzNC5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84OWJjMmZjZDFkMzVmM2E3NTc1OWRjMTBjY2I4MmEzNC5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 13:36:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Marie Huillet ]]></dc:creator>
+                                                <category><![CDATA[Altcoin]]></category>
+                                                                <category><![CDATA[Coincheck]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                                                <category><![CDATA[Japan]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/coincheck-q3-finance-report-shows-twofold-improvement-since-trading-resumed</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84OWJjMmZjZDFkMzVmM2E3NTc1OWRjMTBjY2I4MmEzNC5qcGc=.jpg"><p>Coincheck halved its losses in Q3 of fiscal year 2019, as compared with the preceding quarter: Monex report</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Nasdaq Reveals 7 Crypto Exchanges Are Using Its Market Monitoring Tech]]></title>
+            <link>https://cointelegraph.com/news/nasdaq-reveals-7-crypto-exchanges-are-using-its-market-monitoring-tech</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yNzAxZTc2YzQzMzZlMTZjYzU0OTQxNjYwZjYwYjA0OS5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yNzAxZTc2YzQzMzZlMTZjYzU0OTQxNjYwZjYwYjA0OS5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 13:06:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Marie Huillet ]]></dc:creator>
+                                                <category><![CDATA[Altcoin]]></category>
+                                                                <category><![CDATA[Nasdaq]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                                                <category><![CDATA[Adoption]]></category>
+                                                                <category><![CDATA[Wall Street]]></category>
+                                                                <category><![CDATA[KYC]]></category>
+                                                                <category><![CDATA[AML]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/nasdaq-reveals-7-crypto-exchanges-are-using-its-market-monitoring-tech</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yNzAxZTc2YzQzMzZlMTZjYzU0OTQxNjYwZjYwYjA0OS5qcGc=.jpg"><p>Nasdaq has revealed that seven crypto exchanges are already using its market monitoring technology, though only two are doing so publicly</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Top Exchange Binance Adds Support for Credit Card Purchases of Major Cryptos]]></title>
+            <link>https://cointelegraph.com/news/top-exchange-binance-adds-support-for-credit-card-purchases-of-major-cryptos</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hYzRiNjJkYTEwNWNjM2I2MGMyYzBiMmFkNGYyZTc4OC5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hYzRiNjJkYTEwNWNjM2I2MGMyYzBiMmFkNGYyZTc4OC5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 12:54:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Adrian Zmudzinski]]></dc:creator>
+                                                <category><![CDATA[Altcoin]]></category>
+                                                                <category><![CDATA[Binance]]></category>
+                                                                <category><![CDATA[Cryptocurrency Exchange]]></category>
+                                                                <category><![CDATA[Fiat Money]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/top-exchange-binance-adds-support-for-credit-card-purchases-of-major-cryptos</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hYzRiNjJkYTEwNWNjM2I2MGMyYzBiMmFkNGYyZTc4OC5qcGc=.jpg"><p>Top crypto exchange Binance adds support for credit card crypto purchases via Simplex partnership</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Bitfury to Launch Bitcoin Mining Centers in Paraguay With New Partnership]]></title>
+            <link>https://cointelegraph.com/news/bitfury-to-launch-bitcoin-mining-centers-in-paraguay-with-new-partnership</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84YTMwMDRkZmU3ZGQ1ODkwZTMxYjQ0Y2JjMDU0YTdiNi5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84YTMwMDRkZmU3ZGQ1ODkwZTMxYjQ0Y2JjMDU0YTdiNi5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 12:29:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Ana Berman]]></dc:creator>
+                                                <category><![CDATA[Bitcoin]]></category>
+                                                                <category><![CDATA[Bitfury]]></category>
+                                                                <category><![CDATA[Bitcoin Mining]]></category>
+                                                                <category><![CDATA[Paraguay]]></category>
+                                                                <category><![CDATA[South Korea]]></category>
+                                                                <category><![CDATA[Energy]]></category>
+                                                                <category><![CDATA[South America]]></category>
+                                                                <category><![CDATA[Latin America]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/bitfury-to-launch-bitcoin-mining-centers-in-paraguay-with-new-partnership</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84YTMwMDRkZmU3ZGQ1ODkwZTMxYjQ0Y2JjMDU0YTdiNi5qcGc=.jpg"><p>Bitfury and South Korean p2p research company are planning to launch several mining centers and a cryptocurrency exchange in Paraguay</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[NEM Reorganizes Non-Profit Foundation Amid Token Price and Funding Woes]]></title>
+            <link>https://cointelegraph.com/news/nem-reorganizes-non-profit-foundation-amid-token-price-and-funding-woes</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NjUxNjcwZTc5N2ZmMTVkYjMxNTBhYTMwOGNiZjI1Ny5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NjUxNjcwZTc5N2ZmMTVkYjMxNTBhYTMwOGNiZjI1Ny5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 12:21:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By William Suberg]]></dc:creator>
+                                                <category><![CDATA[Altcoin]]></category>
+                                                                <category><![CDATA[NEM]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/nem-reorganizes-non-profit-foundation-amid-token-price-and-funding-woes</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NjUxNjcwZTc5N2ZmMTVkYjMxNTBhYTMwOGNiZjI1Ny5qcGc=.jpg"><p>XEM token suffers as NEM Foundation announces funding problems</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[South Korea Will Keep ICO Ban, Says Financial Services Commission]]></title>
+            <link>https://cointelegraph.com/news/south-korea-will-keep-ico-ban-says-financial-services-commission</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy81YmE5NDA2OWJmNjMxMWY4ZGQ0MGRlZjA5YzlkMTcwMi5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy81YmE5NDA2OWJmNjMxMWY4ZGQ0MGRlZjA5YzlkMTcwMi5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 11:49:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By William Suberg]]></dc:creator>
+                                                <category><![CDATA[Bitcoin Regulation]]></category>
+                                                                <category><![CDATA[South Korea]]></category>
+                                                                <category><![CDATA[ICO]]></category>
+                                                                <category><![CDATA[Singapore]]></category>
+                                                                <category><![CDATA[Switzerland]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/south-korea-will-keep-ico-ban-says-financial-services-commission</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy81YmE5NDA2OWJmNjMxMWY4ZGQ0MGRlZjA5YzlkMTcwMi5qcGc=.jpg"><p>Domestic ICO ban in South Korea set to stay, regulator confirms</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Report: Majority of $11.4 Million Stolen in 2018 Iota Token Heist Has Been Found]]></title>
+            <link>https://cointelegraph.com/news/report-majority-of-114-million-stolen-in-2018-iota-token-heist-has-been-found</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NDQ2OTZjOGQ0OTQ3ZWU5NDhmNzdhYjg3MmY0N2VmNi5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NDQ2OTZjOGQ0OTQ3ZWU5NDhmNzdhYjg3MmY0N2VmNi5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 11:30:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Marie Huillet ]]></dc:creator>
+                                                <category><![CDATA[Bitcoin Scams]]></category>
+                                                                <category><![CDATA[IOTA]]></category>
+                                                                <category><![CDATA[Germany]]></category>
+                                                                <category><![CDATA[United Kingdom]]></category>
+                                                                <category><![CDATA[Crimes]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                                                <category><![CDATA[Security]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/report-majority-of-114-million-stolen-in-2018-iota-token-heist-has-been-found</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NDQ2OTZjOGQ0OTQ3ZWU5NDhmNzdhYjg3MmY0N2VmNi5qcGc=.jpg"><p>A top member of the Germany-based Iota Foundation has said the majority of the ~$11 million allegedly stolen in a major Iota token heist last year has been found</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Ethereum Hackathon ETHDenver Partners With UNICEF on Blockchain Bounty System]]></title>
+            <link>https://cointelegraph.com/news/ethereum-hackathon-ethdenver-partners-with-unicef-on-blockchain-bounty-system</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NmY4NTU4YTc4NzM0MGFkYjQ0NzcyNDEyZWIwZWNmYS5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NmY4NTU4YTc4NzM0MGFkYjQ0NzcyNDEyZWIwZWNmYS5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 10:39:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Marie Huillet ]]></dc:creator>
+                                                <category><![CDATA[Altcoin]]></category>
+                                                                <category><![CDATA[Adoption]]></category>
+                                                                <category><![CDATA[USA]]></category>
+                                                                <category><![CDATA[Hackathon]]></category>
+                                                                <category><![CDATA[Conference]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/ethereum-hackathon-ethdenver-partners-with-unicef-on-blockchain-bounty-system</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NmY4NTU4YTc4NzM0MGFkYjQ0NzcyNDEyZWIwZWNmYS5qcGc=.jpg"><p>Ethereum hardware hackathon ETHDenver partners with UNICEF on a bounty token</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Danish Government’s Energinet Signals Iota Deal to Improve Energy Sector Offerings]]></title>
+            <link>https://cointelegraph.com/news/danish-governments-energinet-signals-iota-deal-to-improve-energy-sector-offerings</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jNGNlOWVkYTBiZjA3YTczZGRjNDRjMmUyODk5ZTFhMC5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jNGNlOWVkYTBiZjA3YTczZGRjNDRjMmUyODk5ZTFhMC5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 09:48:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By William Suberg]]></dc:creator>
+                                                <category><![CDATA[Bitcoin Regulation]]></category>
+                                                                <category><![CDATA[Denmark]]></category>
+                                                                <category><![CDATA[Energy]]></category>
+                                                                <category><![CDATA[Government]]></category>
+                                                                <category><![CDATA[IOTA]]></category>
+                                                                <category><![CDATA[Internet of Things]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/danish-governments-energinet-signals-iota-deal-to-improve-energy-sector-offerings</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jNGNlOWVkYTBiZjA3YTczZGRjNDRjMmUyODk5ZTFhMC5qcGc=.jpg"><p>Additional partnership confirmed between Iota and Denmark’s state-owned energy company, Energinet</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Ripple Hires Ex-HSBC, CIT Exec as General Counsel After Five-Month Hiatus]]></title>
+            <link>https://cointelegraph.com/news/ripple-hires-ex-hsbc-cit-exec-as-general-counsel-after-five-month-hiatus</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8xOWRjYmU2ZjkwNjNiMThjYTIwNjM2OTVkZGNlNjkyMi5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8xOWRjYmU2ZjkwNjNiMThjYTIwNjM2OTVkZGNlNjkyMi5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 08:06:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By William Suberg]]></dc:creator>
+                                                <category><![CDATA[Altcoin]]></category>
+                                                                <category><![CDATA[Ripple]]></category>
+                                                                <category><![CDATA[Banks]]></category>
+                                                                <category><![CDATA[HSBC]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/ripple-hires-ex-hsbc-cit-exec-as-general-counsel-after-five-month-hiatus</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8xOWRjYmU2ZjkwNjNiMThjYTIwNjM2OTVkZGNlNjkyMi5qcGc=.jpg"><p>Ripple has made a high-profile legal hire in the form of ex-HSBC general counsel Stuart Alderoty</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Ethereum-Based ‘Wrapped’ Token Backed by Bitcoin Launches]]></title>
+            <link>https://cointelegraph.com/news/ethereum-based-wrapped-token-backed-by-bitcoin-launches</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jM2ZlMDY4MDc2MzQ5Y2MzNDg1NDMwZTk1MzE4M2RkNi5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jM2ZlMDY4MDc2MzQ5Y2MzNDg1NDMwZTk1MzE4M2RkNi5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 02:15:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Aaron Wood]]></dc:creator>
+                                                <category><![CDATA[Bitcoin]]></category>
+                                                                <category><![CDATA[Ethereum]]></category>
+                                                                <category><![CDATA[Tokens]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/ethereum-based-wrapped-token-backed-by-bitcoin-launches</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jM2ZlMDY4MDc2MzQ5Y2MzNDg1NDMwZTk1MzE4M2RkNi5qcGc=.jpg"><p>Wrapped Bitcoin, an Ethereum-based token backed by Bitcoin, has launched today</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Italian Postal Service Joins Hyperledger Blockchain Community]]></title>
+            <link>https://cointelegraph.com/news/italian-postal-service-joins-hyperledger-blockchain-community</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yNzlkZTVhYWExMDUwMmEyNTU1ODBiNjE1MTAyZmRkMi5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yNzlkZTVhYWExMDUwMmEyNTU1ODBiNjE1MTAyZmRkMi5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 01:15:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Aaron Wood]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Italy]]></category>
+                                                                <category><![CDATA[Adoption]]></category>
+                                                                <category><![CDATA[Hyperledger]]></category>
+                                                                <category><![CDATA[Security]]></category>
+                                                                <category><![CDATA[Privacy]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/italian-postal-service-joins-hyperledger-blockchain-community</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8yNzlkZTVhYWExMDUwMmEyNTU1ODBiNjE1MTAyZmRkMi5qcGc=.jpg"><p>Poste Italiane, the Italian postal service provider, has joined the Hyperledger blockchain community, which also includes U.S. courier service FedEx</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[ConsenSys Developer Joins Ethereum Classic Cooperative as Executive Director]]></title>
+            <link>https://cointelegraph.com/news/consensys-developer-joins-ethereum-classic-cooperative-as-executive-director</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NjM4NWRiZTU4ODMzMGVmODVlMGNiZWU1YTQ2ZWIzOC5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NjM4NWRiZTU4ODMzMGVmODVlMGNiZWU1YTQ2ZWIzOC5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Thu, 31 Jan 2019 00:05:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Aaron Wood]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Ethereum Classic]]></category>
+                                                                <category><![CDATA[Ethereum]]></category>
+                                                                <category><![CDATA[ConsenSys]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                                                <category><![CDATA[Job]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/consensys-developer-joins-ethereum-classic-cooperative-as-executive-director</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy80NjM4NWRiZTU4ODMzMGVmODVlMGNiZWU1YTQ2ZWIzOC5qcGc=.jpg"><p>A developer at blockchain tech firm ConsenSys, Bob Summerwill, has joined the Ethereum Classic Cooperative as its executive director</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Report: Nearly 80 Percent of Crypto Event Attendees Are Male]]></title>
+            <link>https://cointelegraph.com/news/report-nearly-80-percent-of-crypto-event-attendees-are-male</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy82YzU2OTg4ZWRlNDc2OGRjODk4ZjRmYThhZjQ4YTc4MS5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy82YzU2OTg4ZWRlNDc2OGRjODk4ZjRmYThhZjQ4YTc4MS5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Wed, 30 Jan 2019 23:30:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Aaron Wood]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                                                <category><![CDATA[Women]]></category>
+                                                                <category><![CDATA[event]]></category>
+                                                                <category><![CDATA[Conference]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/report-nearly-80-percent-of-crypto-event-attendees-are-male</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy82YzU2OTg4ZWRlNDc2OGRjODk4ZjRmYThhZjQ4YTc4MS5qcGc=.jpg"><p>Recent data from events-oriented software firm Bizzabo found that 80 percent of crypto event attendees are male</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[South Korean Fintech Firm Launches ‘First’ Won-Backed Stablecoin]]></title>
+            <link>https://cointelegraph.com/news/south-korean-fintech-firm-launches-first-won-backed-stablecoin</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy82MjgzZmY4MjI0ZGZkYzZmYWE2ZDU1NDhmZWFhMjcxMC5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy82MjgzZmY4MjI0ZGZkYzZmYWE2ZDU1NDhmZWFhMjcxMC5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Wed, 30 Jan 2019 22:10:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Miranda Karanfili]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Stablecoin]]></category>
+                                                                <category><![CDATA[South Korea]]></category>
+                                                                <category><![CDATA[AML]]></category>
+                                                                <category><![CDATA[Cryptocurrency Exchange]]></category>
+                                                                <category><![CDATA[Cryptocurrencies]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/south-korean-fintech-firm-launches-first-won-backed-stablecoin</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy82MjgzZmY4MjI0ZGZkYzZmYWE2ZDU1NDhmZWFhMjcxMC5qcGc=.jpg"><p>South Korean fintech firm BxB has launched a 1:1 won-backed stablecoin</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Report: Alipay and WeChat Pay Require Huobi to Remove Payment Methods from OTC Desk]]></title>
+            <link>https://cointelegraph.com/news/report-alipay-and-wechat-pay-require-huobi-to-remove-payment-methods-from-otc-desk</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kYzYxOWE2Yzk3MDViODI0N2RkY2IxOTIzMTlmZTA4YS5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kYzYxOWE2Yzk3MDViODI0N2RkY2IxOTIzMTlmZTA4YS5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Wed, 30 Jan 2019 21:25:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Helen Partz]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Alipay]]></category>
+                                                                <category><![CDATA[WeChat]]></category>
+                                                                <category><![CDATA[Alibaba]]></category>
+                                                                <category><![CDATA[Payments]]></category>
+                                                                <category><![CDATA[OTC]]></category>
+                                                                <category><![CDATA[Huobi]]></category>
+                                                                <category><![CDATA[Cryptocurrency Exchange]]></category>
+                                                                <category><![CDATA[China]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/report-alipay-and-wechat-pay-require-huobi-to-remove-payment-methods-from-otc-desk</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kYzYxOWE2Yzk3MDViODI0N2RkY2IxOTIzMTlmZTA4YS5qcGc=.jpg"><p>Chinese payment giants Alipay and WeChat Pay have reportedly requested Huobi to remove their services from its OTC trading desk</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Untraceable Payments and Unlinkable Transactions: Startup Offers “New Generation” Coin]]></title>
+            <link>https://cointelegraph.com/news/untraceable-payments-and-unlinkable-transactions-startup-offers-new-generation-coin</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9mNzZiNjZjMGJlY2I1NTQyYTEzNWViZTE2MTQyYWMzMC5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9mNzZiNjZjMGJlY2I1NTQyYTEzNWViZTE2MTQyYWMzMC5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Wed, 30 Jan 2019 18:54:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Maria Yavuz]]></dc:creator>
+                                                <category><![CDATA[Blockchain]]></category>
+                                                                <category><![CDATA[Tokens]]></category>
+                                                                <category><![CDATA[Cryptocurrency Exchange]]></category>
+                                                                <category><![CDATA[Cloud Mining]]></category>
+                                                                <category><![CDATA[Banks]]></category>
+                                                                <category><![CDATA[DEX]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/untraceable-payments-and-unlinkable-transactions-startup-offers-new-generation-coin</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9mNzZiNjZjMGJlY2I1NTQyYTEzNWViZTE2MTQyYWMzMC5qcGc=.jpg"><p>A company has created an “untraceable anonymous coin.” The team says the p2p network makes all the users' transactions unlinkable to a particular user or real-world identity #SPONSORED</p>]]>
+            </description>
+        </item>
+                    <item>
+            <title><![CDATA[Bitcoin, Ripple, Ethereum, EOS, Bitcoin Cash, Litecoin, Tron, Stellar, Bitcoin SV, Cardano: Price Analysis, Jan. 30]]></title>
+            <link>https://cointelegraph.com/news/bitcoin-ripple-ethereum-eos-bitcoin-cash-litecoin-tron-stellar-bitcoin-sv-cardano-price-analysis-jan-30</link>
+            <media:content url="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9iNzJhYzYxYWViM2M5NjZlODc5NTI3YTc4NjRiMmNjZi5qcGc=.jpg"  medium="image"  />
+            <enclosure url="http://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9iNzJhYzYxYWViM2M5NjZlODc5NTI3YTc4NjRiMmNjZi5qcGc=.jpg"  length="528" type="image/jpg"/>
+            <pubDate>Wed, 30 Jan 2019 18:04:00 +0000</pubDate>
+            <dc:creator><![CDATA[Cointelegraph By Rakesh Upadhyay]]></dc:creator>
+                                                <category><![CDATA[Bitcoin]]></category>
+                                                                <category><![CDATA[Ripple]]></category>
+                                                                <category><![CDATA[Ethereum]]></category>
+                                                                <category><![CDATA[EOS]]></category>
+                                                                <category><![CDATA[Bitcoin Cash]]></category>
+                                                                <category><![CDATA[Litecoin]]></category>
+                                                                <category><![CDATA[TRON]]></category>
+                                                                <category><![CDATA[Stellar]]></category>
+                                                                <category><![CDATA[Bitcoin SV]]></category>
+                                                                <category><![CDATA[Cardano]]></category>
+                                                                <category><![CDATA[Price Analysis]]></category>
+                                        <guid isPermaLink="false">https://cointelegraph.com/news/bitcoin-ripple-ethereum-eos-bitcoin-cash-litecoin-tron-stellar-bitcoin-sv-cardano-price-analysis-jan-30</guid>
+            <description>
+                <![CDATA[<img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9iNzJhYzYxYWViM2M5NjZlODc5NTI3YTc4NjRiMmNjZi5qcGc=.jpg"><p>The entry of major players such as investment firm Fidelity and the governments of UAE and Saudi Arabia instills confidence in the crypto market. How did the charts react?</p>]]>
+            </description>
+        </item>
+    		
+	</channel>
+</rss>

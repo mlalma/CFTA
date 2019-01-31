@@ -9,7 +9,7 @@ public class RSSFeed {
     public final String htmlUrl;
 
     // Constructor
-    public RSSFeed(String title, String xmlUrl, String htmlUrl) {
+    public RSSFeed(final String title, final String xmlUrl, final String htmlUrl) {
         this.title = title;
         this.xmlUrl = xmlUrl;
         this.htmlUrl = htmlUrl;
