@@ -24,6 +24,7 @@ public class RSSTypeFeedParser {
     private static final String LINK_NODE = "link";
     private static final String DC_DATE_NODE = "dc:date";
     private static final String PUB_DATE_NODE = "pubDate";
+    private static final String CATEGORY_NODE = "category";
 
     public RSSTypeFeedParser() {
     }
@@ -54,18 +55,23 @@ public class RSSTypeFeedParser {
             Node itemDescription = NodeTools.childNode(items.get(i), DESCRIPTION_NODE);
             Node itemDate = NodeTools.childNode(items.get(i), DC_DATE_NODE);
             Node pubDate = NodeTools.childNode(items.get(i), PUB_DATE_NODE);
+            List<Node> categoryNodes = NodeTools.childNodes(items.get(i), CATEGORY_NODE);
 
             if (itemTitle != null && itemLink.size() > 0) {
                 RSSFeedResponse.RSSItem item = response.newItem();
                 item.title = StringEscapeUtils.unescapeHtml(itemTitle.getTextContent());
                 if (itemDescription != null) {
-                    item.description = itemDescription.getTextContent();
+                    item.description = itemDescription.getTextContent().trim();
                 } else {
                     item.description = "";
                 }
 
                 for (int j = 0; j < itemLink.size(); j++) {
-                    item.links.add(itemLink.get(j).getTextContent());
+                    item.links.add(itemLink.get(j).getTextContent().trim());
+                }
+
+                for (int j = 0; j < categoryNodes.size(); j++) {
+                    item.categories.add(categoryNodes.get(j).getTextContent().trim());
                 }
 
                 if (item.date == null && pubDate != null) {

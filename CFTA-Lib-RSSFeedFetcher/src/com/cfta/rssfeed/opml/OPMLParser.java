@@ -5,6 +5,7 @@ import com.cfta.rssfeed.data.RSSFeedFolder;
 
 import org.jsoup.Jsoup;
 import org.jsoup.helper.W3CDom;
+import org.jsoup.parser.Parser;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
@@ -17,6 +18,7 @@ public class OPMLParser {
 
     private static final String OPML_HEADER = "opml";
     private static final String OPML_VERSION_ATTR = "version";
+    private static final String HEAD_HEADER = "head";
     private static final String BODY_HEADER = "body";
     private static final String OPML_TITLE = "title";
     private static final String OUTLINE_ELEM = "outline";
@@ -70,19 +72,26 @@ public class OPMLParser {
     // Parses OPML document
     public RSSFeedFolder parseOPMLDoc(final String docString) {
         // Using JSoup reorganizes the document structure a bit, but it can handle malformatted documents better
-        org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(docString);
+        org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(docString, "", Parser.xmlParser());
         W3CDom w3cDom = new W3CDom();
         Document doc = w3cDom.fromJsoup(prettifiedDoc);
         doc.getDocumentElement().normalize();
 
-        Node bodyNode = childNode(doc.getDocumentElement(), BODY_HEADER);
-        Node rootNode = null;
-        if (bodyNode != null) {
-            rootNode = childNode(bodyNode, OPML_HEADER);
-        }
-
+        Node rootNode = doc.getDocumentElement();
         if (rootNode == null || !rootNode.getNodeName().equalsIgnoreCase(OPML_HEADER)) {
             throw new RuntimeException("<opml> header not found, not a valid document!");
+        }
+
+        Node headNode = childNode(rootNode, HEAD_HEADER);
+        Node bodyNode = childNode(rootNode, BODY_HEADER);
+        if (bodyNode == null) {
+            if (headNode != null) {
+                bodyNode = childNode(headNode, BODY_HEADER);
+            }
+        }
+
+        if (bodyNode == null) {
+            throw new RuntimeException("<body> header not found, not a valid document!");
         }
 
         String version = rootNode.getAttributes().getNamedItem(OPML_VERSION_ATTR).getNodeValue();
@@ -100,12 +109,14 @@ public class OPMLParser {
         }
 
         RSSFeedFolder rootFolder = new RSSFeedFolder("<unknown OPML feed>");
-        NodeList nl = rootNode.getChildNodes();
+        Node titleNode = childNode(headNode, OPML_TITLE);
+        if (titleNode != null) {
+            rootFolder.title = titleNode.getTextContent().trim();
+        }
+        NodeList nl = bodyNode.getChildNodes();
 
         for (int i = 0; i < nl.getLength(); i++) {
-            if (nl.item(i).getNodeName().equalsIgnoreCase(OPML_TITLE)) {
-                rootFolder.title = nl.item(i).getTextContent().trim();
-            } else if (nl.item(i).getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
+            if (nl.item(i).getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
                 if (opmlVer == OPMLVersion.eVersion1) {
                     parseOPMLDoc(nl.item(i), rootFolder);
                 } else if (opmlVer == OPMLVersion.eVersion11) {

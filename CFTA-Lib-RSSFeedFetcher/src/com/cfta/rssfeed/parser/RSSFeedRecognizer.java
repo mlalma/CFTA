@@ -4,6 +4,7 @@ package com.cfta.rssfeed.parser;
 
 import org.jsoup.Jsoup;
 import org.jsoup.helper.W3CDom;
+import org.jsoup.parser.Parser;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import static com.cfta.rssfeed.util.NodeTools.childNode;
@@ -57,14 +58,11 @@ public class RSSFeedRecognizer {
 
     // Finds feed root node
     public Node findFeedRootNode(final String page) {
-        org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(page);
+        org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(page, "", Parser.xmlParser());
         W3CDom w3cDom = new W3CDom();
         Document doc = w3cDom.fromJsoup(prettifiedDoc);
         doc.getDocumentElement().normalize();
-
-        Node bodyNode = childNode(doc.getDocumentElement(), "body");
-
-        return doRecognize(bodyNode);
+        return doRecognize(doc);
     }
 
     // Recognizes feed type from node
