@@ -3,8 +3,6 @@
 package com.cfta.rssfeed.parser;
 
 import com.cfta.rssfeed.util.NodeTools;
-import com.cfta.rssfeed.xmlparser.XMLNode;
-import com.cfta.rssfeed.xmlparser.XMLParserUtil;
 import com.cfta.cf.handlers.protocol.RSSFeedResponse;
 
 import java.util.List;
@@ -13,9 +11,9 @@ import java.util.Locale;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.w3c.dom.Node;
 
+// Parses <rss> type feeds
 public class RSSTypeFeedParser {
 
-    //private static final String RSS_FEED_ROOT_TYPE = "rss";
     private static final String CHANNEL_NODE = "channel";
 
     private static final String TITLE_NODE = "title";
@@ -26,9 +24,11 @@ public class RSSTypeFeedParser {
     private static final String PUB_DATE_NODE = "pubDate";
     private static final String CATEGORY_NODE = "category";
 
+    // Constructor
     public RSSTypeFeedParser() {
     }
 
+    // Parses everything under <channel> tag
     private RSSFeedResponse parseChannel(Node rootNode) {
         Node n = NodeTools.childNode(rootNode, CHANNEL_NODE);
 
@@ -61,7 +61,7 @@ public class RSSTypeFeedParser {
                 RSSFeedResponse.RSSItem item = response.newItem();
                 item.title = StringEscapeUtils.unescapeHtml(itemTitle.getTextContent());
                 if (itemDescription != null) {
-                    item.description = itemDescription.getTextContent().trim();
+                    item.description =  StringEscapeUtils.unescapeHtml(itemDescription.getTextContent().trim());
                 } else {
                     item.description = "";
                 }
@@ -89,6 +89,7 @@ public class RSSTypeFeedParser {
         return response;
     }
 
+    // Returns parsed data structure containing all the RSS items
     public RSSFeedResponse parseFeed(Node rootNode) {
         return parseChannel(rootNode);
     }

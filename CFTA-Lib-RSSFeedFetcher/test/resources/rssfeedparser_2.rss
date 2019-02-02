@@ -1,532 +1,947 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	xmlns:media="http://search.yahoo.com/mrss/">
-
-<channel>
-	<title>Bitcoin &#8211; Bank Innovation</title>
-	<atom:link href="http://bankinnovation.net/tag/bitcoin/feed/" rel="self" type="application/rss+xml" />
-	<link>https://bankinnovation.net</link>
-	<description>The Future of Fintech</description>
-	<lastBuildDate>Thu, 31 Jan 2019 20:26:22 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0.3</generator>
-
-<image>
-	<url>http://bankinnovation.net/wp-content/uploads/2017/02/cropped-BI-favicon_NEW-32x32.png</url>
-	<title>Bitcoin &#8211; Bank Innovation</title>
-	<link>https://bankinnovation.net</link>
-	<width>32</width>
-	<height>32</height>
-</image> 
-	<item>
-		<title>JPMorgan Says Blockchain Is Making Progress Outside Crypto</title>
-		<link>https://bankinnovation.net/2019/01/jpmorgan-says-blockchain-is-making-progress-outside-crypto/</link>
-		<pubDate>Wed, 30 Jan 2019 16:05:57 +0000</pubDate>
-		<dc:creator><![CDATA[Bloomberg News]]></dc:creator>
-				<category><![CDATA[Bloomberg]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 4]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Lending]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Open Fintech]]></category>
-		<category><![CDATA[Operations]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Retail]]></category>
-		<category><![CDATA[Risk]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[Ethereum]]></category>
-		<category><![CDATA[JPMorgan Chase]]></category>
-		<category><![CDATA[Quorum]]></category>
-
-		<guid isPermaLink="false">https://bankinnovation.net/?p=180501</guid>
-		<description><![CDATA[It may take a few years for blockchain’s impact to be felt meaningfully, but it will provide some advancements in certain areas even as cryptocurrencies falter, according to JPMorgan Chase &#38; Co. “Blockchain isn’t going to reinvent the global payment system, but it will provide marginal improvements,” JPMorgan’s chair of global research, Joyce Chang, said [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/12/analysis-blackboard-board-355952-548x309.jpg" width="548" height="309" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Crypto&#8217;s Big Theft Problem Prompts Safer Way to Trade</title>
-		<link>https://bankinnovation.net/2019/01/cryptos-big-theft-problem-prompts-safer-way-to-trade/</link>
-		<pubDate>Wed, 16 Jan 2019 16:16:33 +0000</pubDate>
-		<dc:creator><![CDATA[Bloomberg News]]></dc:creator>
-				<category><![CDATA[Bloomberg]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 2]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[BitGo]]></category>
-		<category><![CDATA[Coinbase]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[Ethereum]]></category>
-
-		<guid isPermaLink="false">https://bankinnovation.net/?p=180356</guid>
-		<description><![CDATA[Big investors who’ve soured on cryptocurrencies because of the industry’s billion-dollar theft problem will soon have a new way to trade that’s touted as a safer solution. By the end of the month, BitGo Inc.’s customers will be able to buy or sell Bitcoin, Ether and other digital assets without the coins ever leaving cold [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/12/blur-business-chart-159888-548x309.jpg" width="548" height="309" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Cryptocurrency Exchange Bakkt Raises $182.5 Million Ahead of Delayed Launch</title>
-		<link>https://bankinnovation.net/2019/01/ices-crypto-exchange-raises-182-5-million-ahead-of-delayed-launch/</link>
-		<pubDate>Wed, 02 Jan 2019 15:40:32 +0000</pubDate>
-		<dc:creator><![CDATA[Jake Martin]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 2]]></category>
-		<category><![CDATA[Daily Post 4]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[Trading]]></category>
-		<category><![CDATA[Bakkt]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[CFTC]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[cryptocurrency exchanges]]></category>
-		<category><![CDATA[ErisX]]></category>
-		<category><![CDATA[ICE]]></category>
-
-		<guid isPermaLink="false">http://bankinnovation.net/?p=180228</guid>
-		<description><![CDATA[Bakkt, a cryptocurrency startup led by Intercontinental Exchange, scored $182.5 million to build out its futures trading platform for cryptocurrencies ahead of an anticipated, albeit delayed, launch in 2019. CEO Kelly Loeffler made the announcement of Bakkt’s first capital raise in a Medium post published Monday. "We’ll share details as the New Year unfolds, but [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2019/01/art-background-bitcoin-1263324-548x309.jpg" width="548" height="309" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>The State of Cryptocurrency in 2019</title>
-		<link>https://bankinnovation.net/2018/12/the-state-of-cryptocurrency-in-2019/</link>
-		<pubDate>Mon, 31 Dec 2018 16:00:57 +0000</pubDate>
-		<dc:creator><![CDATA[Tatjana Kulkarni]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 2]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[ICOs]]></category>
-		<category><![CDATA[Initial Coin Offering]]></category>
-		<category><![CDATA[securities and exchange commission]]></category>
-
-		<guid isPermaLink="false">http://bankinnovation.net/?p=180218</guid>
-		<description><![CDATA[It was a tough year for cryptocurrencies. Over the past 12 months, Bitcoin – the most popular cryptocurrency – lost more than 70% of its market capitalization and Ethereum lost more than 80% of its value, according to digital currency exchange Coinbase. Bitcoin, specifically, which was trading at almost $20,000 at the beginning of the [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/12/bitcoin-blockchain-business-730569-548x309.jpg" width="548" height="309" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>SEC Chairman Lays Out Rules of the Road for Crypto&#8217;s Next Phase</title>
-		<link>https://bankinnovation.net/2018/11/sec-chairman-lays-out-rules-of-the-road-for-cryptos-next-phase/</link>
-		<pubDate>Wed, 28 Nov 2018 18:22:57 +0000</pubDate>
-		<dc:creator><![CDATA[Jake Martin]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 1]]></category>
-		<category><![CDATA[Daily Post 2]]></category>
-		<category><![CDATA[Daily Post 4]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Trading]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[Coindesk]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[cryptocurrency exchanges]]></category>
-		<category><![CDATA[Ripple]]></category>
-		<category><![CDATA[SEC]]></category>
-		<category><![CDATA[XRP]]></category>
-
-		<guid isPermaLink="false">http://bankinnovation.net/?p=179924</guid>
-		<description><![CDATA[Digital assets are here and they’re likely here to stay, in some form or other. People and companies with money in one of the world’s most interesting alternative investments seem to also have no small amount of interest in bringing it mainstream. New crypto investment products on a myriad of platforms are bubbling up left [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/11/bitcoin-blockchain-coin-1099339-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Institutions Haven&#8217;t Given Up on Cryptocurrency</title>
-		<link>https://bankinnovation.net/2018/11/institutions-havent-given-up-on-cryptocurrency/</link>
-		<pubDate>Tue, 27 Nov 2018 18:29:08 +0000</pubDate>
-		<dc:creator><![CDATA[Jake Martin]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 1]]></category>
-		<category><![CDATA[Daily Post 2]]></category>
-		<category><![CDATA[Daily Post 3]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Innovations]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bakkt]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[Coindesk]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[ICE]]></category>
-		<category><![CDATA[NYSE]]></category>
-
-		<guid isPermaLink="false">http://bankinnovation.net/?p=179920</guid>
-		<description><![CDATA[The price of bitcoin took a plunge last week and over the weekend, and took other digital currencies down with it. Trading volume is down and cryptocurrency miners -- the outfits that solve complex equations to generate new digital coins -- aren’t mining with the same enthusiasm. Headlines have not been kind to crypto’s recent [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/11/file-1-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Colorado Just Elected a Tech-Savvy Governor Who Takes Blockchain Seriously</title>
-		<link>https://bankinnovation.net/2018/11/colorado-just-elected-a-tech-savvy-governor-who-takes-blockchain-seriously/</link>
-		<pubDate>Wed, 07 Nov 2018 16:57:17 +0000</pubDate>
-		<dc:creator><![CDATA[Philip Ryan]]></dc:creator>
-				<category><![CDATA[Compliance]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 1]]></category>
-		<category><![CDATA[Daily Post 4]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=179604</guid>
-		<description><![CDATA[Amid a dizzying night of political drama, a bright spot appeared for the fintech and cryptocurrency communities -- the election of Jared Polis (D) to Governor of Colorado. Polis is known for many things, such as being the first openly gay state governor ever elected and a dot-com millionaire to the tune of $400 million, [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/11/43715015755_f61f24dd72_z-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Busy Day for Circle As It Releases Trading App, Launches Research Arm</title>
-		<link>https://bankinnovation.net/2018/10/busy-day-for-circle-as-it-releases-trading-app-launches-research-arm/</link>
-		<pubDate>Tue, 09 Oct 2018 20:23:08 +0000</pubDate>
-		<dc:creator><![CDATA[Philip Ryan]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 3]]></category>
-		<category><![CDATA[Daily Post 4]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[Circle]]></category>
-		<category><![CDATA[Poloniex]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=178948</guid>
-		<description><![CDATA[Payments company Circle launched a new mobile app today for its trading platform, Poloniex, which it acquired in February. Circle also launched a service for distributing information on cryptocurrencies called Circle Research today. Two weeks ago, Circle launched a stablecoin called USD Coin. Yes, Circle has been busy. Circle is a peer-to-peer payments company originally focused [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/10/enso_circle-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Bitcoin&#8217;s Hard Times Will Continue into 2019, Juniper Report Says</title>
-		<link>https://bankinnovation.net/2018/10/bitcoins-hard-times-will-continue-into-2018-juniper-report-says/</link>
-		<pubDate>Tue, 09 Oct 2018 16:05:17 +0000</pubDate>
-		<dc:creator><![CDATA[Tatjana Kulkarni]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 1]]></category>
-		<category><![CDATA[Daily Post 4]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[altcoin]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[Facebook]]></category>
-		<category><![CDATA[Gldman Sachs]]></category>
-		<category><![CDATA[Google]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=178938</guid>
-		<description><![CDATA[If Bitcoin hasn't been in the news lately (Bank Innovation included), it's because things aren't going that well for the best-known cryptocurrency, or for that matter any of the altcoins. A new report from Juniper Research found that the value of annual Bitcoin transactions will decline in 2019. Gone are the days from last December when Bitcoin had [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/08/break-up-breakup-broken-14303-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Cryptocurrency Gets More Boring (and Useful) with Circle&#8217;s USD Coin</title>
-		<link>https://bankinnovation.net/2018/09/cryptocurrency-gets-more-boring-and-useful-with-circles-usd-coin/</link>
-		<pubDate>Wed, 26 Sep 2018 17:44:27 +0000</pubDate>
-		<dc:creator><![CDATA[Philip Ryan]]></dc:creator>
-				<category><![CDATA[Compliance]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 1]]></category>
-		<category><![CDATA[Daily Post 3]]></category>
-		<category><![CDATA[Daily Post 4]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[Circle]]></category>
-		<category><![CDATA[Goldman Sachs]]></category>
-		<category><![CDATA[JPMorgan Chase]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=178730</guid>
-		<description><![CDATA[Cryptocurrency and blockchain are becoming boring -- not just because the media has covered them so much (ahem!) but because large well-funded companies are using the technology to make the world more efficient. That's what they are supposed to do, after all. It was never supposed to be the Wild West, though the days of [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/09/canstockphoto30588245-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Why Ripple Secured a Deal with NCB, Second-Largest Bank in Middle East</title>
-		<link>https://bankinnovation.net/2018/09/ripple-secures-deal-with-the-second-largest-bank-in-the-middle-east-ncb/</link>
-		<pubDate>Tue, 18 Sep 2018 14:53:03 +0000</pubDate>
-		<dc:creator><![CDATA[Monica Melton]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 2]]></category>
-		<category><![CDATA[Daily Post 3]]></category>
-		<category><![CDATA[Daily Post 4]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Innovations]]></category>
-		<category><![CDATA[Operations]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[cryptocurrency payments]]></category>
-		<category><![CDATA[faster payments]]></category>
-		<category><![CDATA[Hyperledger]]></category>
-		<category><![CDATA[National Commercial Bank]]></category>
-		<category><![CDATA[payments]]></category>
-		<category><![CDATA[R3 Corda]]></category>
-		<category><![CDATA[Ripple]]></category>
-		<category><![CDATA[Stellar]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=178573</guid>
-		<description><![CDATA[Ripple brought onboard National Commercial Bank Saudi Arabia to its blockchain payment network, RippleNet, the company announced yesterday. With $120 billion in assets, NCB is the second-largest financial institution in the Middle East. The partnership will initially act as a bridge to banks in Asia, starting with the bank’s outposts in Singapore, before facilitating payments [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/09/kai-d-783617-unsplash-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>After Claims of ‘Fake News,’ Goldman to Offer Bitcoin Derivative, CFO Says</title>
-		<link>https://bankinnovation.net/2018/09/goldman-sachs-cfo-calls-reports-of-crypto-desk-delay-fake-news-says-bank-will-offer-bitcoin-derivative/</link>
-		<pubDate>Fri, 07 Sep 2018 15:34:44 +0000</pubDate>
-		<dc:creator><![CDATA[Philip Ryan]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 1]]></category>
-		<category><![CDATA[Daily Post 3]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Trading]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Goldman Sachs]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=178367</guid>
-		<description><![CDATA[Goldman Sachs CFO Martin Chavez said a report that stated the bank was closing or delaying its cryptocurrency trading desk was "fake news." This information appeared on Bank Innovation and across business media yesterday. Chavez told the audience at TechCrunch Disrupt yesterday (video here) that desk or no desk, Goldman will continue its exploration of [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/09/canstockphoto16982087-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Goldman Sachs Delays Plans for Crypto Trading Desk</title>
-		<link>https://bankinnovation.net/2018/09/goldman-sachs-delays-plans-for-crypto-trading-desk/</link>
-		<pubDate>Thu, 06 Sep 2018 15:31:29 +0000</pubDate>
-		<dc:creator><![CDATA[Philip Ryan]]></dc:creator>
-				<category><![CDATA[Compliance]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 3]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Newswire]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Trading]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Circle]]></category>
-		<category><![CDATA[Goldman Sachs]]></category>
-		<category><![CDATA[RBC]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=178343</guid>
-		<description><![CDATA[Goldman Sachs is reportedly dropping plans for a cryptocurrency trading desk. The news, which broke late yesterday, sent crypto prices further down, but in this bear market, you'd be excused for not noticing. The news, though dismissed or even spun into a good thing by crypto enthusiasts, can hardly be taken as a positive sign [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/09/canstockphoto7493613-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Payments Gateway Flow to Begin Accepting Bitcoin Payments Amid Volatility</title>
-		<link>https://bankinnovation.net/2018/08/payments-processor-flow-to-begin-accepting-bitcoin-payments-amid-volatility/</link>
-		<pubDate>Tue, 14 Aug 2018 16:23:54 +0000</pubDate>
-		<dc:creator><![CDATA[Monica Melton]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Daily Post 1]]></category>
-		<category><![CDATA[Daily Post 2]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Innovations]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Bitcoin Cash]]></category>
-		<category><![CDATA[cross border ecommerce]]></category>
-		<category><![CDATA[cryptocurreny]]></category>
-		<category><![CDATA[payments]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=177871</guid>
-		<description><![CDATA[The shifting regulatory landscape of cryptocurrencies and price volatility has not slowed the demand from consumers to use bitcoin. As Robe Keve, CEO of cross-border e-commerce company Flow, told Bank Innovation, “We heard from merchants that this was something they were ready to start accepting internationally.” Flow announced last week that its gateway would begin expanding “international [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/08/abstract-acrylic-art-1083618-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Blockchain Is Perfectly Suited for Banking, But Banking Is Not Ready for Blockchain, McKinsey Says</title>
-		<link>https://bankinnovation.net/2018/06/blockchain-is-perfectly-suited-for-banking-but-banking-is-not-ready-for-blockchain-mckinsey-says/</link>
-		<pubDate>Wed, 27 Jun 2018 16:32:14 +0000</pubDate>
-		<dc:creator><![CDATA[Philip Ryan]]></dc:creator>
-				<category><![CDATA[Capital]]></category>
-		<category><![CDATA[Commerce]]></category>
-		<category><![CDATA[Compliance]]></category>
-		<category><![CDATA[Corporate]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[a16z]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[McKinsey]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=176776</guid>
-		<description><![CDATA[Blockchain&#8216;s future in banking is bright, but right now, the industry is not prepared to take advantage of what the technology offers, according to a new McKinsey report on blockchain&#8217;s viability across various industries. The report, released last week, describes blockchain&#8217;s suitability for financial services in this way: Financial services’ core functions of verifying and transferring [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/06/canstockphoto46504543-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>How Square Learned to Stop Worrying About Bitcoin and Love the Blockchain</title>
-		<link>https://bankinnovation.net/2018/05/how-square-learned-to-stop-worrying-about-bitcoin-and-love-the-blockchain/</link>
-		<pubDate>Thu, 03 May 2018 15:07:18 +0000</pubDate>
-		<dc:creator><![CDATA[Philip Ryan]]></dc:creator>
-				<category><![CDATA[Capital]]></category>
-		<category><![CDATA[Cards]]></category>
-		<category><![CDATA[Commerce]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Innovations]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[Mobile Payments]]></category>
-		<category><![CDATA[SMB lending]]></category>
-		<category><![CDATA[Square]]></category>
-		<category><![CDATA[Square Cash]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175963</guid>
-		<description><![CDATA[Square made a splash when it announced it would sell bitcoin in its Cash app, but failed to make much money doing so, it was revealed yesterday. But working with the cryptocurrency taught the payments company quite a bit about blockchain technology, and how it ends up employing that knowledge may be the true payoff [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/05/chainsoflove-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Fewer Than Half of ICOs Were Successful in 2017</title>
-		<link>https://bankinnovation.net/2018/04/fewer-than-half-of-icos-were-successful-in-2017/</link>
-		<pubDate>Wed, 25 Apr 2018 16:03:42 +0000</pubDate>
-		<dc:creator><![CDATA[Tatjana Kulkarni]]></dc:creator>
-				<category><![CDATA[Compliance]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[DataBank]]></category>
-		<category><![CDATA[Innovations]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Blockchain]]></category>
-		<category><![CDATA[Commodity Futures Trading Commission]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[ICOs]]></category>
-		<category><![CDATA[securities and exchange commission]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175845</guid>
-		<description><![CDATA[For all the negative press and warnings from various regulatory authorities, initial coin offerings (ICOs) are still a meaningful way for many companies to raise capital. According to a recent report by Fabric Ventures called “The State of the Token Market,” released last week, a total of $5.6 billion was raised by decentralized projects (or [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/04/ICOS-150x150.png" width="150" height="150" medium="image" type="image/png" />	</item>
-		<item>
-		<title>Cryptocurrencies Surge as Debate Over Digital Tokens, Securities Reignites</title>
-		<link>https://bankinnovation.net/2018/04/cryptocurrencies-surge-as-debate-over-digital-tokens-securities-reignites/</link>
-		<pubDate>Tue, 24 Apr 2018 16:32:39 +0000</pubDate>
-		<dc:creator><![CDATA[Grace Noto]]></dc:creator>
-				<category><![CDATA[Compliance]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Premium]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[ether]]></category>
-		<category><![CDATA[Ethereum]]></category>
-		<category><![CDATA[Financial Regulation]]></category>
-		<category><![CDATA[Ripple]]></category>
-		<category><![CDATA[XRP]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175819</guid>
-		<description><![CDATA[EXCLUSIVE— Cryptocurrencies are experiencing one of their highest points in recent weeks, after remarks made by former financial regulator Gary Gensler brought back concerns that certain tokens should really be considered securities. The remarks point to a reoccurring debate among cryptocurrency aficionados about the nature of digital currency, which is having its first positive movements [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/04/pexels-photo-366063-150x150.jpeg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Reserve Bank of India Heads to Court Over Cryptocurrency Ban</title>
-		<link>https://bankinnovation.net/2018/04/reserve-bank-of-india-heads-to-court-over-cryptocurrency-ban/</link>
-		<pubDate>Mon, 23 Apr 2018 15:00:03 +0000</pubDate>
-		<dc:creator><![CDATA[Tatjana Kulkarni]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Risk]]></category>
-		<category><![CDATA[Security]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[Kali Digital]]></category>
-		<category><![CDATA[Reserve Bank of India]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175808</guid>
-		<description><![CDATA[The Reserve Bank of India, the country’s central bank, will be going to court over its cryptocurrency ban after all. According to reports, the Delhi High Court issued a notice to the Reserve Bank of India (RBI), The Union of India through Secretary, Ministry of Finance and GST Council, yesterday. The notice comes because of [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/02/pexels-photo-262218-150x150.jpeg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Indian Crypto Platform Kali Digital Files Petition Against Reserve Bank of India</title>
-		<link>https://bankinnovation.net/2018/04/indian-crypto-platform-kali-digital-files-petition-against-reserve-bank-of-india/</link>
-		<pubDate>Wed, 18 Apr 2018 14:40:48 +0000</pubDate>
-		<dc:creator><![CDATA[Tatjana Kulkarni]]></dc:creator>
-				<category><![CDATA[Compliance]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[ICOs]]></category>
-		<category><![CDATA[Reserve Bank of India]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175739</guid>
-		<description><![CDATA[The crypto saga with India’s central bank continues. Kali Digital, an Indian cryptocurrency platform, filed a petition against the Reserve Bank of India, which recently banned all banks and financial services from dealing with cryptocurrency. Yesterday, Ahmedabad-based Kali Digital filed a petition in the Delhi High Court against the Reserve Bank of India (RBI), stating [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/04/pexels-photo-165939-150x150.jpeg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Indian Crypto Exchange Coinsecure Reports $3M Stolen in Bitcoin Hack</title>
-		<link>https://bankinnovation.net/2018/04/indian-crypto-exchange-coinsecure-reports-3m-stolen-in-bitcoin-hack/</link>
-		<pubDate>Mon, 16 Apr 2018 14:01:57 +0000</pubDate>
-		<dc:creator><![CDATA[Grace Noto]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Payments]]></category>
-		<category><![CDATA[Startups]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Coinsecure]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[Financial Regulation]]></category>
-		<category><![CDATA[Indian fintech]]></category>
-		<category><![CDATA[startups]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175691</guid>
-		<description><![CDATA[Coinsecure reported the loss of about 438 bitcoins, or about $3 million worth of the cryptocurrency, the Indian cryptocurrency platform reported. The hack was attributed to an employee who was extracting bitcoin for the platform’s customers, the company said in a statement last week, when the bitcoins were siphoned away during the process. The company [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/04/pexels-photo-278312-150x150.jpeg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>German Boerse Stuttgart Launches Crypto-Trading App Through Subsidiary Sowa Labs</title>
-		<link>https://bankinnovation.net/2018/04/german-boerse-stuttgart-launches-crypto-trading-app-through-subsidiary-sowa-labs/</link>
-		<pubDate>Fri, 13 Apr 2018 13:59:57 +0000</pubDate>
-		<dc:creator><![CDATA[Tatjana Kulkarni]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175667</guid>
-		<description><![CDATA[Just when you thought big FIs were starting to shy away from cryto-trading, Sowa Labs, a subsidiary of German retail investment exchange, Boerse Stuttgart, announced today that it has developed a prototype app for secure trading in cryptocurrencies. The app is called Bison. It is scheduled to roll out to public in fall this year. [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/04/pexels-photo-186461-150x150.jpeg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Barclays Throws Cold Water on Bitcoin&#8217;s &#8216;Best Day&#8217;</title>
-		<link>https://bankinnovation.net/2018/04/barclays-throws-cold-water-on-bitcoins-price-jump/</link>
-		<pubDate>Thu, 12 Apr 2018 14:54:37 +0000</pubDate>
-		<dc:creator><![CDATA[Philip Ryan]]></dc:creator>
-				<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Innovations]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Online]]></category>
-		<category><![CDATA[Social Media]]></category>
-		<category><![CDATA[Barclays]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[Investing]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175649</guid>
-		<description><![CDATA[The price of bitcoin surged above $8,000 today for the first time in several weeks, a rise of more than 13% over the past 24 hours, prompting excitement in the cryptocurrency community. The combined market capitalization of all cryptocurrencies rose 16% over the same period. It has been, in short, bitcoin&#8217;s best day so far [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/04/cold_water-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>Reserve Bank of India Bans All Indian Banks and FIs From Handling Cryptocurrency</title>
-		<link>https://bankinnovation.net/2018/04/reserve-bank-of-india-bans-all-indian-banks-and-fis-from-handling-cryptocurrency/</link>
-		<pubDate>Thu, 05 Apr 2018 16:41:18 +0000</pubDate>
-		<dc:creator><![CDATA[Tatjana Kulkarni]]></dc:creator>
-				<category><![CDATA[Compliance]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[ban]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[Reserve Bank of India]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175555</guid>
-		<description><![CDATA[The Reserve Bank of India (RBI) strikes cryptocurrency again. This time India’s central bank issued a statement today banning all entities that fall under its regulation, from dealing with any cryptocurrencies. Since RBI is India&#8217;s central bank that means all the country&#8217;s banks and FIs fall under RBI&#8217;s authority. Today’s statement read: Technological innovations, including [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/04/adorable-angry-animal-208984-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-		<item>
-		<title>South Africa Central Bank Wants to Regulate Cryptocurrency</title>
-		<link>https://bankinnovation.net/2018/04/south-africa-central-bank-wants-to-regulate-cryptocurrency/</link>
-		<pubDate>Wed, 04 Apr 2018 13:41:23 +0000</pubDate>
-		<dc:creator><![CDATA[Tatjana Kulkarni]]></dc:creator>
-				<category><![CDATA[Compliance]]></category>
-		<category><![CDATA[Cryptocurrency]]></category>
-		<category><![CDATA[Exclusive]]></category>
-		<category><![CDATA[Bitcoin]]></category>
-		<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[cryptocurrency regulation]]></category>
-		<category><![CDATA[South Africa]]></category>
-
-		<guid isPermaLink="false">http://bankinnov1.wpengine.com/?p=175526</guid>
-		<description><![CDATA[South African Reserve Bank (SARB), the country’s central bank, is laying the framework for regulating cryptocurrency by establishing a special unit to monitor developments in the space. The unit’s first task, according to a Finextra report, is to set up a proof of concept (PoC) for DLT-based interbank clearing and settlement. The move comes after [&#8230;]]]></description>
-	<media:content url="http://bankinnovation.net/wp-content/uploads/2018/04/activity-board-game-connection-613508-150x150.jpg" width="150" height="150" medium="image" type="image/jpeg" />	</item>
-	</channel>
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Home Page</title>
+    <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2019  The New York Times Company</copyright>
+    <lastBuildDate>Sat, 02 Feb 2019 18:32:24 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Home Page</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Ralph Northam Resists Calls to Resign as Virginia Governor Over Racist Yearbook Photo</title>
+      <link>https://www.nytimes.com/2019/02/02/us/politics/ralph-northam-virginia-governor.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/us/politics/ralph-northam-virginia-governor.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/us/politics/ralph-northam-virginia-governor.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/us/03northam-jp1/03northam-hfo-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mr. Northam, a Democrat, was elected in 2017 with a strong vote margin.</media:description>
+      <media:credit>Ting Shen for The New York Times</media:credit>
+      <description>Mr. Northam, increasingly isolated over a yearbook photo showing two people in blackface and Ku Klux Klan robes, was calling fellow Democrats to say he did not think it was him in the photo.</description>
+      <dc:creator>JONATHAN MARTIN, TRIP GABRIEL and ALAN BLINDER</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 17:26:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Blacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Ku Klux Klan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McAuliffe, Terry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Northam, Ralph S</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Virginia</category>
+    </item>
+    <item>
+      <title>White House Memo: What Do You Learn About Trump in an 85-Minute Interview?</title>
+      <link>https://www.nytimes.com/2019/02/01/us/politics/trump-new-york-times-interview.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/us/politics/trump-new-york-times-interview.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/us/politics/trump-new-york-times-interview.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/us/politics/02dc-memo/02dc-memo-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Trump offered plenty of clues for Trumpologists seeking to understand him during an interview with The New York Times on Thursday.</media:description>
+      <media:credit>Tom Brenner for The New York Times</media:credit>
+      <description>Among other things: Who is up and who is down, what he cares about and what he does not, what he knows and what he does not.</description>
+      <dc:creator>PETER BAKER and MAGGIE HABERMAN</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 23:20:09 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bannon, Stephen K</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Barr, William P</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Christie, Christopher J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Coats, Dan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kushner, Jared</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mattis, James N</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Scaramucci, Anthony</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>Trump Sought a Loan During the 2016 Campaign. Deutsche Bank Said No.</title>
+      <link>https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/02/business/trump-deutsche-bank.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/business/SUB03DEUTSCHETRUMP/04DEUTSCHETRUMP-02-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Donald J. Trump at the Turnberry resort in June 2016, when he was the presumptive Republican nominee for president. A Trump entity lent at least $45 million to the resort that year.</media:description>
+      <media:credit>Jeff J Mitchell/Getty Images</media:credit>
+      <description>Donald Trump turned to the German bank, one of the few lenders willing to do business with him, to borrow millions of dollars that would go to his golf resort in Scotland.</description>
+      <dc:creator>DAVID ENRICH, JESSE DRUCKER and BEN PROTESS</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 17:01:46 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Deutsche Bank AG</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sewing, Christian</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Banking and Financial Institutions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Interference in 2016 US Elections and Ties to Trump Associates</category>
+    </item>
+    <item>
+      <title>White House Memo: In the Pale of Winter, Trump&#x2019;s Tan Remains a State Secret</title>
+      <link>https://www.nytimes.com/2019/02/02/us/politics/trump-tan.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/us/politics/trump-tan.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/us/politics/trump-tan.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/us/politics/03dc-trumptan-1-print/00dc-trumptan-sub-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The official line from the White House is that President Trump&#x2019;s glow is the result of &#x201C;good genes.&#x201D;</media:description>
+      <media:credit>Tom Brenner for The New York Times</media:credit>
+      <description>The White House insists that only &#x201C;good genes&#x201D; and a clear powder are behind President Trump&#x2019;s glow, but mysteries about his grooming routine abound.</description>
+      <dc:creator>KATIE ROGERS</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 15:24:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suntan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cosmetics and Toiletries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Baldwin, Alec</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Palm Beach (Fla)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Washington (DC)</category>
+    </item>
+    <item>
+      <title>Medicare for All Emerges as Early Policy Test for 2020 Democrats</title>
+      <link>https://www.nytimes.com/2019/02/02/us/politics/medicare-for-all-2020.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/us/politics/medicare-for-all-2020.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/us/politics/medicare-for-all-2020.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/us/politics/03healthpolitics-01-print/03healthpolitics-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Many Democratic candidates for president, like Senator Elizabeth Warren of Massachusetts, don&#x2019;t want to wrestle publicly with the details of &#x201C;Medicare for all,&#x201D; which would most likely entail raising taxes.</media:description>
+      <media:credit>Travis Dove for The New York Times</media:credit>
+      <description>Many liberals who are influential in the presidential primaries want a single-payer system, but some voters are uneasy about losing private insurance. Most candidates are now walking fine lines.</description>
+      <dc:creator>JONATHAN MARTIN and ABBY GOODNOUGH</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 17:00:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Taxation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Warren, Elizabeth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harris, Kamala D</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bloomberg, Michael R</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sanders, Bernard</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Booker, Cory A</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gillibrand, Kirsten E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jayapal, Pramila</category>
+    </item>
+    <item>
+      <title>Japan&#x2019;s Working Mothers: Record Responsibilities, Little Help from Dads</title>
+      <link>https://www.nytimes.com/2019/02/02/world/asia/japan-working-mothers.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/world/asia/japan-working-mothers.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/02/world/asia/japan-working-mothers.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/06/world/xxworkingmothers-ss-slide-2TSX/xxworkingmothers-ss-slide-2TSX-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Kazuko Yoshida doing the family&#x2019;s laundry after dinner.</media:description>
+      <media:credit>Andrea DiCenzo for The New York Times</media:credit>
+      <description>Men in Japan do fewer hours of housework and child care than in any of the world&#x2019;s richest nations. That keeps women from getting better jobs and holds back the economy.</description>
+      <dc:creator>MOTOKO RICH</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 13:40:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Working Hours</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
+    </item>
+    <item>
+      <title>Our Tokyo Bureau Chief on Where She Finds &#x2018;Bolts of Insight&#x2019; (Hint: It&#x2019;s Outside the Office)</title>
+      <link>https://www.nytimes.com/2019/02/01/reader-center/motoko-rich-behind-the-byline.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/reader-center/motoko-rich-behind-the-byline.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/reader-center/motoko-rich-behind-the-byline.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/01/30/reader-center/rc-btb-motoko/rc-btb-motoko-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>The Reader Center talks to Motoko Rich about Japanese culture, her stress antidote and children&#x2019;s novels.</description>
+      <dc:creator>LARA TAKENAGA</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 03:23:15 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rich, Motoko</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Tokyo (Japan)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Careers and Professions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
+    </item>
+    <item>
+      <title>For N.F.L. Retirees, Opioids Bring More Pain</title>
+      <link>https://www.nytimes.com/2019/02/02/sports/nfl-opioids-.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/sports/nfl-opioids-.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/02/sports/nfl-opioids-.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/sports/31nflopioids/31nflopioids-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Randy Grimes sought help when all the trappings of his N.F.L. life were gone, and now works at a rehabilitation center in Delray Beach, Fla.</media:description>
+      <media:credit>Scott McIntyre for The New York Times</media:credit>
+      <description>A brutal game got them hooked on painkillers. In retirement, they battle addiction. The opioid crisis courses through football.</description>
+      <dc:creator>KEN BELSON</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 10:00:09 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pain-Relieving Drugs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Opioids and Opiates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Football League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Football League Players Assn</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Andrews, James R (1942- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Addiction (Psychology)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sports Injuries</category>
+    </item>
+    <item>
+      <title>Super Bowl LIII: How Did We Get Here? An Illustrated Guide to the N.F.L. Playoffs</title>
+      <link>https://www.nytimes.com/2019/02/01/sports/super-bowl-nfl-playoffs-game-by-game.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/sports/super-bowl-nfl-playoffs-game-by-game.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/sports/super-bowl-nfl-playoffs-game-by-game.html?partner=rss&amp;emc=rss"/>
+      <description>From the Colts toppling the Texans to the pass interference noncall heard &#x2019;round the world, the lead-up to this year&#x2019;s Super Bowl had no shortage of drama.</description>
+      <dc:creator>BENJAMIN HOFFMAN and CHRIS MORRIS</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 00:29:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Playoff Games</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Super Bowl</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Los Angeles Rams</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New England Patriots</category>
+    </item>
+    <item>
+      <title>Atlanta Is Throwing Its Own Extended Super Bowl Halftime Show</title>
+      <link>https://www.nytimes.com/2019/02/01/arts/music/super-bowl-atlanta-rap-concert.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/arts/music/super-bowl-atlanta-rap-concert.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/arts/music/super-bowl-atlanta-rap-concert.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/arts/02superbowl-music1/02superbowl-music1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>From left, Lil&#x2019; Fate, Lil Jon and Ludacris. Atlanta&#x2019;s most successful exports helped usher in a weekend of live-music events tied to the Super Bowl.</media:description>
+      <media:credit>Diwang Valdez for The New York Times</media:credit>
+      <description>A concert spanning the city&#x2019;s recent hip-hop history was just a taste of the local flavor on display around the big game this weekend.</description>
+      <dc:creator>JOE COSCARELLI</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 20:47:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Football League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">21 Savage (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gucci Mane (1980- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lil Baby (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Young Jeezy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ludacris</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lil Yachty (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">TI (1980- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Super Bowl</category>
+    </item>
+    <item>
+      <title>11 of Our Best Weekend Reads</title>
+      <link>https://www.nytimes.com/2019/02/02/arts/11-of-our-best-weekend-reads.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/arts/11-of-our-best-weekend-reads.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/arts/11-of-our-best-weekend-reads.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/01/30/sports/02hairston-weekend/merlin_149901708_2e8e2064-c8d9-4a20-b70f-41c0e6b2f241-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Paul Bride</media:credit>
+      <description>El Chapo&#x2019;s wife has no regrets. New Overlooked obituaries. Lorena Bobbitt speaks. So does Trump. And more.</description>
+      <dc:creator>KALY SOTO</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 10:00:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bobbitt, Lorena</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Coronel Aispuro, Emma</category>
+    </item>
+    <item>
+      <title>An Urgent Call for Compromise in Venezuela</title>
+      <link>https://www.nytimes.com/2019/02/02/opinion/venezuela-juan-guaido-maduro.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/opinion/venezuela-juan-guaido-maduro.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/opinion/venezuela-juan-guaido-maduro.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/opinion/02rodriguezWeb/02rodriguezWeb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The opposition leader Juan Guaid&#xF3;, president of Venezuela's National Assembly, addressing the news media on Tuesday after a session of the legislative body.</media:description>
+      <media:credit>Meridith Kohut for The New York Times</media:credit>
+      <description>The risk of a winner-takes-all approach in the country&#x2019;s political crisis is extraordinary. It&#x2019;s time to seek a negotiated transition.</description>
+      <dc:creator>FRANCISCO RODR&#xCD;GUEZ and JEFFREY D. SACHS</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 18:28:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">PDVSA</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Guaido, Juan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maduro, Nicolas</category>
+    </item>
+    <item>
+      <title>Loose Ends: I Explain All the Sports</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/sunday/sports-humor-super-bowl.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/sunday/sports-humor-super-bowl.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/opinion/sunday/sports-humor-super-bowl.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/opinion/sunday/03loose1/03loose1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Illustrations by Thoka Maer</media:credit>
+      <description>You&#x2019;ll never have to ask &#x201C;What&#x2019;s the Super Bowl?&#x201D; again.</description>
+      <dc:creator>SARAH HUTTO</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 23:09:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Athletics and Sports</category>
+    </item>
+    <item>
+      <title>One Way to Make College Meaningful</title>
+      <link>https://www.nytimes.com/2019/02/02/opinion/sunday/vocation-college-higher-ed.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/opinion/sunday/vocation-college-higher-ed.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/opinion/sunday/vocation-college-higher-ed.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/opinion/03PERRIN/00PERRIN-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Wait Chapel on the Wake Forest University campus at Winston-Salem, N.C.</media:description>
+      <media:credit>John Greim/LightRocket, via Getty Images</media:credit>
+      <description>Don&#x2019;t find yourself; find a vocation.</description>
+      <dc:creator>TOM PERRIN</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 16:26:14 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Religion and Belief</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Graduation Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Green Mountain College</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Hampshire College</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Hope College</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Sweet Briar College</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Wake Forest University</category>
+    </item>
+    <item>
+      <title>Howard Schultz Derangement Syndrome</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/howard-schultz-2020-democrats.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/howard-schultz-2020-democrats.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/opinion/howard-schultz-2020-democrats.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/01/opinion/01stephensWeb/01stephensWeb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Howard Schultz at a Starbucks shareholders meeting, in front of a photo of employees.</media:description>
+      <media:credit>Ted S. Warren/Associated Press</media:credit>
+      <description>The left&#x2019;s war on centrism bodes ill for Democratic chances in 2020.</description>
+      <dc:creator>BRET STEPHENS</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 01:50:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schultz, Howard D</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>letter: A Woman&#x2019;s Plea: Let&#x2019;s Raise Our Voices!</title>
+      <link>https://www.nytimes.com/2019/01/31/opinion/letters/letters-to-editor-new-york-times-women.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/01/31/opinion/letters/letters-to-editor-new-york-times-women.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/01/31/opinion/letters/letters-to-editor-new-york-times-women.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/opinion/03LWomen/merlin_149979957_8440de9a-f0f4-45f0-be53-feb519192a9c-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description> </media:description>
+      <media:credit>Yukai Du</media:credit>
+      <description>A reader points out that letters to the editor &#x201C;skew male.&#x201D; She&#x2019;s right. We are determined to publish diverse voices and views, but we need your help.</description>
+      <dc:creator/>
+      <pubDate>Thu, 31 Jan 2019 17:55:39 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Letters</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Newspapers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Times</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Feyer, Thomas</category>
+    </item>
+    <item>
+      <title>How Republicans Erased Trumpism</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/how-republicans-erased-trumpism.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/how-republicans-erased-trumpism.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/opinion/how-republicans-erased-trumpism.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/01/opinion/01glassmanNew/01glassmanNew-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mitch McConnell speaking to the media after a luncheon with fellow Republicans on Tuesday.</media:description>
+      <media:credit>Tom Brenner for The New York Times</media:credit>
+      <description>G.O.P. congressional leaders used tactics to minimize the president&#x2019;s influence and maximize their own control over public policy.</description>
+      <dc:creator>MATTHEW GLASSMAN</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 23:45:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vetoes (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Presidents and Presidency (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Fox News Channel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McConnell, Mitch</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>How to Talk Presidential</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/democratic-primary-guide.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/democratic-primary-guide.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/opinion/democratic-primary-guide.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/01/opinion/01collinsWeb/01collinsWeb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Dominick Reuter/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>You can be the political life of the party.</description>
+      <dc:creator>GAIL COLLINS</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 01:39:40 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Primaries and Caucuses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Baby Boomers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Presidential Elections (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bloomberg, Michael R</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Booker, Cory A</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Brown, Sherrod</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Buttigieg, Pete (1982- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gillibrand, Kirsten E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Klobuchar, Amy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">O'Rourke, Beto</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ocasio-Cortez, Alexandria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sanders, Bernard</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Warren, Elizabeth</category>
+    </item>
+    <item>
+      <title>This General Doesn&#x2019;t Mention Trump, but His Tweets Speak Volumes</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/trump-twitter-martin-dempsey.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/trump-twitter-martin-dempsey.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/opinion/trump-twitter-martin-dempsey.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/opinion/dempseyPrint/dempseyWeb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Gen. Martin Dempsey, who retired in 2015, has been tweeting recently about leadership.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>A former chairman of the Joint Chiefs of Staff doles out lessons in restraint for a hot-tempered commander in chief.</description>
+      <dc:creator>CAROL GIACOMO</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 13:48:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Duke University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Joint Chiefs of Staff</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Basketball Assn</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">North Atlantic Treaty Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United States Coast Guard</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Carnegie, Andrew</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dempsey, Martin E</category>
+    </item>
+    <item>
+      <title>The Harm in Hustle Culture</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/burnout-hustle-culture-gentrification-work.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/burnout-hustle-culture-gentrification-work.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/opinion/burnout-hustle-culture-gentrification-work.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/01/opinion/01cohenWeb/01cohenWeb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Joshua Bright for The New York Times</media:credit>
+      <description>At the heart of homogenization lies emptiness. Anything-but-this anger follows.</description>
+      <dc:creator>ROGER COHEN</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 01:40:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gentrification</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Culture (Arts)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Newspapers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Junger, Sebastian</category>
+    </item>
+    <item>
+      <title>Germany Wants More Women in Politics. But Quotas Are a Bad Idea.</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/germany-wants-more-women-in-politics-but-quotas-are-a-bad-idea.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/germany-wants-more-women-in-politics-but-quotas-are-a-bad-idea.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/opinion/germany-wants-more-women-in-politics-but-quotas-are-a-bad-idea.html?partner=rss&amp;emc=rss"/>
+      <description>Forced parity is fundamentally antidemocratic.</description>
+      <dc:creator>JOCHEN BITTNER</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 00:00:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Merkel, Angela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+    </item>
+    <item>
+      <title>Welcome to the New Age of Nuclear Instability</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/inf-nuclear-weapons.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/inf-nuclear-weapons.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/opinion/inf-nuclear-weapons.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/01/opinion/sunday/01Bronson/01Bronson-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>U.S. Secretary of State Mike Pompeo announced today that the United States will withdraw in 180 days from the treaty, which has been a centerpiece of nuclear arms control since the Cold War.</media:description>
+      <media:credit>Chip Somodevilla/Getty Images</media:credit>
+      <description>The good news is that the downward spiral can be stopped.</description>
+      <dc:creator>RACHEL BRONSON</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 19:54:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arms Control and Limitation and Disarmament</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Bulletin of the Atomic Scientists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+    </item>
+    <item>
+      <title>A Hillbilly and a Survivalist Show the Way Out of Trump Country</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/vance-westover-trump.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/vance-westover-trump.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/opinion/vance-westover-trump.html?partner=rss&amp;emc=rss"/>
+      <description>One common thread of J.D. Vance&#x2019;s and Tara Westover&#x2019;s memoirs is distrust of institutions. Yet it was institutions &#x2014; the military in one case, college in the other &#x2014; that saved them.</description>
+      <dc:creator>TIMOTHY EGAN</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 22:12:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Poverty</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Domestic Violence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Drug Abuse and Traffic</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Vance, J D</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Westover, Tara</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Appalachian Region</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Idaho</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ohio</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Educated: A Memoir (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Hillbilly Elegy: A Memoir of a Family and Culture in Crisis (Book)</category>
+    </item>
+    <item>
+      <title>What Science Can Learn From Religion</title>
+      <link>https://www.nytimes.com/2019/02/01/opinion/sunday/science-religion.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/opinion/sunday/science-religion.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/opinion/sunday/science-religion.html?partner=rss&amp;emc=rss"/>
+      <description>Hostility toward spiritual traditions may be hampering empirical inquiry.</description>
+      <dc:creator>DAVID DeSTENO</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 18:54:59 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychology and Psychologists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Religion and Belief</category>
+    </item>
+    <item>
+      <title>The Queen of Change</title>
+      <link>https://www.nytimes.com/2019/02/02/style/julia-cameron-the-artists-way.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/style/julia-cameron-the-artists-way.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/02/style/julia-cameron-the-artists-way.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/fashion/03JULIACAMERON/03JULIACAMERON-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Julia Cameron, making change at 70.</media:description>
+      <media:credit>Ramsay de Give for The New York Times</media:credit>
+      <description>With &#x201C;The Artist&#x2019;s Way,&#x201D; Julia Cameron invented the way people renovate the creative soul.</description>
+      <dc:creator>PENELOPE GREEN</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 14:14:13 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Artist's Way (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cameron, Julia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Creativity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-selfcare</category>
+    </item>
+    <item>
+      <title>Doctors: How One Woman Changed What Doctors Know About Heart Attacks</title>
+      <link>https://www.nytimes.com/2019/02/01/well/live/doctors-women-heart-attacks-scad.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/well/live/doctors-women-heart-attacks-scad.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/well/live/doctors-women-heart-attacks-scad.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/01/30/well/doctors-leon/doctors-leon-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Katherine Leon, founder of the SCAD Alliance.</media:description>
+      <media:credit/>
+      <description>The story of SCAD underscores how much doctors still don&#x2019;t understand, including about heart disease in women.</description>
+      <dc:creator>HAIDER WARRAICH, M.D.</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 14:35:40 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Heart</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Pregnancy and Childbirth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Emergency Medical Treatment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Doctors</category>
+    </item>
+    <item>
+      <title>An Appraisal: Jonas Mekas: A Poet With a Movie Camera</title>
+      <link>https://www.nytimes.com/2019/01/27/movies/jonas-mekas-appreciation.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/01/27/movies/jonas-mekas-appreciation.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/01/27/movies/jonas-mekas-appreciation.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/arts/03mekas-appraisal/03mekas-appraisal-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mekas in 2017. He fought for independent film long before there was a Sundance.</media:description>
+      <media:credit>Edu Bayer for The New York Times</media:credit>
+      <description>A filmmaker, cine-evangelist and one of life&#x2019;s tireless adventurers, the New York auteur sought to free cinema.</description>
+      <dc:creator>MANOHLA DARGIS</dc:creator>
+      <pubDate>Thu, 31 Jan 2019 19:27:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mekas, Jonas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Walden (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Anthology Film Archives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Film Culture</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Village Voice</category>
+    </item>
+    <item>
+      <title>Taliban to Meet Afghan Politicians (but Not Ghani) in Moscow</title>
+      <link>https://www.nytimes.com/2019/02/02/world/asia/taliban-moscow-ghani-talks.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/world/asia/taliban-moscow-ghani-talks.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/02/world/asia/taliban-moscow-ghani-talks.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/world/03taliban2/03taliban2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Former President Hamid Karzai will attend upcoming talks in Moscow with the Taliban and other Afghan politicians, his office said.</media:description>
+      <media:credit>Yuri Kochetkov/EPA, via Shutterstock</media:credit>
+      <description>President Ashraf Ghani&#x2019;s Afghan government has been shut out of the insurgents&#x2019; peace talks with the United States, and the meeting in Russia could undermine him further.</description>
+      <dc:creator>MUJIB MASHAL</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 16:18:49 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Taliban</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ghani, Ashraf</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Afghanistan War (2001- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>A Mayor&#x2019;s Effort to Play Down Henry Ford&#x2019;s Anti-Semitism Backfires</title>
+      <link>https://www.nytimes.com/2019/02/02/us/henry-ford-jews.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/us/henry-ford-jews.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/us/henry-ford-jews.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/us/03henryford-print/02henryford02-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mayor John B. O&#x2019;Reilly Jr. stopped distribution of a quarterly journal that included a story about Henry Ford&#x2019;s history of anti-Semitism.</media:description>
+      <media:credit>Danielle Duval/Jackson Citizen Patriot, via Mlive.com, via Associated Press</media:credit>
+      <description>The mayor of Dearborn, Mich., halted distribution of a city history magazine documenting Ford&#x2019;s bigoted views, a move that riled residents and historians.</description>
+      <dc:creator>STEVE FRIESS and ADEEL HASSAN</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 15:38:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Dearborn (Mich)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Michigan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ford, Henry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anti-Semitism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jews and Judaism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">History (Academic Subject)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">O'Reilly, John B. Jr.</category>
+    </item>
+    <item>
+      <title>Justice Alito Temporarily Blocks a Louisiana Abortion Law</title>
+      <link>https://www.nytimes.com/2019/02/01/us/politics/supreme-court-louisiana-abortion-law.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/us/politics/supreme-court-louisiana-abortion-law.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/us/politics/supreme-court-louisiana-abortion-law.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/us/02dc-scotus/02dc-scotus-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Carnations in front of the Supreme Court in January on the 46th anniversary of the Roe v. Wade decision.</media:description>
+      <media:credit>Sarah Silbiger/The New York Times</media:credit>
+      <description>The law, requiring abortion providers to have admitting privileges at nearby hospitals, was essentially identical to one in Texas that the justices struck down in 2016.</description>
+      <dc:creator>ADAM LIPTAK</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 00:53:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Abortion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Supreme Court (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Alito, Samuel A Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kavanaugh, Brett M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, Anthony M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Louisiana</category>
+    </item>
+    <item>
+      <title>Russia Pulls Out of Nuclear Treaty in &#x2018;Symmetrical&#x2019; Response to U.S. Move</title>
+      <link>https://www.nytimes.com/2019/02/02/world/europe/russia-inf-treaty.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/world/europe/russia-inf-treaty.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/world/europe/russia-inf-treaty.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/world/03inf/03inf-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Vladimir V. Putin of Russia discussed new weapons systems in a televised meeting on Saturday with Foreign Minister Sergey Lavrov, left, and Defence Minister Sergei Shoigu.</media:description>
+      <media:credit>Pool photo by Alexei Nikolsky</media:credit>
+      <description>Russia will no longer observe the 1987 nuclear pact, which the Trump administration suspended on Friday. China urged both powers to observe the agreement, but showed no interest in joining it.</description>
+      <dc:creator>ANDREW E. KRAMER</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 16:05:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arms Control and Limitation and Disarmament</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Treaties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Missiles and Missile Defense Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Petland Discounts, Whose &#x2019;90s Jingle You&#x2019;re Humming Right Now, May Close</title>
+      <link>https://www.nytimes.com/2019/02/01/nyregion/petland-closing.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/nyregion/petland-closing.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/nyregion/petland-closing.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/nyregion/02petland1/02petland1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Tatiana Vazquez, the manager of Petland Discounts in Park Slope, offering treats to a dog named Winnie. Ms. Vazquez said on Friday that the store was struggling to compete with online retailers.</media:description>
+      <media:credit>Dave Sanders for The New York Times</media:credit>
+      <description>Just days after the death of its owner, the New York-based pet store chain filed notices saying it may have to shutter dozens of stores and lay off workers.</description>
+      <dc:creator>MICHAEL GOLD and NATE SCHWEBER</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 05:26:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Pets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Brooklyn (NYC)</category>
+    </item>
+    <item>
+      <title>He Committed Murder. Then He Graduated From an Elite Law School. Would You Hire Him as Your Attorney?</title>
+      <link>https://www.nytimes.com/2019/02/02/business/bruce-reilly-murder-conviction-lawyer.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/business/bruce-reilly-murder-conviction-lawyer.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/business/bruce-reilly-murder-conviction-lawyer.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/business/03REILLY-01a/03REILLY-01a-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Bruce Reilly, deputy director of VOTE, a New Orleans organization that advocates for the formerly incarcerated, was paroled in 2005 after serving time for a 1992 murder.</media:description>
+      <media:credit>William Widmer for The New York Times</media:credit>
+      <description>A bipartisan consensus has taken hold: After prison, nonviolent offenders should get a second chance at normal lives. But what about someone whose criminal history &#x2014; and ambitions &#x2014; are more extreme?</description>
+      <dc:creator>NOAM SCHEIBER</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 14:10:50 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ex-Convicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Legal Profession</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Tulane University</category>
+    </item>
+    <item>
+      <title>Venezuelans Opposed to Maduro Pour Into Streets for Day of Protests</title>
+      <link>https://www.nytimes.com/2019/02/02/world/americas/venezuela-protests-opposition-maduro.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/world/americas/venezuela-protests-opposition-maduro.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/02/world/americas/venezuela-protests-opposition-maduro.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/world/03venezuela/merlin_150092478_532d602b-a783-4771-aba4-250428307520-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Thousands of opposition activists demonstrating in the streets of Caracas, Venezuela, on Saturday.</media:description>
+      <media:credit>Meridith Kohut for The New York Times</media:credit>
+      <description>Leaders hope to capitalize on international pressure against the authoritarian rule of Nicol&#xE1;s Maduro.</description>
+      <dc:creator>ANA VANESSA HERRERO and NICHOLAS CASEY</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 16:57:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maduro, Nicolas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Guaido, Juan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venezuela</category>
+    </item>
+    <item>
+      <title>Ahead of Qatar World Cup, a Gulf Feud Plays Out in the Shadows</title>
+      <link>https://www.nytimes.com/2019/02/01/sports/world-cup-2022-qatar.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/sports/world-cup-2022-qatar.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/sports/world-cup-2022-qatar.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/sports/02jpworldcup1-print/01worldcup-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Construction continues on Lusail Stadium near Doha, Qatar. The stadium is expected to host the opening and the final of the 2022 World Cup.</media:description>
+      <media:credit>Reuters</media:credit>
+      <description>Public relations consultants, Gulf financing and whispered tips: Leaked emails and documents offer a window into a behind-the-scenes campaign to sabotage the 2022 World Cup.</description>
+      <dc:creator>JAMES MONTAGUE and TARIQ PANJA</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 21:20:11 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Cup 2022 (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">International Federation of Association Football (FIFA)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Infantino, Gianni</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tweed, Paul (1955- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Qatar</category>
+    </item>
+    <item>
+      <title>On Washington: Chamber of Commerce Decides Bipartisanship Is Good Business</title>
+      <link>https://www.nytimes.com/2019/02/02/us/politics/chamber-of-commerce-bipartisanship.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/02/us/politics/chamber-of-commerce-bipartisanship.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/02/us/politics/chamber-of-commerce-bipartisanship.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/us/politics/03dc-hulse-print/00dc-hulse-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The U.S. Chamber of Commerce is taking steps intended to help government function better, which would in turn benefit its members.</media:description>
+      <media:credit>Andrew Harrer/Bloomberg</media:credit>
+      <description>The U.S. Chamber of Commerce revamps its political scoring system as frustrated business groups try to foster more across-the-aisle solutions.</description>
+      <dc:creator>CARL HULSE</dc:creator>
+      <pubDate>Sat, 02 Feb 2019 17:23:17 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Immigration and Emigration</category>
+    </item>
+    <item>
+      <title>How to Do a Data &#x2018;Cleanse&#x2019;</title>
+      <link>https://www.nytimes.com/2019/02/01/smarter-living/how-to-do-a-data-cleanse.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/smarter-living/how-to-do-a-data-cleanse.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/smarter-living/how-to-do-a-data-cleanse.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <description>New year, new you, right? You may be headed to the gym, but what about the health of your phone, computer and all your precious data? Here are some tips to get your digital life in order.</description>
+      <dc:creator>DAVID POGUE</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 11:00:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+    </item>
+    <item>
+      <title>How to Make Your Office More Ergonomically Correct</title>
+      <link>https://www.nytimes.com/2019/01/30/smarter-living/how-to-office-more-ergonomic-tips.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/01/30/smarter-living/how-to-office-more-ergonomic-tips.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/01/30/smarter-living/how-to-office-more-ergonomic-tips.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/01/19/world/19sl-ergonomics-1/31sl-ergonomics-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>George Etheredge for The New York Times</media:credit>
+      <description>If your office leaves you with pain in your wrists, back or neck, it doesn&#x2019;t have to be that way &#x2014; in fact, it shouldn&#x2019;t. Here&#x2019;s how to fix it.</description>
+      <dc:creator>MELINDA WENNER MOYER</dc:creator>
+      <pubDate>Wed, 30 Jan 2019 20:11:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Ergonomics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chairs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Furniture</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Desks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Keyboards</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Environment</category>
+    </item>
+    <item>
+      <title>A Beginner&#x2019;s Guide to Getting Into Podcasts</title>
+      <link>https://www.nytimes.com/2019/01/28/smarter-living/podcast-recommendations-apps.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/01/28/smarter-living/podcast-recommendations-apps.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/01/28/smarter-living/podcast-recommendations-apps.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <description>Listen here, friends.</description>
+      <dc:creator>RACHEL HOLLIDAY SMITH</dc:creator>
+      <pubDate>Thu, 31 Jan 2019 16:20:10 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Podcasts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">News and News Media</category>
+    </item>
+    <item>
+      <title>Playlist: The Playlist: Billie Eilish&#x2019;s Pop Nightmare, and 10 More New Songs</title>
+      <link>https://www.nytimes.com/2019/02/01/arts/music/playlist-billie-eilish-ybn-cordae-lil-peep-luis-fonsi.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/arts/music/playlist-billie-eilish-ybn-cordae-lil-peep-luis-fonsi.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/arts/music/playlist-billie-eilish-ybn-cordae-lil-peep-luis-fonsi.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/arts/02playlist/02playlist-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Billie Eilish released a new single and announced her debut album, &#x201C;When We All Fall Asleep, Where Do We Go?&#x201D;</media:description>
+      <media:credit>Kevin Winter/Getty Images for Kroq, via Entercom</media:credit>
+      <description>Hear tracks by YBN Cordae, Lil Peep, Luis Fonsi and others.</description>
+      <dc:creator>JON PARELES, JON CARAMANICA and GIOVANNI RUSSONELLO</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 18:44:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jazz</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Fall Out Boy (Music Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">White Denim</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Eilish, Billie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fonsi, Luis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lil Peep (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Makonnen (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">YBN Cordae (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jarmusch, Jim</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Van Wissem, Jozef</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yugen Blakrok (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Chai (Music Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Webb, Paul (Rustin Man)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jankel, Lewis Shay (Shift K3Y)</category>
+    </item>
+    <item>
+      <title>I.V.F. Coverage Is the Benefit Everyone Wants</title>
+      <link>https://www.nytimes.com/2019/01/30/style/ivf-coverage.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/01/30/style/ivf-coverage.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/01/30/style/ivf-coverage.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/01/31/fashion/31IVF/31IVF-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Fertility drugs and treatments are expensive, but employers have increasingly begun to cover their cost.</media:description>
+      <media:credit>Eric Helgas for The New York Times</media:credit>
+      <description>Fertility drugs and treatments are expensive, but employers have increasingly begun to cover their cost.</description>
+      <dc:creator>VANESSA GRIGORIADIS</dc:creator>
+      <pubDate>Thu, 31 Jan 2019 17:07:56 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">In Vitro Fertilization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Infertility</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Employee Fringe Benefits</category>
+    </item>
+    <item>
+      <title>Eat : How to Make a Store-Bought Camembert Into Something Delightful and Rare</title>
+      <link>https://www.nytimes.com/2019/01/30/magazine/camembert-baked-cheese-recipe.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/01/30/magazine/camembert-baked-cheese-recipe.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/01/30/magazine/camembert-baked-cheese-recipe.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/03/magazine/03mag-eat-slide-SZ33/03mag-eat-slide-SZ33-moth.png" medium="image" height="151" width="151"/>
+      <media:description>Baked Camembert salad.</media:description>
+      <media:credit>Paola &amp; Murray for The New York Times. Food stylist: Maggie Ruggiero. Prop stylist: Rebecca Bartoshesky.</media:credit>
+      <description>How to make a store-bought Camembert into something delightful and rare.</description>
+      <dc:creator>TEJAL RAO</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 08:09:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cheese</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cooking and Cookbooks</category>
+    </item>
+    <item>
+      <title>Critic&#x2019;s Notebook: The Sundance Film Festival Comes Through (Again!)</title>
+      <link>https://www.nytimes.com/2019/02/01/movies/sundance-best-late-night-mindy-kaling-emma-thompson.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/movies/sundance-best-late-night-mindy-kaling-emma-thompson.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/movies/sundance-best-late-night-mindy-kaling-emma-thompson.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/arts/02sundance-notebook-lastblackman/02sundance-notebook-lastblackman-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Jonathan Majors, left, and Jimmie Fails in &#x201C;The Last Black Man in San Francisco.&#x201D;</media:description>
+      <media:credit>Peter Prato/A24, via Sundance Institute</media:credit>
+      <description>With &#x201C;The Last Black Man in San Francisco,&#x201D; &#x201C;Clemency&#x201D; and more, this year&#x2019;s festival had plenty of good and even great movies if not a consensus favorite.</description>
+      <dc:creator>MANOHLA DARGIS</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 19:43:30 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sundance Film Festival (Park City, Utah)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Late Night (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Last Black Man in San Francisco (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Clemency (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Give Me Liberty (Movie)</category>
+    </item>
+    <item>
+      <title>A good Appetite: You&#x2019;ll Want to Put This Chile-Garlic Oil on Everything</title>
+      <link>https://www.nytimes.com/2019/02/01/dining/lemon-chicken-recipe.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/dining/lemon-chicken-recipe.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/dining/lemon-chicken-recipe.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/06/dining/06appe1/merlin_149894484_e6af4e97-5d65-4a15-ac87-2617f5d63790-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A pungent chile oil is well placed as a sauce for chicken cutlets with lemon and capers.</media:description>
+      <media:credit>Andrew Scrivani for The New York Times</media:credit>
+      <description>This easy-to-make oil adds spice and crunch to lemony chicken cutlets. Melissa Clark can&#x2019;t get enough of it.</description>
+      <dc:creator>MELISSA CLARK</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 16:51:12 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cooking and Cookbooks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tamarkin, David</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Condiments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Poultry</category>
+    </item>
+    <item>
+      <title>The Best Movies and TV Shows New to Netflix, Amazon and More in February</title>
+      <link>https://www.nytimes.com/2019/02/01/arts/television/best-movies-tv-netflix-amazon-hulu-hbo-february.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/arts/television/best-movies-tv-netflix-amazon-hulu-hbo-february.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/02/01/arts/television/best-movies-tv-netflix-amazon-hulu-hbo-february.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/02/arts/02STREAMING-FEB-1/02STREAMING-FEB-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Clockwise from top left, scenes from &#x201C;High Flying Bird,&#x201D; &#x201C;Won&#x2019;t You Be My Neighbor?&#x201D; &#x201C;Russian Doll&#x201D; and &#x201C;Velvet Buzzsaw.&#x201D;</media:description>
+      <media:credit>Clockwise from top left: Netflix, Focus Features, Netflix, Netflix</media:credit>
+      <description>Every month, subscription streaming services add a new batch of titles to their libraries. Here are the ones we think are most interesting for February.</description>
+      <dc:creator>JENNIFER VINEYARD</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 21:41:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Documentary Films and Programs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Amazon.com Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Home Box Office</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Hulu.com</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Netflix Inc</category>
+    </item>
+    <item>
+      <title> The New Old Age: When Is the Surgeon Too Old to Operate?</title>
+      <link>https://www.nytimes.com/2019/02/01/health/surgeons-retirement-competence.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/health/surgeons-retirement-competence.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/health/surgeons-retirement-competence.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/05/science/05SCI-SPAN/05SCI-SPAN-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Dr. Herbert Dardik at Englewood Hospital and Medical Center in New Jersey. "The clock ticks," he said, "and I&#x2019;ve become an advocate for evaluation.&#x201D;</media:description>
+      <media:credit>Stephen Speranza for The New York Times</media:credit>
+      <description>A handful of hospitals have instituted mandatory screening procedures for medical professionals over 70. Many have been unenthusiastic about the idea.</description>
+      <dc:creator>PAULA SPAN</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 17:23:15 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surgery and Surgeons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Age, Chronological</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Elderly</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">American College of Surgeons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Englewood Hospital and Medical Center</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">JAMA Surgery (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Sinai Hospital</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Baltimore (Md)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Englewood (NJ)</category>
+    </item>
+    <item>
+      <title>Matter: Germs in Your Gut Are Talking to Your Brain. Scientists Want to Know What They&#x2019;re Saying.</title>
+      <link>https://www.nytimes.com/2019/01/28/health/microbiome-brain-behavior-dementia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/01/28/health/microbiome-brain-behavior-dementia.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/01/28/health/microbiome-brain-behavior-dementia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/01/29/science/29SCIMICROBIOMECOVERFINAL/29SCIMICROBIOMECOVERFINAL-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Sean McSorley</media:credit>
+      <description>The body&#x2019;s microbial community may influence the brain and behavior, perhaps even playing a role in dementia, autism and other disorders.</description>
+      <dc:creator>CARL ZIMMER</dc:creator>
+      <pubDate>Mon, 28 Jan 2019 18:32:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Microbiology</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Brain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Alzheimer's Disease</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Digestive Tract</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Bacteria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Epilepsy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Antibiotics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Emotions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Diet and Nutrition</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Dementia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Mental Health and Disorders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Autism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Probiotics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">California Institute of Technology</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Michigan State University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">University of California, Los Angeles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">University of Chicago</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">van Leeuwenhoek, Antonie (1632-1723)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cryan, John F</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+    </item>
+    <item>
+      <title>Trilobites: You Flushed the Toilet. They Made Some Bricks.</title>
+      <link>https://www.nytimes.com/2019/01/31/science/bricks-recycled-bodily-waste.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/01/31/science/bricks-recycled-bodily-waste.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2019/01/31/science/bricks-recycled-bodily-waste.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2019/02/05/science/01TB-BIOBRICK/01TB-BIOBRICK-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Abbas Mohajerani holds a brick made with biosolid waste, or treated wastewater sludge.</media:description>
+      <media:credit>RMIT University</media:credit>
+      <description>Converting biosolids into building materials could keep a lot of leftovers of the waste process out of landfills, and provide other environmental benefits, too.</description>
+      <dc:creator>JOANNA KLEIN</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 05:42:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Brick and Tile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Recycling of Waste Materials</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Waste Materials and Disposal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Feces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Building (Construction)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mohajerani, Abbas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Buildings (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+    </item>
+    <item>
+      <title>Shortage of Anxiety Drug Leaves Patients Scrambling</title>
+      <link>https://www.nytimes.com/2019/02/01/well/mind/anxiety-drug-shortage-buspirone.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/02/01/well/mind/anxiety-drug-shortage-buspirone.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/02/01/well/mind/anxiety-drug-shortage-buspirone.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2019/01/31/well/anxiety/anxiety-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Getty Images</media:credit>
+      <description>There are no good alternatives to buspirone, so patients who rely on it are struggling.</description>
+      <dc:creator>RONI CARYN RABIN</dc:creator>
+      <pubDate>Fri, 01 Feb 2019 10:00:09 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anxiety and Stress</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shortages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Depression (Mental)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Addiction (Psychology)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Antidepressants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Opioids and Opiates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Drugstores</category>
+    </item>
+  </channel>
 </rss>

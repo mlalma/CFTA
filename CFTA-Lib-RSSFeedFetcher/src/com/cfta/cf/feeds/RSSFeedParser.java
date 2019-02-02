@@ -12,9 +12,7 @@ import com.cfta.cf.handlers.protocol.RSSFeedResponse;
 import com.cfta.cf.httpfetch.ApacheHttpClientFetcher;
 import com.cfta.cf.util.CFTASettings;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 import org.w3c.dom.Node;
 
@@ -75,17 +73,18 @@ public class RSSFeedParser {
 
     // Parses feed from file, will fail for ATOM feeds
     public RSSFeedResponse parseFeedFromFile(String file) throws Exception {
-        BufferedReader bf = new BufferedReader(new FileReader(file));
-
-        String feed = "";
-        String line;
-        while ((line = bf.readLine()) != null) {
-            feed = line + "\n";
+        StringBuilder sb = new StringBuilder();
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            String s;
+            while ((s = br.readLine()) != null) {
+                sb.append(s).append("\r\n");
+            }
+        } catch (FileNotFoundException fne) {
+            fne.printStackTrace();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
         }
-
-        bf.close();
-
-        return parse(feed);
+        return parse(sb.toString());
     }
 
     // Parses feed directly from URL

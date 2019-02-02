@@ -10,10 +10,15 @@ public class TestUtil {
     // For obtaining class loader
     private static TestUtil util = new TestUtil();
 
+    // Returns test resource file
+    public static File getTestResourceFile(String name) {
+        ClassLoader classLoader = util.getClass().getClassLoader();
+        return new File(classLoader.getResource(name).getFile());
+    }
+
     // Reads test resource from disk
     public static String readTestResource(String name) {
-        ClassLoader classLoader = util.getClass().getClassLoader();
-        File file = new File(classLoader.getResource(name).getFile());
+        File file = getTestResourceFile(name);
 
         StringBuilder sb = new StringBuilder();
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
