@@ -17,7 +17,7 @@ public class NodeTools {
     public static final String EMPTY_STRING = "";
 
     // Returns attribute value or empty string if none
-    static public String getAttributeValueOrEmpty(final String attrName, final Node node) {
+    static public String getAttributeValueOrEmpty(final Node node, final String attrName) {
         if (node.getAttributes() != null) {
             for (int i = 0; i < node.getAttributes().getLength(); i++) {
                 if (node.getAttributes().item(i).getNodeName().trim().equalsIgnoreCase(attrName.trim())) {

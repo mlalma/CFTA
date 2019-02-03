@@ -2,36 +2,38 @@
 // Lassi Maksimainen, 2019
 package com.cfta.rssfeed.parser;
 
-import com.cfta.rssfeed.xmlparser.XMLNode;
-import com.cfta.rssfeed.xmlparser.XMLParserUtil;
 import com.cfta.cf.handlers.protocol.RSSFeedResponse;
 
 import java.util.List;
 import java.util.Locale;
 
+import com.cfta.rssfeed.util.NodeTools;
 import org.apache.commons.lang.StringEscapeUtils;
+import org.w3c.dom.Node;
 
+// Parses Atom-type feed
 public class AtomTypeFeedParser {
 
     private static final String ENTRY_NODE = "entry";
     private static final String SUBTITLE_NODE = "subtitle";
     private static final String TITLE_NODE = "title";
     private static final String CONTENT_NODE = "content";
-    //private static final String ITEM_NODE = "item";        
     private static final String LINK_NODE = "link";
     private static final String UPDATED_NODE = "updated";
     private static final String PUB_DATE_NODE = "pubDate";
     private static final String HREF_ATTR = "href";
 
+    // Constructor
     public AtomTypeFeedParser() {
 
     }
 
-    private RSSFeedResponse parseEntries(XMLNode rootNode) {
+    // Parses feed entries
+    private RSSFeedResponse parseEntries(Node rootNode) {
         RSSFeedResponse response = new RSSFeedResponse();
 
-        XMLNode title = XMLParserUtil.findNode(TITLE_NODE, rootNode.childNodes);
-        XMLNode description = XMLParserUtil.findNode(SUBTITLE_NODE, rootNode.childNodes);
+        Node title = NodeTools.childNode(rootNode, TITLE_NODE);
+        Node description = NodeTools.childNode(rootNode, SUBTITLE_NODE);
 
         if (title != null) {
             response.feedTitle = StringEscapeUtils.unescapeHtml(title.getTextContent());
@@ -45,13 +47,13 @@ public class AtomTypeFeedParser {
             response.description = "";
         }
 
-        List<XMLNode> items = XMLParserUtil.findNodes(ENTRY_NODE, rootNode.childNodes);
+        List<Node> items = NodeTools.childNodes(rootNode, ENTRY_NODE);
         for (int i = 0; i < items.size(); i++) {
-            XMLNode itemTitle = XMLParserUtil.findNode(TITLE_NODE, items.get(i).childNodes);
-            List<XMLNode> itemLink = XMLParserUtil.findNodes(LINK_NODE, items.get(i).childNodes);
-            XMLNode itemDescription = XMLParserUtil.findNode(CONTENT_NODE, items.get(i).childNodes);
-            XMLNode itemDate = XMLParserUtil.findNode(UPDATED_NODE, items.get(i).childNodes);
-            XMLNode pubDate = XMLParserUtil.findNode(PUB_DATE_NODE, items.get(i).childNodes);
+            Node itemTitle = NodeTools.childNode(items.get(i), TITLE_NODE);
+            List<Node> itemLink = NodeTools.childNodes(items.get(i), LINK_NODE);
+            Node itemDescription = NodeTools.childNode(items.get(i), CONTENT_NODE);
+            Node itemDate = NodeTools.childNode(items.get(i), UPDATED_NODE);
+            Node pubDate = NodeTools.childNode(items.get(i), PUB_DATE_NODE);
 
             if (itemTitle != null && itemLink.size() > 0) {
                 RSSFeedResponse.RSSItem item = response.newItem();
@@ -65,7 +67,7 @@ public class AtomTypeFeedParser {
                 for (int j = 0; j < itemLink.size(); j++) {
                     String s = itemLink.get(j).getTextContent().trim();
                     if (s.length() == 0) {
-                        s = itemLink.get(j).attributes.get(HREF_ATTR);
+                        s = NodeTools.getAttributeValueOrEmpty(itemLink.get(j), HREF_ATTR);
                         if (s.length() > 0) {
                             item.links.add(s);
                         }
@@ -75,11 +77,11 @@ public class AtomTypeFeedParser {
                 }
 
                 if (item.date == null && pubDate != null) {
-                    //item.date = XMLParserUtil.parseDate(pubDate.getTextContent().trim(), Locale.ENGLISH);
+                    item.date = NodeTools.parseDate(pubDate.getTextContent().trim(), Locale.ENGLISH);
                 }
 
                 if (item.date == null && itemDate != null) {
-                    //item.date = XMLParserUtil.parseDate(itemDate.getTextContent().trim(), Locale.ENGLISH);
+                    item.date = NodeTools.parseDate(itemDate.getTextContent().trim(), Locale.ENGLISH);
                 }
 
                 response.rssItems.add(item);
@@ -89,7 +91,8 @@ public class AtomTypeFeedParser {
         return response;
     }
 
-    public RSSFeedResponse parseFeed(XMLNode rootNode) {
+    // Entry point to parser
+    public RSSFeedResponse parseFeed(Node rootNode) {
         return parseEntries(rootNode);
     }
 }

@@ -6,7 +6,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import static com.tests.TestUtil.readTestResource;
-import static com.tests.TestUtil.getTestResourceFile;
 
 public class RSSFeedParserTests {
 
@@ -83,6 +82,76 @@ public class RSSFeedParserTests {
 
         Assert.assertTrue(r.rssItems.get(24).links.get(0).equals("https://bankinnovation.net/2017/10/ibm-to-use-blockchain-technology-for-crossborder-payments-for-banks/"));
         Assert.assertTrue(r.rssItems.get(24).categories.size() == 13);
+    }
 
+    @Test
+    public void RSSFeedParser4Test() throws Exception {
+        RSSFeedParser parser = new RSSFeedParser();
+        RSSFeedResponse r = parser.parseFeedFromFile(getClass().getClassLoader().getResource("rssfeedparser_4.rss").getFile());
+
+        Assert.assertTrue(r.feedTitle.equals("Cointelegraph.com News"));
+        Assert.assertTrue(r.description.equals("Cointelegraph covers fintech, blockchain and Bitcoin bringing you the latest news and analyses on the future of money."));
+        Assert.assertTrue(r.rssItems.size() == 30);
+        Assert.assertTrue(r.errorCode == 0);
+
+        Assert.assertTrue(r.rssItems.get(0).title.equals("CEO of Telecoms Giant Swisscom’s Blockchain Unit Steps Down"));
+        Assert.assertTrue(r.rssItems.get(0).description.equals("<img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84MWNlOTQ1MmVhMjRiOTdhYmIxNTZkZTUwNmQyZjQyYS5qcGc=.jpg\"><p>The CEO of the blockchain unit of Swiss state-owned telecoms company Swisscom has abruptly stepped down from his position</p>"));
+        Assert.assertTrue(r.rssItems.get(0).links.get(0).equals("https://cointelegraph.com/news/ceo-of-telecoms-giant-swisscoms-blockchain-unit-steps-down"));
+
+        Assert.assertTrue(r.rssItems.get(1).title.equals("CBOE Re-Applies With US SEC to List Bitcoin Exchange-Traded Fund"));
+        Assert.assertTrue(r.rssItems.get(1).description.equals("<img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy83Yzc2NzM5NDFkNWY0YWE4MjdhZTU3YzExMTE5MWU0NS5qcGc=.jpg\"><p>The Chicago Board Options Exchange’s has re-submitted an application with the United States Securities and Exchange Commission for a rule change to list a Bitcoin ETF</p>"));
+        Assert.assertTrue(r.rssItems.get(1).links.get(0).equals("https://cointelegraph.com/news/cboe-re-applies-with-us-sec-to-list-bitcoin-exchange-traded-fund"));
+
+        Assert.assertTrue(r.rssItems.get(2).title.equals("New York Financial Regulators Grant BitLicense to Bitcoin ATM Operator"));
+        Assert.assertTrue(r.rssItems.get(2).description.equals("<img src=\"https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy85MzI2MGMzN2FjN2U3MzI2NDAxNGIyMWVlYWQzYjc3Yi5qcGc=.jpg\"><p>Bitcoin ATM operator Cottonwood Vending LLC has been granted a virtual currency license by the New York State Department of Financial Services</p>"));
+        Assert.assertTrue(r.rssItems.get(2).links.get(0).equals("https://cointelegraph.com/news/new-york-financial-regulators-grant-bitlicense-to-bitcoin-atm-operator"));
+    }
+
+    @Test
+    public void RSSFeedParser5Test() throws Exception {
+        RSSFeedParser parser = new RSSFeedParser();
+        RSSFeedResponse r = parser.parseFeedFromFile(getClass().getClassLoader().getResource("rssfeedparser_5.rss").getFile());
+
+        Assert.assertTrue(r.feedTitle.equals("ETHNews"));
+        Assert.assertTrue(r.description.equals("ETHNews is the authority in news, prices, analysis and information on Ethereum and its decentralized blockchain platform and cryptocurrency"));
+        Assert.assertTrue(r.rssItems.size() == 19);
+        Assert.assertTrue(r.errorCode == 0);
+
+        Assert.assertTrue(r.rssItems.get(16).title.equals("<h1>Bithumb Joins Forces With Other South Korean Crypto Exchanges Against Money Laundering</h1>"));
+        Assert.assertTrue(r.rssItems.get(16).description.equals("<img src=\"https://cdn.ethnews.com/images/1024x512/South-Korean-Crypto-Exchanges-Join-Forces-To-Combat-Money-Laundering-And-Protect-Investors-01-28-2019.jpg\" alt=\"bithumb-joins-forces-with-other-south-korean-crypto-exchanges-against-money-laundering\" ><p>South Korean crypto exchanges set up a “hotline” to prevent money laundering.</p>"));
+        Assert.assertTrue(r.rssItems.get(16).links.get(0).equals("https://www.ethnews.com/bithumb-joins-forces-with-other-south-korean-crypto-exchanges-against-money-laundering"));
+
+        Assert.assertTrue(r.rssItems.get(17).title.equals("<h1>BitTorrent Token Sells Out On Binance In 15 Minutes</h1>"));
+        Assert.assertTrue(r.rssItems.get(17).description.equals("<img src=\"https://cdn.ethnews.com/images/1024x512/BitTorrent-Token-Sells-Out-In-18-Minutes-01-28-2019.jpg\" alt=\"bittorrent-token-sells-out-on-binance-in-15-minutes\" ><p>Six percent of BTT, the amount allocated for the public sale, was snatched up for around $7.2 million, says Binance.</p>"));
+        Assert.assertTrue(r.rssItems.get(17).links.get(0).equals("https://www.ethnews.com/bittorrent-token-sells-outs-on-binance-in-15-minutes"));
+
+        Assert.assertTrue(r.rssItems.get(18).title.equals("<h1>GörliCon 2k19: It’s Dappening In Berlin</h1>"));
+        Assert.assertTrue(r.rssItems.get(18).description.equals("<img src=\"https://cdn.ethnews.com/images/1024x512/GorliCon-2k19-Its-Dappening-In-Berlin-01-28-2019.jpg\" alt=\"goerlicon-2k19-its-dappening-in-berlin\" ><p>Why does the Görli testnet need its own conference? Because it’s really about uniting the Ethereum open-source community.</p>"));
+        Assert.assertTrue(r.rssItems.get(18).links.get(0).equals("https://www.ethnews.com/goerlicon-2k19-its-dappening-in-berlin"));
+
+    }
+
+    @Test
+    public void RSSFeedParser6Test() throws Exception {
+        RSSFeedParser parser = new RSSFeedParser();
+        RSSFeedResponse r = parser.parseFeedFromFile(getClass().getClassLoader().getResource("rssfeedparser_6.rss").getFile());
+
+        // This tests that module can parse files with content (web pages) encoded to it
+        Assert.assertTrue(r.feedTitle.equals("Crypto-News.net"));
+        Assert.assertTrue(r.description.equals("News from the world of cryptocurrencies"));
+        Assert.assertTrue(r.rssItems.size() == 10);
+        Assert.assertTrue(r.errorCode == 0);
+    }
+
+    @Test
+    public void RSSFeedParser7Test() throws Exception {
+        RSSFeedParser parser = new RSSFeedParser();
+        RSSFeedResponse r = parser.parseFeedFromFile(getClass().getClassLoader().getResource("rssfeedparser_7.rss").getFile());
+
+        // This tests that module can parse files with content (web pages) encoded to it
+        Assert.assertTrue(r.feedTitle.equals("Crypto Briefing"));
+        Assert.assertTrue(r.description.equals("Cryptocurrency News, Digital Asset Analysis, & Blockchain Updates"));
+        Assert.assertTrue(r.rssItems.size() == 10);
+        Assert.assertTrue(r.errorCode == 0);
     }
 }

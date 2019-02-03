@@ -7,7 +7,6 @@ import com.cfta.rssfeed.parser.FeedBurnerRSSTypeFeedParser;
 import com.cfta.rssfeed.parser.RSSFeedRecognizer;
 import com.cfta.rssfeed.parser.RSSTypeFeedParser;
 import com.cfta.rssfeed.parser.RSSFeedRecognizer.RSSFeedType;
-import com.cfta.rssfeed.xmlparser.XMLParserException;
 import com.cfta.cf.handlers.protocol.RSSFeedResponse;
 import com.cfta.cf.httpfetch.ApacheHttpClientFetcher;
 import com.cfta.cf.util.CFTASettings;
@@ -60,9 +59,9 @@ public class RSSFeedParser {
             if (feedType == RSSFeedRecognizer.RSSFeedType.eRSSFeed) {
                 return rssTypeFeedParser.parseFeed(rootFeedNode);
             } else if (feedType == RSSFeedRecognizer.RSSFeedType.eAtom) {
-                //return atomTypeFeedParser.parseFeed(rootFeedNode);
+                return atomTypeFeedParser.parseFeed(rootFeedNode);
             } else if (feedType == RSSFeedRecognizer.RSSFeedType.eFeedBurnerRSSFeed) {
-                //return feedBurnerTypeFeedParser.parseFeed(rootFeedNode);
+                return feedBurnerTypeFeedParser.parseFeed(rootFeedNode);
             } else {
                 // Unknown feed type
             }
@@ -88,7 +87,7 @@ public class RSSFeedParser {
     }
 
     // Parses feed directly from URL
-    public RSSFeedResponse parseFeedFromUrl(String url) throws InterruptedException, XMLParserException, IOException {
+    public RSSFeedResponse parseFeedFromUrl(String url) throws InterruptedException {
         FeedParseThread fpt = new FeedParseThread(url);
         fpt.start();
         fpt.join(TIMEOUT);

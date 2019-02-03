@@ -7,6 +7,7 @@ import org.jsoup.helper.W3CDom;
 import org.jsoup.parser.Parser;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
+
 import static com.cfta.rssfeed.util.NodeTools.childNode;
 
 public class RSSFeedRecognizer {

@@ -39,16 +39,16 @@ public class OPMLParser {
     // Parses OPML 1.0, 1.1 and 2.0 documents
     private void parseOPMLDoc(final Node outlineNode, final RSSFeedFolder parentFolder) {
         if (outlineNode.getNodeName().equalsIgnoreCase(OUTLINE_ELEM)) {
-            String typeAttr = getAttributeValueOrEmpty(TYPE_ELEM, outlineNode);
+            String typeAttr = getAttributeValueOrEmpty(outlineNode, TYPE_ELEM);
 
-            String xmlUrl = getAttributeValueOrEmpty(XMLURL_ELEM, outlineNode);
+            String xmlUrl = getAttributeValueOrEmpty(outlineNode, XMLURL_ELEM);
 
-            String title = getAttributeValueOrEmpty(TITLE_ELEM, outlineNode);
+            String title = getAttributeValueOrEmpty(outlineNode, TITLE_ELEM);
             if (title.length() == 0) {
-                title = getAttributeValueOrEmpty(TEXT_ELEM, outlineNode);
+                title = getAttributeValueOrEmpty(outlineNode, TEXT_ELEM);
             }
 
-            String htmlUrl = getAttributeValueOrEmpty(HTMLURL_ELEM, outlineNode);
+            String htmlUrl = getAttributeValueOrEmpty(outlineNode, HTMLURL_ELEM);
 
             if (typeAttr.equalsIgnoreCase(TEXT_ELEM) || xmlUrl.length() == 0) {
                 // is folder
