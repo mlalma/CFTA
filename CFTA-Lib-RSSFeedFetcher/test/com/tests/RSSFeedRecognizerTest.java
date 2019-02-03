@@ -7,7 +7,7 @@ import org.w3c.dom.Node;
 
 import static com.tests.TestUtil.readTestResource;
 
-public class RSSFeedRecognizerTests {
+public class RSSFeedRecognizerTest {
 
     @Test
     public void testTypeParser1() throws Exception {

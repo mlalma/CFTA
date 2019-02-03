@@ -8,7 +8,7 @@ import org.junit.Test;
 import static com.tests.TestUtil.readTestResource;
 
 // Unit tests for OPML functionality
-public class OPMLTests {
+public class OPMLTest {
 
     @Test
     public void testOpmlParserTestCnet() throws Exception {

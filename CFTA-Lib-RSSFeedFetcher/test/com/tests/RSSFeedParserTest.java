@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import static com.tests.TestUtil.readTestResource;
 
-public class RSSFeedParserTests {
+public class RSSFeedParserTest {
 
     @Test
     public void RSSFeedParser1Test() throws Exception {

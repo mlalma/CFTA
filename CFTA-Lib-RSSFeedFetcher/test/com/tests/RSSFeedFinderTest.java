@@ -10,7 +10,7 @@ import static com.tests.TestUtil.readTestResource;
 
 import com.cfta.cf.feeds.RSSFeedFinder.RSSFeedSource;
 
-public class RSSFeedFinderTests {
+public class RSSFeedFinderTest {
 
     @Test
     public void RSSFeedFinderFound1Test() throws Exception {

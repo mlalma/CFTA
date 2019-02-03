@@ -8,11 +8,8 @@ import com.cfta.cf.httpfetch.HttpFetcherBase;
 import java.util.ArrayList;
 import java.util.List;
 
-import nu.validator.htmlparser.common.DoctypeExpectation;
-import nu.validator.htmlparser.common.Heuristics;
-import nu.validator.htmlparser.common.XmlViolationPolicy;
-import nu.validator.htmlparser.dom.HtmlDocumentBuilder;
-import org.apache.commons.io.IOUtils;
+import org.jsoup.Jsoup;
+import org.jsoup.helper.W3CDom;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -41,22 +38,9 @@ public class RSSFeedFinder {
     // Parses HTML page for finding RSS sources from HTML source
     public List<RSSFeedSource> parseHtmlPageForSources(String page) throws Exception {
         ArrayList<RSSFeedSource> sourceList = new ArrayList<>();
-        HtmlDocumentBuilder builder = new HtmlDocumentBuilder();
-        builder.setCommentPolicy(XmlViolationPolicy.ALTER_INFOSET);
-        builder.setContentNonXmlCharPolicy(XmlViolationPolicy.ALTER_INFOSET);
-        builder.setContentSpacePolicy(XmlViolationPolicy.ALTER_INFOSET);
-        builder.setNamePolicy(XmlViolationPolicy.ALTER_INFOSET);
-        builder.setStreamabilityViolationPolicy(XmlViolationPolicy.ALTER_INFOSET);
-        builder.setXmlnsPolicy(XmlViolationPolicy.ALTER_INFOSET);
-        builder.setMappingLangToXmlLang(true);
-        builder.setHtml4ModeCompatibleWithXhtml1Schemata(true);
-        builder.setHeuristics(Heuristics.ALL);
-        builder.setCheckingNormalization(false);
-        builder.setDoctypeExpectation(DoctypeExpectation.NO_DOCTYPE_ERRORS);
-        builder.setIgnoringComments(true);
-        builder.setScriptingEnabled(true);
-        builder.setXmlPolicy(XmlViolationPolicy.ALTER_INFOSET);
-        Document doc = builder.parse(IOUtils.toInputStream(page));
+        org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(page);
+        W3CDom w3cDom = new W3CDom();
+        Document doc = w3cDom.fromJsoup(prettifiedDoc);
 
         NodeList nodes = doc.getElementsByTagName(LINK_TAG);
         for (int i = 0; i < nodes.getLength(); i++) {
