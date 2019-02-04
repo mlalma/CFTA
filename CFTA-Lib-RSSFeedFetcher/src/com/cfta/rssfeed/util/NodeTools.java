@@ -6,10 +6,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
+import java.util.*;
 
 // Common utilities used to find / parse node trees
 public class NodeTools {
@@ -34,6 +31,26 @@ public class NodeTools {
             Node child = n.getChildNodes().item(i);
             if (child.getNodeName() != null && child.getNodeName().trim().equalsIgnoreCase(nodeName)) {
                 return child;
+            }
+        }
+        return null;
+    }
+
+    // Returns first child with given name from the tree
+    static public Node childNodeFromTree(final Node n, final String nodeName) {
+        LinkedList<Node> nodeQueue = new LinkedList<>();
+        for (int i = 0; i < n.getChildNodes().getLength(); i++) {
+            nodeQueue.add(n.getChildNodes().item(i));
+        }
+
+        while (!nodeQueue.isEmpty()) {
+            Node candidateNode = nodeQueue.pop();
+            if (candidateNode.getNodeName() != null && candidateNode.getNodeName().trim().equalsIgnoreCase(nodeName)) {
+                return candidateNode;
+            }
+
+            for (int i = 0; i < candidateNode.getChildNodes().getLength(); i++) {
+                nodeQueue.add(candidateNode.getChildNodes().item(i));
             }
         }
         return null;

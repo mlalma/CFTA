@@ -26,9 +26,6 @@
         <testSourceDirectory>${project.basedir}/test/com/tests</testSourceDirectory>
         <testResources>
             <testResource>
-                <directory>${project.basedir}/test/com/tests</directory>
-            </testResource>
-            <testResource>
                 <directory>${project.basedir}/test/resources</directory>
             </testResource>
         </testResources>

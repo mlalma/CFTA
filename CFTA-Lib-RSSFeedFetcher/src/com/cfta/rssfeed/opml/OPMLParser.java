@@ -10,8 +10,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 
-import static com.cfta.rssfeed.util.NodeTools.childNode;
-import static com.cfta.rssfeed.util.NodeTools.getAttributeValueOrEmpty;
+import static com.cfta.rssfeed.util.NodeTools.*;
 
 // Parses OPML (Outline Processor Markup Language) Files
 public class OPMLParser {
@@ -51,14 +50,14 @@ public class OPMLParser {
             String htmlUrl = getAttributeValueOrEmpty(outlineNode, HTMLURL_ELEM);
 
             if (typeAttr.equalsIgnoreCase(TEXT_ELEM) || xmlUrl.length() == 0) {
-                // is folder
+                // Element is folder
                 RSSFeedFolder folder = new RSSFeedFolder(title);
                 parentFolder.folders.add(folder);
                 for (int i = 0; i < outlineNode.getChildNodes().getLength(); i++) {
                     parseOPMLDoc(outlineNode.getChildNodes().item(i), folder);
                 }
             } else {
-                // is RSS feed
+                // Element is RSS feed
                 if (xmlUrl.toLowerCase().startsWith("http")) {
                     RSSFeed feed = new RSSFeed(title, xmlUrl, htmlUrl);
                     parentFolder.feeds.add(feed);
@@ -71,7 +70,6 @@ public class OPMLParser {
 
     // Parses OPML document
     public RSSFeedFolder parseOPMLDoc(final String docString) {
-        // Using JSoup reorganizes the document structure a bit, but it can handle malformatted documents better
         org.jsoup.nodes.Document prettifiedDoc = Jsoup.parse(docString, "", Parser.xmlParser());
         W3CDom w3cDom = new W3CDom();
         Document doc = w3cDom.fromJsoup(prettifiedDoc);
@@ -82,13 +80,8 @@ public class OPMLParser {
             throw new RuntimeException("<opml> header not found, not a valid document!");
         }
 
-        Node headNode = childNode(rootNode, HEAD_HEADER);
-        Node bodyNode = childNode(rootNode, BODY_HEADER);
-        if (bodyNode == null) {
-            if (headNode != null) {
-                bodyNode = childNode(headNode, BODY_HEADER);
-            }
-        }
+        Node headNode = childNodeFromTree(rootNode, HEAD_HEADER);
+        Node bodyNode = childNodeFromTree(rootNode, BODY_HEADER);
 
         if (bodyNode == null) {
             throw new RuntimeException("<body> header not found, not a valid document!");
