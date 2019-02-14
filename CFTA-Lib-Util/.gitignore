@@ -7,7 +7,7 @@ manifest.mf
 build/
 dist/
 nbproject/
-test/
+
 
 .idea/
 util.iml
