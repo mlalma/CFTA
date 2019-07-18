@@ -30,130 +30,138 @@ import twitter4j.User;
 // Parses twitter feeds
 public class TwitterFeedParser {
 
-    private final Twitter twitter = TwitterResourceFactory.getInstance();
+  private final Twitter twitter = TwitterResourceFactory.getInstance();
 
-    // Constructor
-    public TwitterFeedParser() {
+  // Constructor
+  public TwitterFeedParser() {}
+
+  // Initializes TwitterFeed item based on user data
+  private TwitterFeedResponse initializeFeed(User u) {
+    TwitterFeedResponse feed = new TwitterFeedResponse();
+    feed.favouritesCount = u.getFavouritesCount();
+    feed.followersCount = u.getFollowersCount();
+    feed.friendsCount = u.getFriendsCount();
+    feed.location = u.getLocation();
+    feed.profileImageUrl = u.getProfileImageURL();
+    feed.screenName = u.getScreenName();
+    feed.userName = u.getName();
+    feed.userId = u.getId();
+    return feed;
+  }
+
+  // Initializes tweet
+  private TwitterFeedResponse.Tweet initializeTweet(Status s, TwitterFeedResponse feed) {
+    TwitterFeedResponse.Tweet t = feed.newTweet();
+    t.creationTime = s.getCreatedAt().getTime();
+    t.favouriteCount = s.getFavoriteCount();
+    t.retweetCount = s.getRetweetCount();
+    t.isRetweet = s.isRetweet();
+    t.id = s.getId();
+    t.replyToId = s.getInReplyToStatusId();
+    t.replyToUser = s.getInReplyToScreenName();
+    t.text = s.getText();
+    if (t.isRetweet) {
+      t.retweetId = s.getRetweetedStatus().getId();
+      t.retweetUserScreenName = s.getRetweetedStatus().getUser().getScreenName();
+      t.text = s.getRetweetedStatus().getText();
+    }
+    return t;
+  }
+
+  // Returns latest maxNumOfTweets amount of tweets and that have been sent since sinceMessageId's
+  // tweet was sent (or -1)
+  public TwitterFeedResponse getTwitterFeed(
+      String userName, int maxNumOfTweets, long sinceMessageId) throws TwitterException {
+    User u = twitter.showUser(userName);
+    TwitterFeedResponse feed = initializeFeed(u);
+    ResponseList<Status> tweets;
+    if (sinceMessageId <= 0) {
+      tweets = twitter.getUserTimeline(feed.userId, new Paging(1, maxNumOfTweets));
+    } else {
+      tweets = twitter.getUserTimeline(feed.userId, new Paging(1, maxNumOfTweets, sinceMessageId));
+    }
+    feed.limit = u.getRateLimitStatus().getLimit();
+    feed.remaining = u.getRateLimitStatus().getRemaining();
+
+    for (Status s : tweets) {
+      TwitterFeedResponse.Tweet t = initializeTweet(s, feed);
+      feed.tweets.add(t);
     }
 
-    // Initializes TwitterFeed item based on user data
-    private TwitterFeedResponse initializeFeed(User u) {
-        TwitterFeedResponse feed = new TwitterFeedResponse();
-        feed.favouritesCount = u.getFavouritesCount();
-        feed.followersCount = u.getFollowersCount();
-        feed.friendsCount = u.getFriendsCount();
-        feed.location = u.getLocation();
-        feed.profileImageUrl = u.getProfileImageURL();
-        feed.screenName = u.getScreenName();
-        feed.userName = u.getName();
-        feed.userId = u.getId();
-        return feed;
+    return feed;
+  }
+
+  // Gets all links from the text
+  private List<String> getAllLinks(String text, String urlStart) {
+    List<String> links = new ArrayList<>();
+
+    int i = 0;
+    while (text.indexOf(urlStart, i) != -1) {
+      int linkStart = text.indexOf(urlStart, i);
+      int linkEnd = text.indexOf(" ", linkStart);
+      if (linkEnd != -1) {
+        String link = text.substring(linkStart, linkEnd);
+        links.add(link);
+      } else {
+        String link = text.substring(linkStart);
+        links.add(link);
+      }
+      i = text.indexOf(urlStart, i) + urlStart.length();
     }
 
-    // Initializes tweet
-    private TwitterFeedResponse.Tweet initializeTweet(Status s, TwitterFeedResponse feed) {
-        TwitterFeedResponse.Tweet t = feed.newTweet();
-        t.creationTime = s.getCreatedAt().getTime();
-        t.favouriteCount = s.getFavoriteCount();
-        t.retweetCount = s.getRetweetCount();
-        t.isRetweet = s.isRetweet();
-        t.id = s.getId();
-        t.replyToId = s.getInReplyToStatusId();
-        t.replyToUser = s.getInReplyToScreenName();
-        t.text = s.getText();
-        if (t.isRetweet) {
-            t.retweetId = s.getRetweetedStatus().getId();
-            t.retweetUserScreenName = s.getRetweetedStatus().getUser().getScreenName();
-            t.text = s.getRetweetedStatus().getText();
+    return links;
+  }
+
+  // Parses only links that can be found from Twitter feed
+  public TwitterFeedLinkResponse getTwitterFeedLinks(
+      String userName, int maxNumOfTweets, long sinceMessageId)
+      throws TwitterException, IOException {
+    TwitterFeedResponse feed = getTwitterFeed(userName, maxNumOfTweets, sinceMessageId);
+    TwitterFeedLinkResponse links = new TwitterFeedLinkResponse();
+
+    CloseableHttpClient httpclient =
+        HttpClients.custom()
+            .setUserAgent("CFTA-Twitter-Link-Expander")
+            .addInterceptorFirst(new NewResponseContentEncoding())
+            .build();
+    HttpClientContext context = HttpClientContext.create();
+    RequestConfig requestConfig =
+        RequestConfig.custom().setSocketTimeout(5000).setConnectTimeout(2500).build();
+
+    for (TwitterFeedResponse.Tweet t : feed.tweets) {
+      List<String> urls = getAllLinks(t.text, "http://");
+      urls.addAll(getAllLinks(t.text, "https://"));
+
+      for (String s : urls) {
+        TwitterFeedLinkResponse.TweetLink l = links.newLink();
+        String url = s;
+
+        // Try to figure the expaneded link url
+        HttpGet httpget = new HttpGet(url);
+        httpget.setConfig(requestConfig);
+        try {
+          try (CloseableHttpResponse response = httpclient.execute(httpget, context)) {
+            HttpHost target = context.getTargetHost();
+            List<URI> redirectLocations = context.getRedirectLocations();
+            URI location = URIUtils.resolve(httpget.getURI(), target, redirectLocations);
+            url = location.toASCIIString();
+          }
+        } catch (Exception ex) {
+          if (CFTASettings.getDebug()) {
+            ex.printStackTrace();
+          }
         }
-        return t;
+
+        l.linkUrl = url;
+        l.favouriteCount = t.favouriteCount;
+        l.retweetCount = t.retweetCount;
+        l.creationTime = t.creationTime;
+        links.links.add(l);
+      }
     }
 
-    // Returns latest maxNumOfTweets amount of tweets and that have been sent since sinceMessageId's tweet was sent (or -1)
-    public TwitterFeedResponse getTwitterFeed(String userName, int maxNumOfTweets, long sinceMessageId) throws TwitterException {
-        User u = twitter.showUser(userName);
-        TwitterFeedResponse feed = initializeFeed(u);
-        ResponseList<Status> tweets;
-        if (sinceMessageId <= 0) {
-            tweets = twitter.getUserTimeline(feed.userId, new Paging(1, maxNumOfTweets));
-        } else {
-            tweets = twitter.getUserTimeline(feed.userId, new Paging(1, maxNumOfTweets, sinceMessageId));
-        }
-        feed.limit = u.getRateLimitStatus().getLimit();
-        feed.remaining = u.getRateLimitStatus().getRemaining();
+    httpclient.close();
 
-        for (Status s : tweets) {
-            TwitterFeedResponse.Tweet t = initializeTweet(s, feed);
-            feed.tweets.add(t);
-        }
-
-        return feed;
-    }
-
-    // Gets all links from the text
-    private List<String> getAllLinks(String text, String urlStart) {
-        List<String> links = new ArrayList<>();
-
-        int i = 0;
-        while (text.indexOf(urlStart, i) != -1) {
-            int linkStart = text.indexOf(urlStart, i);
-            int linkEnd = text.indexOf(" ", linkStart);
-            if (linkEnd != -1) {
-                String link = text.substring(linkStart, linkEnd);
-                links.add(link);
-            } else {
-                String link = text.substring(linkStart);
-                links.add(link);
-            }
-            i = text.indexOf(urlStart, i) + urlStart.length();
-        }
-
-        return links;
-    }
-
-    // Parses only links that can be found from Twitter feed
-    public TwitterFeedLinkResponse getTwitterFeedLinks(String userName, int maxNumOfTweets, long sinceMessageId) throws TwitterException, IOException {
-        TwitterFeedResponse feed = getTwitterFeed(userName, maxNumOfTweets, sinceMessageId);
-        TwitterFeedLinkResponse links = new TwitterFeedLinkResponse();
-
-        CloseableHttpClient httpclient = HttpClients.custom().setUserAgent("CFTA-Twitter-Link-Expander").addInterceptorFirst(new NewResponseContentEncoding()).build();
-        HttpClientContext context = HttpClientContext.create();
-        RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(5000).setConnectTimeout(2500).build();
-
-        for (TwitterFeedResponse.Tweet t : feed.tweets) {
-            List<String> urls = getAllLinks(t.text, "http://");
-            urls.addAll(getAllLinks(t.text, "https://"));
-
-            for (String s : urls) {
-                TwitterFeedLinkResponse.TweetLink l = links.newLink();
-                String url = s;
-
-                // Try to figure the expaneded link url
-                HttpGet httpget = new HttpGet(url);
-                httpget.setConfig(requestConfig);
-                try {
-                    try (CloseableHttpResponse response = httpclient.execute(httpget, context)) {
-                        HttpHost target = context.getTargetHost();
-                        List<URI> redirectLocations = context.getRedirectLocations();
-                        URI location = URIUtils.resolve(httpget.getURI(), target, redirectLocations);
-                        url = location.toASCIIString();
-                    }
-                } catch (Exception ex) {
-                    if (CFTASettings.getDebug()) {
-                        ex.printStackTrace();
-                    }
-                }
-
-                l.linkUrl = url;
-                l.favouriteCount = t.favouriteCount;
-                l.retweetCount = t.retweetCount;
-                l.creationTime = t.creationTime;
-                links.links.add(l);
-            }
-        }
-
-        httpclient.close();
-
-        return links;
-    }
+    return links;
+  }
 }
