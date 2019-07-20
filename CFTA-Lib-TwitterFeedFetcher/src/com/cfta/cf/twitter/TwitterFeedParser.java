@@ -20,6 +20,7 @@ import org.apache.http.client.protocol.HttpClientContext;
 import org.apache.http.client.utils.URIUtils;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.jetbrains.annotations.NotNull;
 import twitter4j.Paging;
 import twitter4j.ResponseList;
 import twitter4j.Status;
@@ -30,13 +31,20 @@ import twitter4j.User;
 // Parses twitter feeds
 public class TwitterFeedParser {
 
-  private final Twitter twitter = TwitterResourceFactory.getInstance();
+  // Twitter4j instance
+  private final Twitter twitter;
 
   // Constructor
-  public TwitterFeedParser() {}
+  public TwitterFeedParser(@NotNull Twitter twitter) {
+    if (twitter == null) {
+      this.twitter = TwitterResourceFactory.getDefaultInstance();
+    } else {
+      this.twitter = twitter;
+    }
+  }
 
   // Initializes TwitterFeed item based on user data
-  private TwitterFeedResponse initializeFeed(User u) {
+  private @NotNull TwitterFeedResponse initializeFeed(final User u) {
     TwitterFeedResponse feed = new TwitterFeedResponse();
     feed.favouritesCount = u.getFavouritesCount();
     feed.followersCount = u.getFollowersCount();
@@ -50,7 +58,8 @@ public class TwitterFeedParser {
   }
 
   // Initializes tweet
-  private TwitterFeedResponse.Tweet initializeTweet(Status s, TwitterFeedResponse feed) {
+  private @NotNull TwitterFeedResponse.Tweet initializeTweet(final Status s,
+      final TwitterFeedResponse feed) {
     TwitterFeedResponse.Tweet t = feed.newTweet();
     t.creationTime = s.getCreatedAt().getTime();
     t.favouriteCount = s.getFavoriteCount();
@@ -70,8 +79,9 @@ public class TwitterFeedParser {
 
   // Returns latest maxNumOfTweets amount of tweets and that have been sent since sinceMessageId's
   // tweet was sent (or -1)
-  public TwitterFeedResponse getTwitterFeed(
-      String userName, int maxNumOfTweets, long sinceMessageId) throws TwitterException {
+  public @NotNull TwitterFeedResponse getTwitterFeed(@NotNull final String userName,
+      final int maxNumOfTweets,
+      final long sinceMessageId) throws TwitterException {
     User u = twitter.showUser(userName);
     TwitterFeedResponse feed = initializeFeed(u);
     ResponseList<Status> tweets;
@@ -91,8 +101,15 @@ public class TwitterFeedParser {
     return feed;
   }
 
+  // Convenience method
+  public @NotNull TwitterFeedResponse getTwitterFeed(@NotNull final String userName,
+      final int maxNumOfTweets)
+      throws TwitterException {
+    return getTwitterFeed(userName, maxNumOfTweets, -1);
+  }
+
   // Gets all links from the text
-  private List<String> getAllLinks(String text, String urlStart) {
+  private @NotNull List<String> getAllLinks(final String text, final String urlStart) {
     List<String> links = new ArrayList<>();
 
     int i = 0;
@@ -113,8 +130,8 @@ public class TwitterFeedParser {
   }
 
   // Parses only links that can be found from Twitter feed
-  public TwitterFeedLinkResponse getTwitterFeedLinks(
-      String userName, int maxNumOfTweets, long sinceMessageId)
+  public @NotNull TwitterFeedLinkResponse getTwitterFeedLinks(
+      final String userName, final int maxNumOfTweets, final long sinceMessageId)
       throws TwitterException, IOException {
     TwitterFeedResponse feed = getTwitterFeed(userName, maxNumOfTweets, sinceMessageId);
     TwitterFeedLinkResponse links = new TwitterFeedLinkResponse();
@@ -126,7 +143,7 @@ public class TwitterFeedParser {
             .build();
     HttpClientContext context = HttpClientContext.create();
     RequestConfig requestConfig =
-        RequestConfig.custom().setSocketTimeout(5000).setConnectTimeout(2500).build();
+        RequestConfig.custom().setSocketTimeout(5000).setConnectTimeout(5000).build();
 
     for (TwitterFeedResponse.Tweet t : feed.tweets) {
       List<String> urls = getAllLinks(t.text, "http://");
@@ -163,5 +180,12 @@ public class TwitterFeedParser {
     httpclient.close();
 
     return links;
+  }
+
+  // Convenience method
+  public @NotNull TwitterFeedLinkResponse getTwitterFeedLinks(final String userName,
+      final int maxNumOfTweets)
+      throws TwitterException, IOException {
+    return getTwitterFeedLinks(userName, maxNumOfTweets, -1);
   }
 }

@@ -24,3 +24,6 @@ TwitterFeedFetcher.iml
 ehthumbs.db
 Thumbs.db
 /target/
+
+# Everyone needs to get their own OAuth tokens for twitter feed data
+test/resources/settings.data

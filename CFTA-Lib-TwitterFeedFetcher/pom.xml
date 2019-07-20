@@ -24,7 +24,7 @@
       </resource>
     </resources>
 
-    <testSourceDirectory>${project.basedir}/test/com/tests</testSourceDirectory>
+    <testSourceDirectory>${project.basedir}/test/com/cfta/cf/twitter</testSourceDirectory>
     <testResources>
       <testResource>
         <directory>${project.basedir}/test/resources</directory>
@@ -73,6 +73,13 @@
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>16.0.3</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>
